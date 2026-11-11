@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OClOMoO2MoCl
+_chemical_formula_sum              "O4 Cl2 Mo2"
+_cell_length_a       5.010007362143749
+_cell_length_b       5.008686870570553
+_cell_length_c       18.864067852364528
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    107.55794664728178
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.6415555820802391  0.11579940839757412  0.5745895465541541  1.0000
+  Cl  Cl1       1.0  0.1423685429008018  0.6149665977761898  0.6024187328683772  1.0000
+  O   O2        1.0  0.1367325122163915  0.10910977573762617  0.5050046714955481  1.0000
+  Mo  Mo1       1.0  0.8319200344855414  0.38446326020282645  0.5034394739882937  1.0000
+  O   O3        1.0  0.64891267792718  0.6208355260278653  0.504900791309707  1.0000
+  O   O4        1.0  0.1598850769590727  0.5976670784873903  0.45018009746481996  1.0000
+  Mo  Mo2       1.0  0.3727247688014264  0.9256527451188408  0.5034504668948814  1.0000
+  Cl  Cl2       1.0  0.6360174505442414  0.12127152141358538  0.39758126713162284  1.0000

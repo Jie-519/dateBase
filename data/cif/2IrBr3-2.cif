@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ir2Br6
+_chemical_formula_sum              "Ir2 Br6"
+_cell_length_a       6.547845730687513
+_cell_length_b       6.547845730687515
+_cell_length_c       18.213264876466525
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  0.6666666666666665  0.3333333333333329  0.5000317934831667  1.0000
+  Ir  Ir2       1.0  0.3333333333333332  0.6666666666666659  0.49996823465358964  1.0000
+  Br  Br1       1.0  0.4056520511170151  0.9999409858280497  0.4115631079720383  1.0000
+  Br  Br2       1.0  0.5942889347110395  0.5943479488829896  0.4115631079720383  1.0000
+  Br  Br3       1.0  5.9014171952577876e-05  0.40571106528896816  0.4115631079720383  1.0000
+  Br  Br4       1.0  0.4056991597210115  3.534598062127561e-05  0.588436879593468  1.0000
+  Br  Br5       1.0  0.5943361862596062  0.5943008402789834  0.588436879593468  1.0000
+  Br  Br6       1.0  0.9999646540193785  0.4056638137403814  0.588436879593468  1.0000

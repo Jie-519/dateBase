@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       P2Be2Na2
+_chemical_formula_sum              "P2 Be2 Na2"
+_cell_length_a       3.722776781388583
+_cell_length_b       3.7227225672813025
+_cell_length_c       19.74920796
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.4729203587582471  0.3910779425011262  0.564611454669118  1.0000
+  P   P2        1.0  0.9729203587582473  0.8913973474988747  0.43538854533088195  1.0000
+  Be  Be1       1.0  0.4729783637253723  0.8911688490090546  0.5000218427055529  1.0000
+  Be  Be2       1.0  0.9729783637253722  0.3913064409909461  0.49997815729444706  1.0000
+  Na  Na1       1.0  0.9727715577801672  0.8908465378584687  0.6201758424240356  1.0000
+  Na  Na2       1.0  0.47277155778016683  0.3916387521415321  0.3798241575759642  1.0000

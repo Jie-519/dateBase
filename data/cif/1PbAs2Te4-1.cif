@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       PbAs2Te4
+_chemical_formula_sum              "Pb1 As2 Te4"
+_cell_length_a       4.2004649055846555
+_cell_length_b       4.200464905584607
+_cell_length_c       41.1621312
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000033
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  1.2656542480726785e-14  1.1546319456101628e-14  0.5000000000000132  1.0000
+  As  As1       1.0  0.6666666666666716  0.3333333333333401  0.5957101974695954  1.0000
+  As  As2       1.0  0.33333333333333637  0.6666666666666746  0.4042898025304432  1.0000
+  Te  Te1       1.0  1.4654943925052066e-14  1.532107773982716e-14  0.36787093428953294  1.0000
+  Te  Te2       1.0  1.2656542480726785e-14  1.1546319456101628e-14  0.6321290657105086  1.0000
+  Te  Te3       1.0  0.6666666666666716  0.3333333333333401  0.44817442630551835  1.0000
+  Te  Te4       1.0  0.33333333333333637  0.6666666666666746  0.5518255736945071  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Ga2Ge2Te6
+_chemical_formula_sum              "Ga2 Ge2 Te6"
+_cell_length_a       7.020439557442726
+_cell_length_b       7.0204363254707705
+_cell_length_c       33.776827194
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00243563903531
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.9999692468787457  3.065592139987687e-05  0.5000057784515862  1.0000
+  Ga  Ga2       1.0  0.6666307533072371  0.33336934372546895  0.49999422157709367  1.0000
+  Ge  Ge1       1.0  0.33329801557827404  0.6666980801605685  0.5362190479111972  1.0000
+  Ge  Ge2       1.0  0.333301983392413  0.6667019203470103  0.4637809522235287  1.0000
+  Te  Te1       1.0  0.33331253539830985  0.02874075451951292  0.553557365452106  1.0000
+  Te  Te2       1.0  0.6953238138092842  0.6666788219709248  0.5535573803562868  1.0000
+  Te  Te3       1.0  0.9712515922862175  0.30466857271476583  0.5535562502854834  1.0000
+  Te  Te4       1.0  0.33328746451047747  0.3046592464498845  0.4464426348633884  1.0000
+  Te  Te5       1.0  0.9712761851404341  0.6667211778456651  0.44644261960579795  1.0000
+  Te  Te6       1.0  0.6953484072727929  0.02873142708390987  0.44644374978515894  1.0000

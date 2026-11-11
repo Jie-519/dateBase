@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       InSTeIn
+_chemical_formula_sum              "In2 S1 Te1"
+_cell_length_a       4.154366066583101
+_cell_length_b       4.161456564259754
+_cell_length_c       20.330012825472
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.93496058762675
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.506090162034316  0.4971044991668387  0.4422384604089577  1.0000
+  S   S1        1.0  0.1754570218924423  0.8373091763380814  0.6310872961868941  1.0000
+  Te  Te1       1.0  0.8390925612185636  0.1630959085569227  0.3689127038131061  1.0000
+  In  In2       1.0  0.508461486127029  0.5036546027140847  0.5804997408864957  1.0000

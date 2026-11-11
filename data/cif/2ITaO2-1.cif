@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TaOIOTaOIO
+_chemical_formula_sum              "Ta2 O4 I2"
+_cell_length_a       3.816181304074254
+_cell_length_b       3.87917443513759
+_cell_length_c       37.332757300000004
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.5000000000000001  0.944316504090931  0.4623340002742329  1.0000
+  O   O1        1.0  0.5000000000000001  0.4448767607442965  0.4580515543896385  1.0000
+  I   I1        1.0  0.0  0.9439356067392699  0.40105248201267485  1.0000
+  O   O2        1.0  0.0  0.9456923584060027  0.48212933012705733  1.0000
+  Ta  Ta2       1.0  1.9955642846542167e-18  0.9458968576454622  0.5376659439164619  1.0000
+  O   O3        1.0  0.0  0.4453351935809798  0.5419482076545964  1.0000
+  I   I2        1.0  0.49999999999999994  0.9462772808350176  0.598947438426148  1.0000
+  O   O4        1.0  0.49999999999999994  0.9445219494347123  0.5178707012379041  1.0000

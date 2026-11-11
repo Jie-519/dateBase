@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       InBr2SBrIn2BrSeBr
+_chemical_formula_sum              "In3 Br5 S1 Se1"
+_cell_length_a       6.763101263217411
+_cell_length_b       6.881803136313207
+_cell_length_c       20.848049343078014
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999997
+_cell_angle_gamma    102.23040047034875
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.005356348190890037  0.997144082357198  0.4414397339031169  1.0000
+  Br  Br1       1.0  0.36902675256974204  0.38008354503587227  0.5749025011398107  1.0000
+  Br  Br2       1.0  0.6115381982292049  0.7774600783535736  0.44983552485584255  1.0000
+  S   S1        1.0  0.8288456698713402  0.2750767887364409  0.4617593582115799  1.0000
+  Br  Br3       1.0  0.7066341973326731  0.9997590470948817  0.6402541131508711  1.0000
+  In  In2       1.0  0.16562755296407408  0.523254459720978  0.4780780583833092  1.0000
+  In  In3       1.0  0.5485729859360208  0.07203813945790695  0.5369511529280762  1.0000
+  Br  Br4       1.0  0.08225042567655137  0.7351701202413723  0.35974588684912895  1.0000
+  Se  Se1       1.0  0.1588038103095523  0.8531737412070574  0.5422415308251404  1.0000
+  Br  Br5       1.0  0.3138950068596206  0.2897039374297698  0.393431577105199  1.0000

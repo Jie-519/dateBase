@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2K2O2
+_chemical_formula_sum              "Tl2 K2 O2"
+_cell_length_a       3.7928396715534567
+_cell_length_b       6.2112957760475425
+_cell_length_c       17.96238597
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.8825028587118943  0.12320063668642064  0.5768338201823177  1.0000
+  Tl  Tl2       1.0  0.38250285871189416  0.3061866733135795  0.4231661798176825  1.0000
+  K   K1        1.0  0.382767191677821  0.6394411863575055  0.5824653216782998  1.0000
+  K   K2        1.0  0.8827671916778207  0.7899461336424957  0.4175346783216999  1.0000
+  O   O1        1.0  0.8826375905766326  0.4392986095039541  0.5053767151917131  1.0000
+  O   O2        1.0  0.38263759057663255  0.9900887104960466  0.4946232848082869  1.0000

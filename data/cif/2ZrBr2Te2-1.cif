@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Te4Br4Zr2
+_chemical_formula_sum              "Te4 Br4 Zr2"
+_cell_length_a       7.037278537951156
+_cell_length_b       7.441583174049377
+_cell_length_c       19.75063541
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    118.2184655394862
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.015386984610300122  0.9999999999999996  0.380208043534588  1.0000
+  Te  Te2       1.0  0.9846130153897  4.831900831078186e-16  0.6197919664654121  1.0000
+  Te  Te3       1.0  0.6980963780606936  6.178582942005957e-16  0.4575463133886723  1.0000
+  Te  Te4       1.0  0.30190362193930614  0.9999999999999993  0.5424536866113278  1.0000
+  Br  Br1       1.0  0.9014440805872536  0.4345200621981838  0.5805588334381654  1.0000
+  Br  Br2       1.0  0.09855592941274607  0.5654799478018155  0.41944116656183467  1.0000
+  Br  Br3       1.0  0.5330759816109287  0.4345200621981828  0.41944116656183467  1.0000
+  Br  Br4       1.0  0.46692400838907205  0.5654799378018164  0.5805588334381654  1.0000
+  Zr  Zr1       1.0  0.8558053870068112  0.7116107640136206  0.5  1.0000
+  Zr  Zr2       1.0  0.1441946129931891  0.2883892359863786  0.5  1.0000

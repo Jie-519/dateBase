@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       F2Se4Ag2
+_chemical_formula_sum              "F2 Se4 Ag2"
+_cell_length_a       5.241443944182222
+_cell_length_b       8.044045341203688
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    89.97729331077699
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.8922919578199447  0.9215744619347311  0.45790143968586977  1.0000
+  F   F2        1.0  0.39243390951290563  0.08838563200403786  0.5420747775677086  1.0000
+  Se  Se1       1.0  0.6477014165945182  0.657733048214327  0.45454525962805586  1.0000
+  Se  Se2       1.0  0.14776076862410523  0.3522308247861323  0.5454153444576383  1.0000
+  Se  Se3       1.0  0.9639908396130901  0.6107995269018671  0.560455344807373  1.0000
+  Se  Se4       1.0  0.4640508226410331  0.3993207695455498  0.4395034133243661  1.0000
+  Ag  Ag1       1.0  0.7837013889642694  0.17793968598773385  0.48769701767328516  1.0000
+  Ag  Ag2       1.0  0.28356511673877827  0.8320873015042929  0.5123237514141424  1.0000

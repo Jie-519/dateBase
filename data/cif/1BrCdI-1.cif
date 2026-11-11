@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CdBrI
+_chemical_formula_sum              "Cd1 Br1 I1"
+_cell_length_a       4.208724671479698
+_cell_length_b       4.211404649656658
+_cell_length_c       18.26728436493864
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.07254143111251
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.15536443221667876  0.1556205032068654  0.5068366029179324  1.0000
+  Br  Br1       1.0  0.4889687402065135  0.8223715312817974  0.5894299420665315  1.0000
+  I   I1        1.0  0.821877506208431  0.48846142857962177  0.41057005793346846  1.0000

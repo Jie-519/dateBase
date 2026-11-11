@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       SeHCaSeH
+_chemical_formula_sum              "Se2 H2 Ca1"
+_cell_length_a       4.63655479705377
+_cell_length_b       4.642227513864244
+_cell_length_c       19.208510457334267
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.01187937749101
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.7344384631876059  0.33373764939202455  0.5700522627421579  1.0000
+  H   H1        1.0  0.7354293885756771  0.333601123637769  0.6470522987931464  1.0000
+  Ca  Ca1       1.0  0.06744364337211521  0.999967260236559  0.4999984809326096  1.0000
+  Se  Se2       1.0  0.40081945550135717  0.6661878878767469  0.42995515537477824  1.0000
+  H   H2        1.0  0.40178843931558733  0.6664736851694166  0.3529554386051196  1.0000

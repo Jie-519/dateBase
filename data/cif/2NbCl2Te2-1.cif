@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       TeClTeCl2Nb2Te2Cl
+_chemical_formula_sum              "Te4 Cl4 Nb2"
+_cell_length_a       6.4981030453849575
+_cell_length_b       6.874128161426495
+_cell_length_c       34.0788209743898
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    118.20640298715789
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.6732990501279225  1.1547839704101467e-16  0.4312687893152958  1.0000
+  Cl  Cl1       1.0  0.6167720163813417  0.4301605792039845  0.4588226639227527  1.0000
+  Te  Te2       1.0  0.7516181504480017  0.9999999999999999  0.568731236491917  1.0000
+  Cl  Cl2       1.0  0.23830577218406954  0.430160559556472  0.5411773539423993  1.0000
+  Cl  Cl3       1.0  0.8081452126275996  0.5698394404435335  0.5411773539423993  1.0000
+  Nb  Nb1       1.0  0.8441668459978283  0.26341647986532946  0.5000000107032849  1.0000
+  Nb  Nb2       1.0  0.5807503661325057  0.736583520134671  0.5000000107032849  1.0000
+  Te  Te3       1.0  0.3892912869630679  7.645016180660181e-18  0.5322293633182797  1.0000
+  Te  Te4       1.0  0.03562592806969933  0.0  0.4677706605529826  1.0000
+  Cl  Cl4       1.0  0.18661143717736522  0.5698394207960227  0.4588226639227527  1.0000

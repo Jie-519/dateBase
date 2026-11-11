@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cl2Sb2
+_chemical_formula_sum              "Cl2 Sb2"
+_cell_length_a       5.223451191866977
+_cell_length_b       5.226399961084734
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.98133791337466
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.9989394628056587  0.0009348745192475214  0.37557286849511085  1.0000
+  Cl  Cl2       1.0  0.334395317041961  0.6657302755468149  0.6244945967047225  1.0000
+  Sb  Sb1       1.0  0.9998811154822459  0.00016854243520418477  0.5031242647923228  1.0000
+  Sb  Sb2       1.0  0.33345010352408316  0.666500548640987  0.4969392311401881  1.0000

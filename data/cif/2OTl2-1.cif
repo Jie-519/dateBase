@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl4O2
+_chemical_formula_sum              "Tl4 O2"
+_cell_length_a       3.5825012525077864
+_cell_length_b       6.204216517633225
+_cell_length_c       18.05303897
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.5435846584444322  0.7515213391989168  0.5845190742614348  1.0000
+  Tl  Tl2       1.0  0.5435846584444322  0.0850169708010831  0.4154810457385653  1.0000
+  Tl  Tl3       1.0  0.04358465844443211  0.25152133919891695  0.5845190742614348  1.0000
+  Tl  Tl4       1.0  0.04358465844443211  0.5850169708010832  0.4154810457385653  1.0000
+  O   O1        1.0  0.04471872513119994  0.91825105  0.49999988  1.0000
+  O   O2        1.0  0.5447187251311999  0.41825105000000007  0.49999988  1.0000

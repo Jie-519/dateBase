@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Hg2Se2Cu2Br2
+_chemical_formula_sum              "Hg2 Se2 Cu2 Br2"
+_cell_length_a       4.197765087567565
+_cell_length_b       7.168307177036854
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.4999999999999995  0.09135907309655322  0.5141449831601117  1.0000
+  Hg  Hg2       1.0  0.4999999999999994  0.591359073096559  0.4858550168398884  1.0000
+  Se  Se1       1.0  0.4999999999999995  0.2687620659963766  0.45564641950245915  1.0000
+  Se  Se2       1.0  0.4999999999999995  0.7687620659963487  0.5443535804975337  1.0000
+  Cu  Cu1       1.0  0.0  0.11219519587695899  0.4569350395738487  1.0000
+  Cu  Cu2       1.0  0.0  0.6121951958768961  0.5430649604261514  1.0000
+  Br  Br1       1.0  2.2030430372664976e-17  0.28427593285269465  0.5549862126368647  1.0000
+  Br  Br2       1.0  3.8893308393902823e-17  0.7842759328526865  0.44501378736313585  1.0000

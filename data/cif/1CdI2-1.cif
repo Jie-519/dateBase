@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CdI2
+_chemical_formula_sum              "Cd1 I2"
+_cell_length_a       4.469199476664943
+_cell_length_b       4.469199478009077
+_cell_length_c       19.00222438151586
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  4.675384037102631e-30  0.0  0.49999999998746625  1.0000
+  I   I1        1.0  5.106809035585024e-19  0.5  0.5921651446855978  1.0000
+  I   I2        1.0  0.5  0.0  0.4078348552956751  1.0000

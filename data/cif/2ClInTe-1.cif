@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       In2Cl2Te2
+_chemical_formula_sum              "In2 Cl2 Te2"
+_cell_length_a       4.414827176579555
+_cell_length_b       6.188327936039215
+_cell_length_c       35.149896
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.0  0.9941234474024174  0.5276633699252429  1.0000
+  In  In2       1.0  0.4999999999999969  0.49412344740242015  0.47233663007475707  1.0000
+  Cl  Cl1       1.0  0.0  0.2577037050001959  0.5774515712824931  1.0000
+  Cl  Cl2       1.0  0.4999999999999969  0.7577037050001979  0.4225484287175077  1.0000
+  Te  Te1       1.0  4.715376438477909e-19  0.2150898227253215  0.45691458010771474  1.0000
+  Te  Te2       1.0  0.4999999999999969  0.7150898227253262  0.5430854198922852  1.0000

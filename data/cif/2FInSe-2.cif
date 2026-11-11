@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       In2Se2F2
+_chemical_formula_sum              "In2 Se2 F2"
+_cell_length_a       8.227839598469906
+_cell_length_b       3.969479251043878
+_cell_length_c       17.94789494
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    129.21507579457509
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.792600780456224  0.8152197500168018  0.48225281536847253  1.0000
+  In  In2       1.0  0.2926007204562232  0.8152197300168033  0.5177472046315276  1.0000
+  Se  Se1       1.0  0.08437252710345249  0.054197318594553484  0.5822636596202939  1.0000
+  Se  Se2       1.0  0.5843725671034538  0.05419732859455353  0.41773633037970614  1.0000
+  F   F1        1.0  0.5540507370689337  0.43560532588522627  0.5703920833210256  1.0000
+  F   F2        1.0  0.05405077706893315  0.435605355885227  0.4296078966789743  1.0000

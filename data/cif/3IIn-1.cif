@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       I3In3
+_chemical_formula_sum              "I3 In3"
+_cell_length_a       7.109867991942223
+_cell_length_b       4.892790174478246
+_cell_length_c       19.94960994
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.7754351328938
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.08182690904375886  0.4759466357989471  0.6221130919106084  1.0000
+  I   I2        1.0  0.08187168098080588  0.47586690916976165  0.37787736336428573  1.0000
+  I   I3        1.0  0.5285896865589915  0.9758166240770102  0.5000072613073834  1.0000
+  In  In1       1.0  0.5132213872048795  0.47626287118050226  0.62014746401699  1.0000
+  In  In2       1.0  0.5132646205705449  0.47578159395942504  0.3798576189967462  1.0000
+  In  In3       1.0  0.0354321685483266  0.976067875091076  0.49999879577478623  1.0000

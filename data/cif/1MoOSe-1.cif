@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       MoOSe
+_chemical_formula_sum              "Mo1 O1 Se1"
+_cell_length_a       3.0663366400311918
+_cell_length_b       3.0666836143566374
+_cell_length_c       18.23248598286029
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99625732442098
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.07438690614126722  0.03715326053895465  0.513700014185436  1.0000
+  O   O1        1.0  0.7410034299132237  0.37060172673529573  0.5745489486621517  1.0000
+  Se  Se1       1.0  0.7409199987636755  0.37044018362400627  0.4165087865162476  1.0000

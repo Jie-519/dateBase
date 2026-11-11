@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Ir2Se2F2
+_chemical_formula_sum              "Ir2 Se2 F2"
+_cell_length_a       3.4948251112150603
+_cell_length_b       6.230316603300926
+_cell_length_c       32.72339084690195
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  3.3992492368089814e-20  0.9972705521151344  0.5008604996123109  1.0000
+  Ir  Ir2       1.0  0.5000000000000002  0.4902520035385893  0.4991394036249911  1.0000
+  Se  Se1       1.0  0.0  0.6662842560781976  0.4627354789050828  1.0000
+  Se  Se2       1.0  0.5000000000000002  0.8212384224254133  0.5372643961241982  1.0000
+  F   F1        1.0  3.427622209536363e-19  0.31253783551376757  0.5313413116236262  1.0000
+  F   F2        1.0  0.5000000000000002  0.1749828276045868  0.46865866526534256  1.0000

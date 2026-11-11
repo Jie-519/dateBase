@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       I2Te4Au2
+_chemical_formula_sum              "I2 Te4 Au2"
+_cell_length_a       5.696862130443298
+_cell_length_b       8.894436652816513
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.9864745142487555  0.9678302577423918  0.4019025291380671  1.0000
+  I   I2        1.0  0.4879234924290681  0.9174438096735077  0.5984357120374512  1.0000
+  Te  Te1       1.0  0.5339170535667209  0.5775987681261594  0.4380418533449464  1.0000
+  Te  Te2       1.0  0.03304112583895851  0.3083825587927781  0.5619294123283651  1.0000
+  Te  Te3       1.0  0.8554490367848698  0.5928141169138123  0.5618886104333956  1.0000
+  Te  Te4       1.0  0.355044768760297  0.2932933716662963  0.4381953928025345  1.0000
+  Au  Au1       1.0  0.6904673950605836  0.13253824225564076  0.5064606249586444  1.0000
+  Au  Au2       1.0  0.19199029761837416  0.7532273819867457  0.49370529771075766  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       S3Hg3
+_chemical_formula_sum              "S3 Hg3"
+_cell_length_a       6.976392778965482
+_cell_length_b       6.9767187673904205
+_cell_length_c       17.01885743
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.01328358376841
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.3332850866839678  0.9999387915695396  0.45707543118004906  1.0000
+  S   S2        1.0  0.9999353832590443  0.33325054715383784  0.457024561340235  1.0000
+  S   S3        1.0  0.6666582696807278  0.6666474227307028  0.5707883327508368  1.0000
+  Hg  Hg1       1.0  0.34692479784246705  0.6666745274598948  0.5050561475957615  1.0000
+  Hg  Hg2       1.0  0.6667302573951062  0.34697034042015756  0.5050610487589401  1.0000
+  Hg  Hg3       1.0  0.9864660092498249  0.9864863988497794  0.5050627116103896  1.0000

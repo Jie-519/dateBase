@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ca2As2Ca2As2
+_chemical_formula_sum              "Ca4 As4"
+_cell_length_a       5.321219722732964
+_cell_length_b       7.987797453172615
+_cell_length_c       33.550799999999995
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.00000000000001
+_cell_angle_gamma    90.00009708669677
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.023194537630027743  0.0031781178194085565  0.5309988109285844  1.0000
+  Ca  Ca2       1.0  0.7368029426886821  0.5031796530559106  0.5309987121714738  1.0000
+  As  As1       1.0  0.23399158162256073  0.347994205296856  0.5329949208948452  1.0000
+  As  As2       1.0  0.5260196360146159  0.8479879320896997  0.5329905709548813  1.0000
+  Ca  Ca3       1.0  0.5231974673592781  0.11682095700639364  0.46900125829343564  1.0000
+  Ca  Ca4       1.0  0.23680622410646734  0.6168227256177607  0.4690011255620324  1.0000
+  As  As3       1.0  0.7339805608610641  0.7720121939299527  0.4670094616231977  1.0000
+  As  As4       1.0  0.026008919568824347  0.2720057042594481  0.46700512905433816  1.0000

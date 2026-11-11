@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Hg2Cu2Cl6
+_chemical_formula_sum              "Hg2 Cu2 Cl6"
+_cell_length_a       6.792776188332265
+_cell_length_b       6.792776586692168
+_cell_length_c       18.09596796
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.11578870773513
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.6662382780171222  0.33376172198296217  0.5000000000000064  1.0000
+  Hg  Hg2       1.0  0.33376173198287956  0.6662382880170389  0.5000000000000064  1.0000
+  Cu  Cu1       1.0  0.9973783454926796  0.9973783454923715  0.4246780750056956  1.0000
+  Cu  Cu2       1.0  0.0026216445073229296  0.0026216445076308074  0.575321924994316  1.0000
+  Cl  Cl1       1.0  0.32886038278653523  0.3288603827860138  0.4146583590396955  1.0000
+  Cl  Cl2       1.0  0.6666247424448537  0.9979900597482992  0.41463639134470603  1.0000
+  Cl  Cl3       1.0  0.9979900597487706  0.6666247424455453  0.41463639134470603  1.0000
+  Cl  Cl4       1.0  0.6711396272134631  0.6711396372139824  0.5853416309603161  1.0000
+  Cl  Cl5       1.0  0.3333752675551456  0.0020099302516964385  0.5853636086553058  1.0000
+  Cl  Cl6       1.0  0.00200992025122951  0.33337523755445414  0.5853636086553058  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I4Se4Ti2
+_chemical_formula_sum              "I4 Se4 Ti2"
+_cell_length_a       7.247928581633183
+_cell_length_b       7.161371740375118
+_cell_length_c       19.19456421
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.40063436662518
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.8821321208462929  0.4139002433825499  0.5867080380617693  1.0000
+  I   I2        1.0  0.11786786915370732  0.5860997366174503  0.4132919619382307  1.0000
+  I   I3        1.0  0.5317681325362567  0.4139002633825492  0.4132919619382307  1.0000
+  I   I4        1.0  0.4682318674637437  0.5860997466174498  0.5867080280617694  1.0000
+  Se  Se1       1.0  0.9956197907366038  0.9999999999999999  0.3908890505257908  1.0000
+  Se  Se2       1.0  0.004380209263397059  1.4377669479027311e-16  0.6091109594742096  1.0000
+  Se  Se3       1.0  0.7387923164843785  0.9999999999999989  0.46328059374185493  1.0000
+  Se  Se4       1.0  0.26120769351562223  1.0759685565694779e-15  0.5367194062581452  1.0000
+  Ti  Ti1       1.0  0.8667134969035132  0.7334270038070245  0.5  1.0000
+  Ti  Ti2       1.0  0.13328649309648802  0.26657298619297487  0.5  1.0000

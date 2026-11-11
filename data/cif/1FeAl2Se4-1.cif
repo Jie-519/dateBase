@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       FeAl2Se4
+_chemical_formula_sum              "Fe1 Al2 Se4"
+_cell_length_a       3.782527901836385
+_cell_length_b       3.782527901836363
+_cell_length_c       38.9069728
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99959859148468
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.0  0.0  0.5000000000000001  1.0000
+  Al  Al1       1.0  0.666656405272106  0.3333435947278941  0.41047873856319017  1.0000
+  Al  Al2       1.0  0.33334359472789626  0.6666564052721126  0.5895212614368093  1.0000
+  Se  Se1       1.0  0.6666773241737001  0.33332267582629543  0.6186360894018675  1.0000
+  Se  Se2       1.0  0.33332267582629505  0.6666773241736975  0.3813639105981339  1.0000
+  Se  Se3       1.0  0.6667003463166992  0.3332996536833027  0.47134626209296654  1.0000
+  Se  Se4       1.0  0.3332996536833033  0.6667003463167005  0.5286537379070336  1.0000

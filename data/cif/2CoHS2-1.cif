@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Co2S4H2
+_chemical_formula_sum              "Co2 S4 H2"
+_cell_length_a       3.380834788754833
+_cell_length_b       4.413985756924293
+_cell_length_c       20.719375187991915
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.9503792938708356  0.9920195294068641  0.5487815691288508  1.0000
+  Co  Co2       1.0  0.4507345042758457  0.48391479072331034  0.4512137152351627  1.0000
+  S   S1        1.0  0.9508262284106226  0.4880715248279747  0.5228198305463168  1.0000
+  S   S2        1.0  0.4502952111485352  0.9878426698221896  0.4771789829730952  1.0000
+  S   S3        1.0  0.9508136415443099  0.49609267173386906  0.3768939022417349  1.0000
+  S   S4        1.0  0.4502763227910285  0.9800248987187972  0.6231031027109679  1.0000
+  H   H1        1.0  0.45078014820251266  0.26949367682290737  0.6458059895691055  1.0000
+  H   H2        1.0  0.9501011675226793  0.20673768629715905  0.35413453325469285  1.0000

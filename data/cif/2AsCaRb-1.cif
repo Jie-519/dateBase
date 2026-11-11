@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Rb2Ca2As2
+_chemical_formula_sum              "Rb2 Ca2 As2"
+_cell_length_a       7.129594777129663
+_cell_length_b       5.041238175353553
+_cell_length_c       21.03836705
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    44.99287253492383
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rb  Rb1       1.0  0.13172736000000002  0.09846262000000003  0.6435084600000001  1.0000
+  Rb  Rb2       1.0  0.6317273600000001  0.09846264000000002  0.35649155  1.0000
+  Ca  Ca1       1.0  0.1316582199999999  0.5985033800000001  0.49998985999999995  1.0000
+  Ca  Ca2       1.0  0.6316582099999999  0.5985033800000001  0.50001014  1.0000
+  As  As1       1.0  0.6316644200000001  0.09849399000000003  0.57507324  1.0000
+  As  As2       1.0  0.13166443  0.098494  0.42492676  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       IGaClGa
+_chemical_formula_sum              "I1 Ga2 Cl1"
+_cell_length_a       4.504965659386383
+_cell_length_b       4.754472925792946
+_cell_length_c       18.025482495369978
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    89.9601912867364
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.25224039954323385  0.22828037330467005  0.5811275552896423  1.0000
+  Ga  Ga1       1.0  0.7520180731223287  0.7278209289338738  0.5839223720127077  1.0000
+  Cl  Cl1       1.0  0.7501361534267478  0.6962952239340404  0.43547778512707036  1.0000
+  Ga  Ga2       1.0  0.25698717804806614  0.34083695582033147  0.41607762798729236  1.0000

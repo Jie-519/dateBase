@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrFeH6
+_chemical_formula_sum              "Zr1 Fe1 H6"
+_cell_length_a       4.400536423614902
+_cell_length_b       4.400314224793095
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    119.99509279366376
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.13225115770895032  0.8677090483756973  0.4775762475061298  1.0000
+  Fe  Fe1       1.0  0.4657022807955959  0.5344853145383208  0.5001224039248838  1.0000
+  H   H1        1.0  0.3099272088631333  0.6903013329347093  0.5600898034933467  1.0000
+  H   H2        1.0  0.7771191967936477  0.6897738998376692  0.5600938204831162  1.0000
+  H   H3        1.0  0.3100189802608699  0.22303520816622383  0.560051427888596  1.0000
+  H   H4        1.0  0.6376087095498428  0.36282917069243625  0.44942042954997313  1.0000
+  H   H5        1.0  0.12210294964551104  0.3629086099181075  0.4494057666830889  1.0000
+  H   H6        1.0  0.6374878763892673  0.8783112610446274  0.44948298219442956  1.0000

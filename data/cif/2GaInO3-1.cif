@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Ga2In2O6
+_chemical_formula_sum              "Ga2 In2 O6"
+_cell_length_a       3.309746921437919
+_cell_length_b       5.269241230968702
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  8.442177732459464e-20  0.05457150646724634  0.43776531479932834  1.0000
+  Ga  Ga2       1.0  0.499999999999999  0.5545715064672435  0.5622346852006704  1.0000
+  In  In1       1.0  0.499999999999998  0.5056712516264228  0.4669448043174539  1.0000
+  In  In2       1.0  0.9999999999999998  0.005671251626425592  0.5330551956825362  1.0000
+  O   O1        1.0  0.5000000000000002  0.7432073561443667  0.5157574814939303  1.0000
+  O   O2        1.0  1.0207440893597027e-17  0.24320735614439373  0.4842425185060696  1.0000
+  O   O3        1.0  0.0  0.7033496091393592  0.4439226421053241  1.0000
+  O   O4        1.0  0.5000000000000027  0.20334960913938957  0.5560773578946775  1.0000
+  O   O5        1.0  6.139870771728163e-19  0.6995727566433844  0.5770821408424228  1.0000
+  O   O6        1.0  0.5000000000000013  0.19957275664338925  0.42291785915757535  1.0000

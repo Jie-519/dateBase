@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       AlSAlSeBr2
+_chemical_formula_sum              "Al2 S1 Se1 Br2"
+_cell_length_a       3.5642402252554373
+_cell_length_b       5.089099077278734
+_cell_length_c       20.583937309633395
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00029191459988
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.24910743008215647  0.24529111399582562  0.548472471339255  1.0000
+  S   S1        1.0  0.24926012505789383  0.7513893232222176  0.5318837855442021  1.0000
+  Al  Al2       1.0  0.7492574723714214  0.751919656130455  0.452808106079288  1.0000
+  Se  Se1       1.0  0.749266251048398  0.25201068830482193  0.46364462071010765  1.0000
+  Br  Br1       1.0  0.24919564386240967  0.7517312873063375  0.3643617781759351  1.0000
+  Br  Br2       1.0  0.7488303390551996  0.24991316149110507  0.6356382218240647  1.0000

@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       SSnHgISnIS
+_chemical_formula_sum              "S2 Sn2 Hg1 I2"
+_cell_length_a       4.511235696482566
+_cell_length_b       7.418877592484692
+_cell_length_c       33.842086877324824
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    107.70027388750304
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.6974084305354732  0.3948168610709452  0.48353321405224925  1.0000
+  Sn  Sn1       1.0  0.7728545310107533  0.5457090620215164  0.5543111996332668  1.0000
+  Hg  Hg1       1.0  0.5331936798729011  0.06638735974579447  0.4999999601147049  1.0000
+  I   I1        1.0  0.946578936323904  0.8931578726478087  0.42372039680679413  1.0000
+  Sn  Sn2       1.0  0.29353223908523324  0.5870644781704606  0.44568852542459775  1.0000
+  I   I2        1.0  0.11980806243293914  0.2396161248658762  0.5762793868707121  1.0000
+  S   S2        1.0  0.3689786666040855  0.7379573332081628  0.5164667892061275  1.0000

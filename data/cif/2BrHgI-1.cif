@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hg2I2Br2
+_chemical_formula_sum              "Hg2 I2 Br2"
+_cell_length_a       7.5298398745863
+_cell_length_b       8.689751371722206
+_cell_length_c       19.87047856
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    150.09461579513533
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.8327662158069133  0.5009697108962167  0.5562140698700346  1.0000
+  Hg  Hg2       1.0  0.33276621580690996  0.5009696608962132  0.44378593012996526  1.0000
+  I   I1        1.0  0.45976017606889624  0.4997421960970078  0.577880575532942  1.0000
+  I   I2        1.0  0.9597601760688996  0.4997421860970109  0.42211943446705796  1.0000
+  Br  Br1       1.0  0.47056286725949326  0.0009190206459536828  0.621809727420158  1.0000
+  Br  Br2       1.0  0.9705629272594939  0.0009190106459535788  0.37819026257984223  1.0000

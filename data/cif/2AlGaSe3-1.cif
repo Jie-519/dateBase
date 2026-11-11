@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2Ga2Se6
+_chemical_formula_sum              "Al2 Ga2 Se6"
+_cell_length_a       3.8263349249283083
+_cell_length_b       6.274764384901372
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  1.7434184089203117e-20  0.9908016001486332  0.45675727067129895  1.0000
+  Al  Al2       1.0  0.4999999999999987  0.49080160014863444  0.5432427293287009  1.0000
+  Ga  Ga1       1.0  0.4999999999999987  0.5546107022242053  0.43126883079805406  1.0000
+  Ga  Ga2       1.0  1.1207225675690605e-18  0.05461070222420571  0.568731169201943  1.0000
+  Se  Se1       1.0  0.4999999999999987  0.7608924585212856  0.48822856507576035  1.0000
+  Se  Se2       1.0  3.5254039095095815e-18  0.26089245852128556  0.5117714349242395  1.0000
+  Se  Se3       1.0  7.292070597380702e-19  0.7255664659637007  0.40202797878762164  1.0000
+  Se  Se4       1.0  0.4999999999999987  0.22556646596369945  0.5979720212123779  1.0000
+  Se  Se5       1.0  0.0  0.6740584394562124  0.5758641676627575  1.0000
+  Se  Se6       1.0  0.4999999999999987  0.17405843945621377  0.42413583233724433  1.0000

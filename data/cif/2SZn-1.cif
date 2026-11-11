@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       S2Zn2
+_chemical_formula_sum              "S2 Zn2"
+_cell_length_a       3.922617220205309
+_cell_length_b       3.923060236175349
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99626446654406
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  5.437539543142398e-06  2.911107548144481e-05  0.41728229038254894  1.0000
+  S   S2        1.0  0.3333277368167463  0.6666376336961068  0.5827879786517014  1.0000
+  Zn  Zn1       1.0  0.9999801857212062  4.337938219902252e-05  0.5541876292060984  1.0000
+  Zn  Zn2       1.0  0.3333530114842299  0.6666234034177809  0.4458903749315631  1.0000

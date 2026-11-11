@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       AgCl3GeCl3
+_chemical_formula_sum              "Ag1 Cl6 Ge1"
+_cell_length_a       6.348038043078149
+_cell_length_b       6.3503325864503415
+_cell_length_c       17.96960295681465
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    115.08593830261661
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ag  Ag1       1.0  0.09174337847715822  0.708415437733434  0.5001508899698334  1.0000
+  Cl  Cl1       1.0  0.8024854726102006  0.7753808451690204  0.42131550542090374  1.0000
+  Cl  Cl2       1.0  0.7360152389791044  0.31175268913657084  0.5826285078182118  1.0000
+  Cl  Cl3       1.0  0.45473275873414326  0.7427121725562262  0.5664911428060944  1.0000
+  Ge  Ge1       1.0  0.7488869670050627  0.05309028686251713  0.4997758594238688  1.0000
+  Cl  Cl4       1.0  0.060149376452725174  0.34820503807832887  0.4333060932237852  1.0000
+  Cl  Cl5       1.0  0.4903365452006546  0.06806597753060371  0.417371492181788  1.0000
+  Cl  Cl6       1.0  0.02719681694400955  0.9995092841048461  0.5783664779504226  1.0000

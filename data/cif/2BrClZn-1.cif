@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Zn2Br2Cl2
+_chemical_formula_sum              "Zn2 Br2 Cl2"
+_cell_length_a       6.327367688178669
+_cell_length_b       7.423538789425581
+_cell_length_c       19.9383408
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    31.60025181960431
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.5479726194646863  0.16325224672741498  0.5574980501800256  1.0000
+  Zn  Zn2       1.0  0.04797552038565876  0.1632496449602436  0.4425017804212864  1.0000
+  Br  Br1       1.0  0.15747306951054807  0.6632347936344741  0.6231699433459399  1.0000
+  Br  Br2       1.0  0.6574762486484514  0.6632325068165136  0.37683015164060896  1.0000
+  Cl  Cl1       1.0  0.18258329826312245  0.16324563880345977  0.5495428707452653  1.0000
+  Cl  Cl2       1.0  0.682583830379488  0.163245382217272  0.45045719347739355  1.0000

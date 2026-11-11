@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2In2Te6
+_chemical_formula_sum              "Al2 In2 Te6"
+_cell_length_a       4.261478281461762
+_cell_length_b       7.029128155172131
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  4.075433112369773e-20  0.9866218538116501  0.4529548736473035  1.0000
+  Al  Al2       1.0  0.4999999999999923  0.4866218538116517  0.5470451263526963  1.0000
+  In  In1       1.0  0.4999999999999923  0.5493336734817633  0.42663022087084945  1.0000
+  In  In2       1.0  5.279383651064436e-18  0.04933367348175917  0.5733697791291477  1.0000
+  Te  Te1       1.0  0.4999999999999923  0.773810718435628  0.49036607326026144  1.0000
+  Te  Te2       1.0  4.4971548834280695e-18  0.2738107184356289  0.5096339267397384  1.0000
+  Te  Te3       1.0  0.0  0.7377356815603288  0.3923600030563477  1.0000
+  Te  Te4       1.0  0.4999999999999923  0.23773568156032643  0.6076399969436501  1.0000
+  Te  Te5       1.0  0.0  0.6584298565246316  0.583505443739095  1.0000
+  Te  Te6       1.0  0.4999999999999923  0.15842985652463223  0.41649455626090404  1.0000

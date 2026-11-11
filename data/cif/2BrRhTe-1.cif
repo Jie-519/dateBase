@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Rh2Te2Br2
+_chemical_formula_sum              "Rh2 Te2 Br2"
+_cell_length_a       3.772115599758249
+_cell_length_b       6.871964662205166
+_cell_length_c       32.72339084690195
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  2.23751275928818e-22  0.9915351642178213  0.5004112814480824  1.0000
+  Rh  Rh2       1.0  0.5000000000000002  0.49598824156101834  0.49958849939527494  1.0000
+  Te  Te1       1.0  2.889417780979721e-19  0.6686345793503178  0.45979080802442795  1.0000
+  Te  Te2       1.0  0.5000000000000002  0.8188885490250205  0.5402090107051092  1.0000
+  Br  Br1       1.0  0.0  0.3184149173952576  0.5449846920497653  1.0000
+  Br  Br2       1.0  0.5000000000000002  0.16910895597957576  0.45501516056135743  1.0000

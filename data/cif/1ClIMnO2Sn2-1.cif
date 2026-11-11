@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Sn2IMnO2Cl
+_chemical_formula_sum              "Sn2 I1 Mn1 O2 Cl1"
+_cell_length_a       6.57153424576883
+_cell_length_b       5.148535354619159
+_cell_length_c       20.46259282993513
+_cell_angle_alpha    90.00000000000001
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    142.75867229664257
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sn  Sn1       1.0  0.3369118501232781  0.14632708900365565  0.5912827403360184  1.0000
+  Sn  Sn2       1.0  0.3241238055351039  0.1468104464485005  0.4320760128889686  1.0000
+  I   I1        1.0  0.7492634201639464  0.15518900156014034  0.36652246674371114  1.0000
+  Mn  Mn1       1.0  0.7698154462036693  0.11942364101016158  0.5106063115642246  1.0000
+  O   O1        1.0  0.25218936507245626  0.7883595160066967  0.5109711738189789  1.0000
+  O   O2        1.0  0.6506647825404529  0.6173868511809311  0.5123477834833496  1.0000
+  Cl  Cl1       1.0  0.7369686310874239  0.16957724110461672  0.6334775332562889  1.0000

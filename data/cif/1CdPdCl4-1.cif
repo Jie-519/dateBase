@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       PdCdCl4
+_chemical_formula_sum              "Pd1 Cd1 Cl4"
+_cell_length_a       4.1080350717425045
+_cell_length_b       6.580087190518354
+_cell_length_c       18.11079951866945
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    98.28876989783137
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.2450333823485706  0.7531121691781132  0.5000625138282563  1.0000
+  Cd  Cd1       1.0  0.744884694550326  0.25294261258960066  0.5000406555267725  1.0000
+  Cl  Cl1       1.0  0.5720813495497434  0.9512801924222071  0.4141175541294382  1.0000
+  Cl  Cl2       1.0  0.22120706517581598  0.046231670292089924  0.5715907539679739  1.0000
+  Cl  Cl3       1.0  0.26821430666336454  0.460169929977918  0.42851290713235957  1.0000
+  Cl  Cl4       1.0  0.9174633194758326  0.5549978560439588  0.5858824458705619  1.0000

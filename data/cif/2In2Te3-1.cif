@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       In4Te6
+_chemical_formula_sum              "In4 Te6"
+_cell_length_a       15.275411183243031
+_cell_length_b       4.251158050320469
+_cell_length_c       19.3094782
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    57.32464300697274
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.2522407919359355  0.21201255269969357  0.5243100200945136  1.0000
+  In  In2       1.0  0.7522408019359332  0.21201256269969865  0.47568997990548645  1.0000
+  In  In3       1.0  0.02655509589943544  0.15946148510357544  0.47586164673270426  1.0000
+  In  In4       1.0  0.5265551158994296  0.1594614451035825  0.5241383732672958  1.0000
+  Te  Te1       1.0  0.42668295841194687  0.8903826109198618  0.6107742335415751  1.0000
+  Te  Te2       1.0  0.5526743193270273  0.5678608895526225  0.41493053342762576  1.0000
+  Te  Te3       1.0  0.9266829884119426  0.8903825309198714  0.3892257564584237  1.0000
+  Te  Te4       1.0  0.05267428932702852  0.5678609295526206  0.5850694665723742  1.0000
+  Te  Te5       1.0  0.24184264841802575  0.7327006947850124  0.42571676736127323  1.0000
+  Te  Te6       1.0  0.7418426684180206  0.7327007147850199  0.5742832226387268  1.0000

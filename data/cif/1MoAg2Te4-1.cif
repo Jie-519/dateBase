@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       MoAg2Te4
+_chemical_formula_sum              "Mo1 Ag2 Te4"
+_cell_length_a       6.205938326222758
+_cell_length_b       6.205939457350124
+_cell_length_c       17.61186088641994
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.896370164801113  0.9424392587007191  0.4999608496880471  1.0000
+  Ag  Ag1       1.0  0.8962870037262484  0.4424373418878162  0.5000044569706122  1.0000
+  Ag  Ag2       1.0  0.39637183250948166  0.942522028392778  0.5000044114217034  1.0000
+  Te  Te1       1.0  0.12509183203274854  0.7137173831928499  0.40654601520910194  1.0000
+  Te  Te2       1.0  0.6677015786846602  0.1711077464731103  0.40650019598477044  1.0000
+  Te  Te3       1.0  0.667941589722665  0.7139139388268492  0.5934920587977794  1.0000
+  Te  Te4       1.0  0.12489571230666396  0.17086799944885897  0.593491964228124  1.0000

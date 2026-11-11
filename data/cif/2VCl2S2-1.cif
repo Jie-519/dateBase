@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       S4Cl4V2
+_chemical_formula_sum              "S4 Cl4 V2"
+_cell_length_a       6.2024525267865025
+_cell_length_b       6.23728543367224
+_cell_length_c       18.87045328
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.81543341983661
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.9888674988476724  0.9999999999999989  0.397253395715174  1.0000
+  S   S2        1.0  0.011132511152327745  1.076714988393431e-15  0.6027466042848261  1.0000
+  S   S3        1.0  0.7216431746892881  5.02412855822969e-15  0.4565624157044007  1.0000
+  S   S4        1.0  0.2783568253107117  0.999999999999995  0.5434375842955993  1.0000
+  Cl  Cl1       1.0  0.8939671552805819  0.41613133336781744  0.5734316429227401  1.0000
+  Cl  Cl2       1.0  0.106032844719419  0.5838686666321832  0.42656836707726  1.0000
+  Cl  Cl3       1.0  0.5221641780872363  0.41613133336781716  0.42656835707726  1.0000
+  Cl  Cl4       1.0  0.47783582191276464  0.5838686666321837  0.5734316429227401  1.0000
+  V   V1        1.0  0.8708655930879393  0.7417311661758773  0.5  1.0000
+  V   V2        1.0  0.12913440691206118  0.2582688338241231  0.5  1.0000

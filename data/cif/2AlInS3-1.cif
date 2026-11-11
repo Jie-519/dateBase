@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2In2S6
+_chemical_formula_sum              "Al2 In2 S6"
+_cell_length_a       3.7773211261307864
+_cell_length_b       6.199171992108835
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  6.811199798073328e-21  0.9931585368114946  0.4602334763211464  1.0000
+  Al  Al2       1.0  0.49999999999999994  0.49315853681149324  0.5397665236788535  1.0000
+  In  In1       1.0  0.4999999999999983  0.541980920002694  0.4353466821258982  1.0000
+  In  In2       1.0  0.0  0.041980920002695515  0.5646533178740976  1.0000
+  S   S1        1.0  0.4999999999999983  0.7764423356993699  0.4917615401823445  1.0000
+  S   S2        1.0  0.0  0.2764423356993752  0.5082384598176554  1.0000
+  S   S3        1.0  6.80833724451494e-18  0.7408084758396658  0.4088817947545426  1.0000
+  S   S4        1.0  0.4999999999999983  0.24080847583966639  0.5911182052454587  1.0000
+  S   S5        1.0  3.387055850912513e-19  0.6535021041594956  0.5705299762629172  1.0000
+  S   S6        1.0  0.4999999999999983  0.15350210415949772  0.429470023737086  1.0000

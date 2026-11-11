@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CoTe2BrNiSe
+_chemical_formula_sum              "Co1 Te2 Br1 Ni1 Se1"
+_cell_length_a       3.6485876594766884
+_cell_length_b       6.406032385802725
+_cell_length_c       17.87980848639334
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00177239277339
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.24690124514239087  0.49025189628163707  0.4988898698331936  1.0000
+  Te  Te1       1.0  0.24741407150460826  0.15954410280788456  0.41945383475939296  1.0000
+  Te  Te2       1.0  0.7469329029658839  0.6505290487860492  0.42616659690620984  1.0000
+  Br  Br1       1.0  0.7466696515101944  0.3315393601103306  0.5805025111247932  1.0000
+  Ni  Ni1       1.0  0.7474921958637241  0.986364346405706  0.49836886207998315  1.0000
+  Se  Se1       1.0  0.24746978009491571  0.8193657741682303  0.5627985627696624  1.0000

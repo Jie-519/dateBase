@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       ReAu2F6
+_chemical_formula_sum              "Re1 Au2 F6"
+_cell_length_a       5.978537447610115
+_cell_length_b       5.978537447610118
+_cell_length_c       17.735847576319763
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    116.43738458627205
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.07711023856421292  0.8589825623482029  0.49338477364747546  1.0000
+  Au  Au1       1.0  0.36513579736003854  0.3522306151607978  0.5215519498928273  1.0000
+  Au  Au2       1.0  0.5831089241202985  0.07789699383894287  0.5309132642951865  1.0000
+  F   F1        1.0  0.10244846728155489  0.8757855310303161  0.5995396777576726  1.0000
+  F   F2        1.0  0.12319105274440297  0.5611846855374253  0.5226185550218577  1.0000
+  F   F3        1.0  0.7309837860408083  0.7981746700561527  0.5387640839730096  1.0000
+  F   F4        1.0  0.8368291785885977  0.6105177921736281  0.4320859632847755  1.0000
+  F   F5        1.0  0.9734682569980228  0.05807373682682555  0.43317504760963543  1.0000
+  F   F6        1.0  0.2762827915677618  0.867416913605779  0.4102899107375321  1.0000

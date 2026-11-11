@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Br6Ag2Cd2
+_chemical_formula_sum              "Br6 Ag2 Cd2"
+_cell_length_a       7.21982165435051
+_cell_length_b       7.2198216529192045
+_cell_length_c       18.30986552
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999996090611
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.6350000623085421  0.9999999999999981  0.5893929172869994  1.0000
+  Br  Br2       1.0  0.3649999476914611  0.36499993769146033  0.5893929172869994  1.0000
+  Br  Br3       1.0  0.9999999999999966  0.6350000523085424  0.5893929172869994  1.0000
+  Br  Br4       1.0  0.36499994769146005  1.8930026767356728e-15  0.4106070827129998  1.0000
+  Br  Br5       1.0  0.6350000623085378  0.6350000623085419  0.4106070827129998  1.0000
+  Br  Br6       1.0  1.4951544929950546e-15  0.3649999476914598  0.4106070827129998  1.0000
+  Ag  Ag1       1.0  8.016923686348167e-21  7.616838200400046e-20  0.5805475997425498  1.0000
+  Ag  Ag2       1.0  0.0  0.0  0.419452400257449  1.0000
+  Cd  Cd1       1.0  0.33333333000000054  0.6666666700000022  0.5  1.0000
+  Cd  Cd2       1.0  0.6666666700000001  0.3333333300000017  0.5  1.0000

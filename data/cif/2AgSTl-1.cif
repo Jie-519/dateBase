@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2S2Ag2
+_chemical_formula_sum              "Tl2 S2 Ag2"
+_cell_length_a       4.253205145987547
+_cell_length_b       4.10707971810104
+_cell_length_c       20.90183483
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.3815423805847297  0.34158476066181237  0.638647947413153  1.0000
+  Tl  Tl2       1.0  0.881532380584729  0.8407697793381809  0.36135205258685016  1.0000
+  S   S1        1.0  0.9187633209967835  0.8412660223057125  0.5842163127198367  1.0000
+  S   S2        1.0  0.41876332099677205  0.34107851769427683  0.4157836872801634  1.0000
+  Ag  Ag1       1.0  0.8212277810797598  0.34120338645125664  0.506805556881163  1.0000
+  Ag  Ag2       1.0  0.3212177810797563  0.8411511535487375  0.49319444311883687  1.0000

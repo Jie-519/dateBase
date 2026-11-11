@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Be2Tl2As2
+_chemical_formula_sum              "Be2 Tl2 As2"
+_cell_length_a       19.36411814716773
+_cell_length_b       3.794803697067553
+_cell_length_c       21.17182192
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    168.67948670752367
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.34657203635758  0.9577764408767041  0.4999257754515186  1.0000
+  Be  Be2       1.0  0.8465720263575791  0.957776420876703  0.5000742245484814  1.0000
+  Tl  Tl1       1.0  0.8453665285721347  0.45201068653745585  0.6457061591822834  1.0000
+  Tl  Tl2       1.0  0.345366508572135  0.4520106865374564  0.35429384081771675  1.0000
+  As  As1       1.0  0.3464914830467865  0.45737296254280563  0.5642481741360799  1.0000
+  As  As2       1.0  0.8464914630467861  0.4573729825428053  0.43575182586392014  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       In2Se2Br2
+_chemical_formula_sum              "In2 Se2 Br2"
+_cell_length_a       5.696848773021562
+_cell_length_b       3.9176818211265654
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.49999999999999983  1.9958456683855975e-16  0.4508833121296276  1.0000
+  In  In2       1.0  0.9999999999999998  0.5  0.5491166865813878  1.0000
+  Se  Se1       1.0  0.49999999999999983  0.5  0.5389660524346207  1.0000
+  Se  Se2       1.0  0.0  1.9700576752585325e-17  0.46103401312289705  1.0000
+  Br  Br1       1.0  0.49999999999999983  0.5  0.3598334728070088  1.0000
+  Br  Br2       1.0  1.2374253007768983e-17  0.0  0.6401663386498849  1.0000

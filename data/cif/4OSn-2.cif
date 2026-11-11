@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Sn4O4
+_chemical_formula_sum              "Sn4 O4"
+_cell_length_a       9.756332839999464
+_cell_length_b       3.330641887217144
+_cell_length_c       19.21045852
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    133.07780549839092
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sn  Sn1       1.0  0.14990711356423575  0.2533532355434975  0.6090279336038003  1.0000
+  Sn  Sn2       1.0  0.6499054913326958  0.2533827318098377  0.3909668562392467  1.0000
+  Sn  Sn3       1.0  0.1725200842046004  0.7985851536816582  0.43239637538670195  1.0000
+  Sn  Sn4       1.0  0.6725180827955916  0.7985515443271161  0.5675942474269128  1.0000
+  O   O1        1.0  0.9608602379494798  0.37512694729651225  0.5962306942074632  1.0000
+  O   O2        1.0  0.4608816686102033  0.37512524851790824  0.4037946118776223  1.0000
+  O   O3        1.0  0.2166930363212325  0.3870134050425742  0.5016349989568817  1.0000
+  O   O4        1.0  0.7166901873113101  0.38702978836449126  0.4983563577435625  1.0000

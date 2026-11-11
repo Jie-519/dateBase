@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Br2InBr4Mn
+_chemical_formula_sum              "Br6 In1 Mn1"
+_cell_length_a       6.691569767456754
+_cell_length_b       6.939807712095137
+_cell_length_c       18.24306371665275
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    121.27044767823752
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.4723547759496214  0.7862771737812789  0.41837224121317845  1.0000
+  Br  Br2       1.0  0.863575345686252  0.19520513980307788  0.5797638707805147  1.0000
+  In  In1       1.0  0.8485822403653079  0.8465242684224905  0.5000611279849049  1.0000
+  Br  Br3       1.0  0.8627349932612082  0.5121935727322771  0.42061267139789366  1.0000
+  Br  Br4       1.0  0.47275809035859984  0.5308192235894137  0.5816783409905274  1.0000
+  Br  Br5       1.0  0.13951734893203022  0.813923436824448  0.5888848432210537  1.0000
+  Br  Br6       1.0  0.13870767419656357  0.16991257114858807  0.41111515677894617  1.0000
+  Mn  Mn1       1.0  0.16108172662120404  0.5028322550540107  0.5001009614817292  1.0000

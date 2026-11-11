@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2As2Pb2
+_chemical_formula_sum              "Tl2 As2 Pb2"
+_cell_length_a       8.202841650788223
+_cell_length_b       4.244846932908556
+_cell_length_c       19.35652204
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    58.72785655506035
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.6345070913710961  0.6277290561413843  0.6113100959274851  1.0000
+  Tl  Tl2       1.0  0.13450711137109947  0.627729066141383  0.38868990407251347  1.0000
+  As  As1       1.0  0.4208728789073852  0.341350606855964  0.5266028090543939  1.0000
+  As  As2       1.0  0.9208728889073803  0.34135058685596315  0.4733971909456061  1.0000
+  Pb  Pb1       1.0  0.028902946694916633  0.7333272088704567  0.5666038790416482  1.0000
+  Pb  Pb2       1.0  0.528902916694917  0.7333272188704579  0.43339612095835184  1.0000

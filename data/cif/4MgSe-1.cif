@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Mg4Se4
+_chemical_formula_sum              "Mg4 Se4"
+_cell_length_a       4.360966357664867
+_cell_length_b       7.56206494803526
+_cell_length_c       18.25857157
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mg  Mg1       1.0  2.076705473222947e-26  0.5872115747780055  0.5586915829369848  1.0000
+  Mg  Mg2       1.0  0.5000000000000014  0.7532025152219944  0.4413079270630152  1.0000
+  Mg  Mg3       1.0  0.0  0.25320251522199444  0.4413079270630152  1.0000
+  Mg  Mg4       1.0  0.5000000000000014  0.08721157477800533  0.5586915829369848  1.0000
+  Se  Se1       1.0  0.0  0.25412336475973685  0.589179202470008  1.0000
+  Se  Se2       1.0  0.5000000000000014  0.08628926524026295  0.4108212975299922  1.0000
+  Se  Se3       1.0  0.0  0.5862892652402631  0.4108212975299922  1.0000
+  Se  Se4       1.0  0.5000000000000014  0.7541233647597352  0.589179202470008  1.0000

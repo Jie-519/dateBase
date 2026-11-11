@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Sb2P2
+_chemical_formula_sum              "Sb2 P2"
+_cell_length_a       5.949175493798616
+_cell_length_b       3.7212769663304632
+_cell_length_c       18.0
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.9722053315879744  0.0  0.44378629307992373  1.0000
+  Sb  Sb2       1.0  0.47220533158798084  0.5000000000000013  0.5562137069200761  1.0000
+  P   P1        1.0  0.02780375327825164  0.5000000000000013  0.5403199973630939  1.0000
+  P   P2        1.0  0.5278037532782606  4.4769194008762e-19  0.459680002636906  1.0000

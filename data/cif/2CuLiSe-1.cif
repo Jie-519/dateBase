@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cu2Se2Li2
+_chemical_formula_sum              "Cu2 Se2 Li2"
+_cell_length_a       5.384131742010779
+_cell_length_b       3.8070658417220455
+_cell_length_c       19.02239351
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    44.99563606793252
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.522869304800234  0.693880605568446  0.5000170441142323  1.0000
+  Cu  Cu2       1.0  0.02285996997785534  0.6939051400405637  0.49998280272829065  1.0000
+  Se  Se1       1.0  0.5229385464142752  0.193430662000648  0.5905684685907423  1.0000
+  Se  Se2       1.0  0.023039031090813417  0.19340123928430267  0.4094315031236899  1.0000
+  Li  Li1       1.0  0.022906442286020977  0.19343884293577887  0.6056414472475833  1.0000
+  Li  Li2       1.0  0.523130029600737  0.19335346229620762  0.39435872978551795  1.0000

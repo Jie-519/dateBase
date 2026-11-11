@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Rh2Se2Cl2
+_chemical_formula_sum              "Rh2 Se2 Cl2"
+_cell_length_a       4.9517271427495455
+_cell_length_b       3.616254970723725
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.49999999999999983  7.223298610450604e-17  0.44739591120544353  1.0000
+  Rh  Rh2       1.0  0.9999999999999998  0.5  0.5526040410134772  1.0000
+  Se  Se1       1.0  0.49999999999999983  0.5  0.5241913501853354  1.0000
+  Se  Se2       1.0  1.079918500260701e-18  1.540065837565424e-18  0.47580860127911373  1.0000
+  Cl  Cl1       1.0  0.49999999999999983  0.5  0.37050125765983044  1.0000
+  Cl  Cl2       1.0  1.6672846570088187e-18  4.345653178084131e-18  0.6294986984736117  1.0000

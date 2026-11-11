@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cl2Bi2
+_chemical_formula_sum              "Cl2 Bi2"
+_cell_length_a       5.4478531377241355
+_cell_length_b       5.452443620222882
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9721536141594
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.999324210653135  0.0007208337910784815  0.3723355958289169  1.0000
+  Cl  Cl2       1.0  0.3340120116628447  0.6659437252526496  0.6278292881389204  1.0000
+  Bi  Bi1       1.0  0.9999275479732783  0.00020226787583186922  0.5056032045030904  1.0000
+  Bi  Bi2       1.0  0.3334015836071002  0.6664676503772805  0.49450769368765046  1.0000

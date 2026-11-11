@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Se5Mg2In2
+_chemical_formula_sum              "Se5 Mg2 In2"
+_cell_length_a       4.076704104932218
+_cell_length_b       4.076696485418211
+_cell_length_c       42.768
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00006182740678
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  2.1670676474142778e-18  4.334135294731035e-18  0.5  1.0000
+  Se  Se2       1.0  0.6666674724972291  0.33333494499446187  0.4320533706184118  1.0000
+  Se  Se3       1.0  0.33333252750276493  0.6666650550055341  0.5679466293815882  1.0000
+  Se  Se4       1.0  0.6666663794066905  0.3333327588133847  0.6563978426633642  1.0000
+  Se  Se5       1.0  0.3333336205933004  0.6666672411866049  0.34360215733663724  1.0000
+  Mg  Mg1       1.0  0.6666677635306668  0.33333552706133734  0.5371390058629847  1.0000
+  Mg  Mg2       1.0  0.33333223646932036  0.6666644729386448  0.4628609941370153  1.0000
+  In  In1       1.0  0.6666681919580317  0.33333638391606707  0.3728925670153134  1.0000
+  In  In2       1.0  0.3333318080419597  0.6666636160839235  0.6271074329846869  1.0000

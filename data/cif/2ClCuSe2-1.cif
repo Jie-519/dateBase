@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl2Se4Cu2
+_chemical_formula_sum              "Cl2 Se4 Cu2"
+_cell_length_a       5.000104135396561
+_cell_length_b       7.71600423812625
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.020099658253508214  0.01697555075227886  0.4218378423135957  1.0000
+  Cl  Cl2       1.0  0.5197743596766357  0.017166588844085288  0.578216216872085  1.0000
+  Se  Se1       1.0  0.5969910243958828  0.656623737240301  0.4458969619241569  1.0000
+  Se  Se2       1.0  0.09679069653812294  0.37729972803441814  0.5540484750704942  1.0000
+  Se  Se3       1.0  0.9433880646226611  0.6564279691428148  0.5540532788500938  1.0000
+  Se  Se4       1.0  0.44332507235284724  0.3775265993176113  0.44597129845299865  1.0000
+  Cu  Cu1       1.0  0.7699477791648762  0.19011723335989575  0.4999813983379924  1.0000
+  Cu  Cu2       1.0  0.2701982959457263  0.8438518035117909  0.500025053273451  1.0000

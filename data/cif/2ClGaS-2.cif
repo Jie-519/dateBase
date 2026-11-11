@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       S2Ga2Cl2
+_chemical_formula_sum              "S2 Ga2 Cl2"
+_cell_length_a       3.701768208080116
+_cell_length_b       6.411322304460047
+_cell_length_c       18.14530168
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99916576748853
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.7499781013838336  0.26609335791313643  0.422646868861344  1.0000
+  S   S2        1.0  0.25005578064113765  0.7660933612662536  0.4226468673788491  1.0000
+  Ga  Ga1       1.0  0.24995631309983216  0.43273796439569484  0.479463014541577  1.0000
+  Ga  Ga2       1.0  0.7500507028739886  0.9327379668228128  0.4794630141085534  1.0000
+  Cl  Cl1       1.0  0.24999523513424324  0.43269780341627195  0.5978896024918394  1.0000
+  Cl  Cl2       1.0  0.7500238550887565  0.9326978050617221  0.5978896024548415  1.0000

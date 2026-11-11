@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfPdBr6
+_chemical_formula_sum              "Hf1 Pd1 Br6"
+_cell_length_a       6.76904230844965
+_cell_length_b       6.769183065401713
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99926076197052
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.9413994251575739  0.882728745629972  0.5000024277084955  1.0000
+  Pd  Pd1       1.0  0.2747875053280617  0.549504418470386  0.4999996838028423  1.0000
+  Br  Br1       1.0  0.24688377751355797  0.8613656401343472  0.5860003825066242  1.0000
+  Br  Br2       1.0  0.6145705667120719  0.5774317585057128  0.5860396808269842  1.0000
+  Br  Br3       1.0  0.9628520974648196  0.20967494053767657  0.585982134495898  1.0000
+  Br  Br4       1.0  0.2468950174702908  0.20968318156909235  0.41403116722878935  1.0000
+  Br  Br5       1.0  0.9629368848313272  0.5774280939916276  0.413973736553393  1.0000
+  Br  Br6       1.0  0.6145436946370768  0.8613582935907693  0.4140123502370841  1.0000

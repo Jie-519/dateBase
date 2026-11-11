@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       AgTaGeSClS2ClS
+_chemical_formula_sum              "Ag1 Ta1 Ge1 S4 Cl2"
+_cell_length_a       6.497014217200482
+_cell_length_b       6.463397080802345
+_cell_length_c       18.74333399381392
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.00000000000001
+_cell_angle_gamma    122.93434630464546
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ag  Ag1       1.0  0.8843495148137239  0.5407592198922876  0.42823279766004635  1.0000
+  Ta  Ta1       1.0  0.47391143111723605  0.8195390618420644  0.5108381961125413  1.0000
+  Ge  Ge1       1.0  0.21812482365121832  0.2290272199055845  0.46028625362063935  1.0000
+  S   S1        1.0  0.8364296258611386  0.9050201492137585  0.43309300572359816  1.0000
+  Cl  Cl1       1.0  0.15875129052914813  0.8203008837452441  0.5721159329499121  1.0000
+  S   S2        1.0  0.48828555110796795  0.13191426851749158  0.4228684746048668  1.0000
+  S   S3        1.0  0.27057657627806336  0.5587943057598349  0.4001422587078325  1.0000
+  Cl  Cl2       1.0  0.7515911844236535  0.04692483670283378  0.5998577412921675  1.0000
+  S   S4        1.0  0.36670701779559217  0.4374077273050199  0.5635809224478779  1.0000

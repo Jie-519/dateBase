@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Al2Se2Cl2
+_chemical_formula_sum              "Al2 Se2 Cl2"
+_cell_length_a       6.324486719995888
+_cell_length_b       3.803929516727349
+_cell_length_c       20.27743111
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.35728406904613197  0.6092806118964946  0.4688223175057314  1.0000
+  Al  Al2       1.0  0.8572840690461311  0.10823752810350559  0.5311776824942686  1.0000
+  Se  Se1       1.0  0.4668798542766785  0.10929364724866743  0.5370150556335903  1.0000
+  Se  Se2       1.0  0.9668798542766779  0.6082144927513324  0.46298494436640963  1.0000
+  Cl  Cl1       1.0  0.9578563589059081  0.10632909030562733  0.6303230447614263  1.0000
+  Cl  Cl2       1.0  0.45785635890590753  0.6111890496943729  0.3696769552385738  1.0000

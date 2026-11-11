@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2In2O6
+_chemical_formula_sum              "Al2 In2 O6"
+_cell_length_a       3.2333874953942314
+_cell_length_b       5.161779451182904
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.0  0.0608229130365146  0.4381931662027049  1.0000
+  Al  Al2       1.0  0.499999999999992  0.5608229130365161  0.561806833797295  1.0000
+  In  In1       1.0  0.4999999999999918  0.5115087163212434  0.4669887862625883  1.0000
+  In  In2       1.0  0.9999999999999998  0.01150871632124205  0.5330112137374107  1.0000
+  O   O1        1.0  0.49999999999999206  0.7357765993431343  0.5175448225131786  1.0000
+  O   O2        1.0  0.0  0.23577659934309583  0.48245517748682126  1.0000
+  O   O3        1.0  1.2661946036165331e-17  0.7222619632250659  0.44475811211480004  1.0000
+  O   O4        1.0  0.499999999999992  0.2222619632250573  0.5552418878851993  1.0000
+  O   O5        1.0  1.976105125218335e-17  0.6758657118965438  0.5756403794526415  1.0000
+  O   O6        1.0  0.49999999999999206  0.17586571189654215  0.4243596205473665  1.0000

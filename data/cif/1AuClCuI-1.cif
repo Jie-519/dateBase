@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CuAuICl
+_chemical_formula_sum              "Cu1 Au1 I1 Cl1"
+_cell_length_a       5.081418341696885
+_cell_length_b       5.078441893516141
+_cell_length_c       18.660386391990848
+_cell_angle_alpha    89.99999999999999
+_cell_angle_beta     90.00000000000001
+_cell_angle_gamma    131.97982099008013
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.7775915120351885  0.7207792162204847  0.4915921527446477  1.0000
+  Au  Au1       1.0  0.0761894745461928  0.42270038880582483  0.5105306218165421  1.0000
+  I   I1        1.0  0.2563937202018504  0.24278656444087393  0.4019209378868514  1.0000
+  Cl  Cl1       1.0  0.8927861386640433  0.6055806434316351  0.5980790621131484  1.0000

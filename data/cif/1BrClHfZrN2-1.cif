@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       HfNZrNBrCl
+_chemical_formula_sum              "Hf1 N2 Zr1 Br1 Cl1"
+_cell_length_a       3.5603984899293946
+_cell_length_b       4.1413773034577455
+_cell_length_c       20.788225738906114
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00237888940715
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.7524811203482014  0.25034599071266556  0.46159169981066067  1.0000
+  N   N1        1.0  0.7523768388788197  0.7503511044179566  0.4883821392691675  1.0000
+  Zr  Zr1       1.0  0.25259933007202184  0.7501548482957141  0.5462018731000547  1.0000
+  N   N2        1.0  0.25252846337349727  0.25019163977538644  0.5184346328075211  1.0000
+  Br  Br1       1.0  0.252759232880248  0.2535646710646735  0.3607807322362196  1.0000
+  Cl  Cl1       1.0  0.7520988918999415  0.7496952043866012  0.6392162769420562  1.0000

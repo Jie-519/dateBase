@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Hg2Te2Ag2Cl2
+_chemical_formula_sum              "Hg2 Te2 Ag2 Cl2"
+_cell_length_a       4.8195330444246105
+_cell_length_b       7.333853041149702
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.49999999999999994  0.09274909451867641  0.5100360579333556  1.0000
+  Hg  Hg2       1.0  0.49999999999999994  0.5927490945186895  0.4899639420666445  1.0000
+  Te  Te1       1.0  0.49999999999999994  0.2893767578856992  0.45002100635044634  1.0000
+  Te  Te2       1.0  0.49999999999999994  0.7893767578856717  0.5499789936495465  1.0000
+  Ag  Ag1       1.0  0.0  0.10899785082015312  0.4573545535930981  1.0000
+  Ag  Ag2       1.0  0.0  0.6089978508200892  0.5426454464069019  1.0000
+  Cl  Cl1       1.0  2.4400803186088834e-17  0.26546001076791675  0.5425420852810533  1.0000
+  Cl  Cl2       1.0  3.466307797801632e-17  0.7654600107679127  0.4574579147189472  1.0000

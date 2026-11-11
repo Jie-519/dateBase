@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Be2Br4
+_chemical_formula_sum              "Be2 Br4"
+_cell_length_a       5.083145703318435
+_cell_length_b       5.082121188677176
+_cell_length_c       17.63535301
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.8867881389926764  0.7632044  0.50000011  1.0000
+  Be  Be2       1.0  0.3867881389926764  0.2632044  0.50000011  1.0000
+  Br  Br1       1.0  0.6365964334102794  0.5132143788303161  0.5747421127688993  1.0000
+  Br  Br2       1.0  0.6365964334102794  0.013193791169683926  0.42525777723110075  1.0000
+  Br  Br3       1.0  0.13659643341027924  0.013214378830316077  0.5747421127688993  1.0000
+  Br  Br4       1.0  0.13659643341027924  0.513193791169684  0.42525777723110075  1.0000

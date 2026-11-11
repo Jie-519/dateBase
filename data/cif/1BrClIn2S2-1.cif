@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SIn2SBrCl
+_chemical_formula_sum              "S2 In2 Br1 Cl1"
+_cell_length_a       3.791179328528165
+_cell_length_b       5.3639287691016815
+_cell_length_c       20.8368393729574
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99911477385595
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.25043576924872357  0.2492267435066153  0.5308114122891407  1.0000
+  In  In1       1.0  0.24925781176650286  0.7490022509859621  0.5459228902462031  1.0000
+  In  In2       1.0  0.7508132440802188  0.24899517854646347  0.4453248835672555  1.0000
+  S   S2        1.0  0.7497547781448118  0.749263998199423  0.4603645328775252  1.0000
+  Br  Br1       1.0  0.7489112663077339  0.7493569996171955  0.6400605741706826  1.0000
+  Cl  Cl1       1.0  0.2511617924961733  0.24918659710184632  0.35993942582931737  1.0000

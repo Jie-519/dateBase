@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       SeBrSeBr2Ta2Se2Br
+_chemical_formula_sum              "Se4 Br4 Ta2"
+_cell_length_a       6.736868494979868
+_cell_length_b       6.782787725902678
+_cell_length_c       34.0788209743898
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.77630293421025
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.7232255660630245  0.0  0.43546120994795773  1.0000
+  Br  Br1       1.0  0.614416677477284  0.4197726289774163  0.4549122369411623  1.0000
+  Se  Se2       1.0  0.7016916251522073  0.0  0.564538814470722  1.0000
+  Br  Br2       1.0  0.23027315368627205  0.4197726407568663  0.5450877877855136  1.0000
+  Br  Br3       1.0  0.8105005129294068  0.580227359243134  0.5450877877855136  1.0000
+  Ta  Ta1       1.0  0.8376340815021066  0.2503509737583866  0.5000000141235247  1.0000
+  Ta  Ta2       1.0  0.5872831077437244  0.7496490262416109  0.5000000141235247  1.0000
+  Se  Se3       1.0  0.41782548426838095  0.0  0.5259927825776387  1.0000
+  Se  Se4       1.0  0.007091698196542984  2.354260581833615e-19  0.4740072317948015  1.0000
+  Br  Br4       1.0  0.19464404849987105  0.5802273710225857  0.4549122369411623  1.0000

@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       ReAg2I6
+_chemical_formula_sum              "Re1 Ag2 I6"
+_cell_length_a       7.452504935757834
+_cell_length_b       7.462007775777554
+_cell_length_c       17.735847576319763
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.95788201210256
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.9170635212134662  0.9170902938465463  0.5000307108214447  1.0000
+  Ag  Ag1       1.0  0.24979560902227904  0.5831868818093573  0.4990939660693065  1.0000
+  Ag  Ag2       1.0  0.5844131005164386  0.2510249001654923  0.5008228340120741  1.0000
+  I   I1        1.0  0.61638218458046  0.9165975568682448  0.5900591414500841  1.0000
+  I   I2        1.0  0.21699416998104146  0.21799689291877006  0.5899483259693116  1.0000
+  I   I3        1.0  0.9181302300707361  0.6179400785136896  0.5903075702404684  1.0000
+  I   I4        1.0  0.21780268037565478  0.9175285512075406  0.4100138886471053  1.0000
+  I   I5        1.0  0.6173144929920685  0.61639699069464  0.4100087988275719  1.0000
+  I   I6        1.0  0.9159003461397999  0.21620527483507285  0.4097277827947402  1.0000

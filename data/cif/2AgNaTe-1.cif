@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Na2Ag2Te2
+_chemical_formula_sum              "Na2 Ag2 Te2"
+_cell_length_a       6.342606926929632
+_cell_length_b       4.494052422599816
+_cell_length_c       19.79188492
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    45.06337668113345
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.07695026222219241  0.34028335122519254  0.6201486679943671  1.0000
+  Na  Na2       1.0  0.5769502722221962  0.34028335122519243  0.3798513420056319  1.0000
+  Ag  Ag1       1.0  0.5769520799356695  0.8402554188132175  0.49999321919488304  1.0000
+  Ag  Ag2       1.0  0.07695207993567257  0.8402554088132147  0.5000067808051171  1.0000
+  Te  Te1       1.0  0.576979365912409  0.340203806079972  0.5968693604943442  1.0000
+  Te  Te2       1.0  0.07697936591240799  0.3402038060799721  0.4031306295056558  1.0000

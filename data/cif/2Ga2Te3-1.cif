@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Te6Ga4
+_chemical_formula_sum              "Te6 Ga4"
+_cell_length_a       4.176975476869747
+_cell_length_b       7.344875418494008
+_cell_length_c       22.09176873
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.49994482217295694  0.09628889661812666  0.6604264518284231  1.0000
+  Te  Te2       1.0  0.500055177827044  0.09628889661812666  0.3395735481715789  1.0000
+  Te  Te3       1.0  5.5177827043695874e-05  0.5962889166181268  0.6604264618284232  1.0000
+  Te  Te4       1.0  0.9999448221729573  0.5962889166181268  0.339573538171579  1.0000
+  Te  Te5       1.0  0.0  0.7767524864160081  0.5000000000000009  1.0000
+  Te  Te6       1.0  0.5000000000000001  0.2767525364160079  0.5000000000000009  1.0000
+  Ga  Ga1       1.0  0.49993672747198764  0.43649802017387757  0.39598095053707394  1.0000
+  Ga  Ga2       1.0  0.5000632725280132  0.43649802017387757  0.604019049462928  1.0000
+  Ga  Ga3       1.0  6.32725280127077e-05  0.9364980201738777  0.395980980537074  1.0000
+  Ga  Ga4       1.0  0.9999367274719884  0.9364980201738777  0.6040190194629279  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Na2Tl2S2
+_chemical_formula_sum              "Na2 Tl2 S2"
+_cell_length_a       4.365566370408533
+_cell_length_b       7.552554320672374
+_cell_length_c       17.63501093
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.97919212881024
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.75002765414458  0.048381396522130256  0.43361587378770006  1.0000
+  Na  Na2       1.0  0.24997780842969844  0.5483813799796524  0.43361588660354206  1.0000
+  Tl  Tl1       1.0  0.7500877941974111  0.7150743938693397  0.5807076623254329  1.0000
+  Tl  Tl2       1.0  0.2499166798668918  0.2150744176262545  0.5807076553649667  1.0000
+  S   S1        1.0  0.7499605588178766  0.38165951960859523  0.4856768650067998  1.0000
+  S   S2        1.0  0.25005953948619963  0.8816595124477771  0.4856768668030521  1.0000

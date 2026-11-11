@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Br4Ag2Cl2
+_chemical_formula_sum              "Br4 Ag2 Cl2"
+_cell_length_a       4.468515917399927
+_cell_length_b       9.144953079212343
+_cell_length_c       20.0669304
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    108.90121779459207
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.06866441669317033  0.6543918234066181  0.6224012337195789  1.0000
+  Br  Br2       1.0  0.9313355833069205  0.3456081765933915  0.37759875628040346  1.0000
+  Br  Br3       1.0  0.289758546466648  0.6018226418358036  0.4097100089002282  1.0000
+  Br  Br4       1.0  0.7102414535334421  0.39817735816421446  0.590289991099772  1.0000
+  Ag  Ag1       1.0  0.8844345867212277  0.18429078748563504  0.4886763911891759  1.0000
+  Ag  Ag2       1.0  0.1155654132788802  0.8157092025143927  0.5113236088108241  1.0000
+  Cl  Cl1       1.0  0.6798254839276132  0.8787012752296035  0.44579323428514434  1.0000
+  Cl  Cl2       1.0  0.32017451607248826  0.12129874477038653  0.5542067757148558  1.0000

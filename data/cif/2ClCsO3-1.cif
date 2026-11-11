@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       ClCsO3ClCsO3
+_chemical_formula_sum              "Cl2 Cs2 O6"
+_cell_length_a       5.20289244840879
+_cell_length_b       6.034851580697866
+_cell_length_c       33.864000000000004
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.041872350663457514  4.796372346560824e-18  0.45789542315880233  1.0000
+  Cs  Cs1       1.0  0.5092434306804068  0.5000000000000114  0.4385607460574054  1.0000
+  O   O1        1.0  0.3221478110406612  0.9999999999999999  0.47100480090633323  1.0000
+  O   O2        1.0  0.003811060620251272  0.7971910610551607  0.432366598721162  1.0000
+  O   O3        1.0  0.003811060620251272  0.20280893894484714  0.432366598721162  1.0000
+  Cl  Cl2       1.0  0.958127649336594  0.5000000000000068  0.5421045768412073  1.0000
+  Cs  Cs2       1.0  0.4907565693196233  0.0  0.5614392539425874  1.0000
+  O   O4        1.0  0.677852188959353  0.5000000000000068  0.5289951990936649  1.0000
+  O   O5        1.0  0.9961889393797988  0.29719106105515714  0.5676334012788442  1.0000
+  O   O6        1.0  0.9961889393797988  0.7028089389448435  0.5676334012788442  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       SPt2O3SO3
+_chemical_formula_sum              "S2 Pt2 O6"
+_cell_length_a       4.151890386333127
+_cell_length_b       6.5587548101364685
+_cell_length_c       33.96301908541456
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.9987801385211841  0.4999999999999959  0.5528717435752193  1.0000
+  Pt  Pt1       1.0  0.49650443658726773  0.7499996414699123  0.4999998535024941  1.0000
+  Pt  Pt2       1.0  0.49650443658726773  0.2500003585300837  0.4999998535024941  1.0000
+  O   O1        1.0  0.2004027163484606  0.6924784215679962  0.546684896335013  1.0000
+  O   O2        1.0  0.20040271634846069  0.3075215784320045  0.546684896335013  1.0000
+  O   O3        1.0  0.7716171042265951  0.4999999999999959  0.5105591048568153  1.0000
+  S   S2        1.0  0.9942245430108695  0.0  0.4471280169027465  1.0000
+  O   O4        1.0  0.7925971039924943  0.19247821389435557  0.4533142954564217  1.0000
+  O   O5        1.0  0.7925971039924943  0.8075217861056485  0.4533142954564217  1.0000
+  O   O6        1.0  0.22139193500930046  0.0  0.48944034758416693  1.0000

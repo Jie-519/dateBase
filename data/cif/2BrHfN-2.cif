@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hf2Br2N2
+_chemical_formula_sum              "Hf2 Br2 N2"
+_cell_length_a       3.6355754822751996
+_cell_length_b       3.6355754822752013
+_cell_length_c       36.532562
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999989
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  2.826062953289813e-18  8.106891145099161e-18  0.5355374338389772  1.0000
+  Hf  Hf2       1.0  0.3333333333333334  0.6666666666666667  0.46446256616102277  1.0000
+  Br  Br1       1.0  0.6666666666666667  0.33333333333333337  0.590056165794221  1.0000
+  Br  Br2       1.0  0.6666666666666667  0.33333333333333337  0.40994383420577873  1.0000
+  N   N1        1.0  0.0  0.0  0.4761661518600948  1.0000
+  N   N2        1.0  0.3333333333333334  0.6666666666666667  0.5238338481399052  1.0000

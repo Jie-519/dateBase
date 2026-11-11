@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Mg2As2K2
+_chemical_formula_sum              "Mg2 As2 K2"
+_cell_length_a       4.499826244113124
+_cell_length_b       4.499780132338192
+_cell_length_c       20.65566742
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mg  Mg1       1.0  0.5563860844194326  0.81966558  0.4999964486812144  1.0000
+  Mg  Mg2       1.0  0.05638608441943271  0.31967412  0.5000035513187858  1.0000
+  As  As1       1.0  0.555808166908599  0.31967252000000007  0.5749333119696838  1.0000
+  As  As2       1.0  0.055808166908599084  0.81966718  0.42506668803031633  1.0000
+  K   K1        1.0  0.0547257516986945  0.8196950100000001  0.6368983023277223  1.0000
+  K   K2        1.0  0.5547257516986944  0.31964468  0.3631016976722779  1.0000

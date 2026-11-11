@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       K2SeHSeH
+_chemical_formula_sum              "K2 Se2 H2"
+_cell_length_a       6.44097084547428
+_cell_length_b       6.442890313858256
+_cell_length_c       18.615232076943553
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00002672448475
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.911992968282725  0.9468015237482056  0.500155177803666  1.0000
+  K   K2        1.0  0.4117159153018433  0.4458844151348106  0.4999635713367426  1.0000
+  Se  Se1       1.0  0.4118926324712769  0.9459255446213626  0.4530647490392168  1.0000
+  H   H1        1.0  0.41185293012947494  0.9461796853852902  0.3734894551967106  1.0000
+  Se  Se2       1.0  0.9118592470043377  0.4469446050217069  0.5470362141713702  1.0000
+  H   H2        1.0  0.9122417521002126  0.4476538518323033  0.626610859365522  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       I4Ba2
+_chemical_formula_sum              "I4 Ba2"
+_cell_length_a       8.785917806366495
+_cell_length_b       5.066824802275091
+_cell_length_c       18.74918736
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.03934098275109
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.26123506423249077  0.3046851849064199  0.40050136440179146  1.0000
+  I   I2        1.0  0.7612209920876785  0.8049953584971988  0.5995103986832937  1.0000
+  I   I3        1.0  0.7522153303755594  0.3051650765015608  0.40048968960820186  1.0000
+  I   I4        1.0  0.25220027653373334  0.8054820256075305  0.5995027013388051  1.0000
+  Ba  Ba1       1.0  0.00671012658421136  0.30529811777123733  0.54241882393096  1.0000
+  Ba  Ba2       1.0  0.506728194871804  0.8049743192162905  0.4575770251454245  1.0000

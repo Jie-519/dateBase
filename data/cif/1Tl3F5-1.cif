@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Tl3F5
+_chemical_formula_sum              "Tl3 F5"
+_cell_length_a       6.032550032947133
+_cell_length_b       4.549590618253214
+_cell_length_c       19.02429624
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    112.15136130427886
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.3253305794826485  0.600203814957844  0.605152424532649  1.0000
+  Tl  Tl2       1.0  0.7499984207696364  0.3125648760600084  0.49994043452150017  1.0000
+  Tl  Tl3       1.0  0.1738716919486457  0.024437259117798694  0.3949402219925298  1.0000
+  F   F1        1.0  0.37266648355050175  0.12388041565789983  0.533980018477201  1.0000
+  F   F2        1.0  0.8671307114861142  0.37107181782269033  0.6062575429786156  1.0000
+  F   F3        1.0  0.7505032219076297  0.8128194712414318  0.4999547193572991  1.0000
+  F   F4        1.0  0.12759360934963512  0.5013083836140667  0.46603448462152636  1.0000
+  F   F5        1.0  0.6329196783046634  0.25410775821994497  0.3936624919495242  1.0000

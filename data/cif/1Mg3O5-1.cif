@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       O3MgOMg2O
+_chemical_formula_sum              "O5 Mg3"
+_cell_length_a       6.021559164510918
+_cell_length_b       5.575264093698945
+_cell_length_c       31.925245
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    122.70791147422524
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.28835446409990245  0.9784034269444062  0.5234064560908339  1.0000
+  O   O2        1.0  0.9201774076486092  0.28379607940092283  0.5217877018973375  1.0000
+  O   O3        1.0  0.6147810222454111  0.672758140460081  0.5219609948791919  1.0000
+  Mg  Mg1       1.0  0.27605264254127254  0.6151973603168762  0.5079760201184087  1.0000
+  O   O4        1.0  0.004535440822744263  0.6431869914749436  0.47404396947858596  1.0000
+  Mg  Mg2       1.0  0.9766026232297366  0.9782356406233503  0.5023507651293584  1.0000
+  Mg  Mg3       1.0  0.6392542306136815  0.3417480803198006  0.5079528314967829  1.0000
+  O   O5        1.0  0.3402422671109884  0.31465759760880013  0.4740995059609501  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cs3Br3
+_chemical_formula_sum              "Cs3 Br3"
+_cell_length_a       5.169254917990107
+_cell_length_b       5.174242697295262
+_cell_length_c       22.39363336
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cs  Cs1       1.0  0.7398250866003913  0.033477036062612056  0.6637183197182092  1.0000
+  Cs  Cs2       1.0  0.7398250866003913  0.042538933937387835  0.3362805402817907  1.0000
+  Cs  Cs3       1.0  0.2396296573411132  0.5380081100000004  0.50000114  1.0000
+  Br  Br1       1.0  0.2398259455466876  0.5333404340805318  0.6647379067716139  1.0000
+  Br  Br2       1.0  0.2398259455466876  0.5426755359194672  0.33526095322838523  1.0000
+  Br  Br3       1.0  0.739617986181776  0.03800811  0.50000114  1.0000

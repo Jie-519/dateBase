@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Ga4O6
+_chemical_formula_sum              "Ga4 O6"
+_cell_length_a       3.1523092221940954
+_cell_length_b       4.993280799812182
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.0  0.0018083502654494016  0.4690120455078847  1.0000
+  Ga  Ga2       1.0  0.49999999999999484  0.5018083502654447  0.5309879544921151  1.0000
+  Ga  Ga3       1.0  0.4999999999999989  0.5502287409140888  0.44181661805862377  1.0000
+  Ga  Ga4       1.0  0.9999999999999997  0.05022874091408927  0.5581833819413767  1.0000
+  O   O1        1.0  0.5000000000000004  0.7512893124211972  0.4881231966301121  1.0000
+  O   O2        1.0  1.3753950755088446e-17  0.2512893124211875  0.511876803369889  1.0000
+  O   O3        1.0  1.401778046855597e-17  0.7222756404045938  0.42692265013537195  1.0000
+  O   O4        1.0  0.5000000000000004  0.22227564040459183  0.5730773498646247  1.0000
+  O   O5        1.0  0.0  0.6801854398046356  0.5532703626864135  1.0000
+  O   O6        1.0  0.5000000000000004  0.180185439804632  0.44672963731358645  1.0000

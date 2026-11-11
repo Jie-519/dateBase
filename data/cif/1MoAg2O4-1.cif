@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       MoAg2O4
+_chemical_formula_sum              "Mo1 Ag2 O4"
+_cell_length_a       5.806712971771392
+_cell_length_b       5.812290854119665
+_cell_length_c       17.61186088641994
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.17908949249585965  0.09973779144075884  0.47748877174079496  1.0000
+  Ag  Ag1       1.0  0.1785862351628833  0.5993585726286732  0.5502914945032682  1.0000
+  Ag  Ag2       1.0  0.6787284086444652  0.09907802510285614  0.5494780184857524  1.0000
+  O   O1        1.0  0.3510514849124288  0.9295582261762144  0.4221360217286114  1.0000
+  O   O2        1.0  0.007906685281175774  0.2710367721616584  0.42224304200672047  1.0000
+  O   O3        1.0  0.99552116757378  0.9156249862231415  0.5407405007713391  1.0000
+  O   O4        1.0  0.36187246719968175  0.2828550826739478  0.5413067089725714  1.0000

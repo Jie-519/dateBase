@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Li3Cl3
+_chemical_formula_sum              "Li3 Cl3"
+_cell_length_a       3.5576289914145955
+_cell_length_b       3.5535663119126526
+_cell_length_c       20.36553173
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.97686979594128
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.872058278149307  0.7014968731276313  0.6229212549828776  1.0000
+  Li  Li2       1.0  0.872058278149307  0.7014968731276313  0.37707874501712224  1.0000
+  Li  Li3       1.0  0.3722859112250756  0.20168881502278999  0.5  1.0000
+  Cl  Cl1       1.0  0.37187078519721595  0.201441434629986  0.6314817487631644  1.0000
+  Cl  Cl2       1.0  0.37187078519721595  0.201441434629986  0.36851825123683557  1.0000
+  Cl  Cl3       1.0  0.872026212805711  0.7015748529363015  0.5  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Hg2Te2Cu2Cl2
+_chemical_formula_sum              "Hg2 Te2 Cu2 Cl2"
+_cell_length_a       4.375306117730298
+_cell_length_b       7.236056932219677
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.5000000000000001  0.0911983198947317  0.5114936665829752  1.0000
+  Hg  Hg2       1.0  0.5  0.5911983198947461  0.4885063334170249  1.0000
+  Te  Te1       1.0  0.5000000000000001  0.2770768186948396  0.4497708226816501  1.0000
+  Te  Te2       1.0  0.5000000000000001  0.7770768186948129  0.5502291773183428  1.0000
+  Cu  Cu1       1.0  0.0  0.09863186355888424  0.45650555473646165  1.0000
+  Cu  Cu2       1.0  0.0  0.5986318635588198  0.5434944452635383  1.0000
+  Cl  Cl1       1.0  2.0670502413215597e-17  0.2896721203043289  0.547756727605787  1.0000
+  Cl  Cl2       1.0  3.7173480705787785e-17  0.7896721203043208  0.45224327239421347  1.0000

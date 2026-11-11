@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Be6As4
+_chemical_formula_sum              "Be6 As4"
+_cell_length_a       5.777422316868197
+_cell_length_b       5.777309888286794
+_cell_length_c       17.61284857
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99999455970044
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.36874080467981435  0.13128791030048909  0.5316204634488081  1.0000
+  Be  Be2       1.0  0.6312591953201857  0.8687121096995107  0.5316204634488081  1.0000
+  Be  Be3       1.0  0.1312592053200905  0.6312878903004407  0.4683795365511919  1.0000
+  Be  Be4       1.0  0.8687408046799056  0.36871209969956054  0.4683795365511919  1.0000
+  Be  Be5       1.0  5.512516676184236e-20  2.0000000000179767e-08  0.49990575516100255  1.0000
+  Be  Be6       1.0  0.5000000100000012  0.4999999900000016  0.5000942448389976  1.0000
+  As  As1       1.0  0.7224949735779163  0.22233789944937996  0.5740689341908755  1.0000
+  As  As2       1.0  0.27750501642208286  0.7776620705506216  0.5740689341908755  1.0000
+  As  As3       1.0  0.7775050264220205  0.7223379194493635  0.42593107580912276  1.0000
+  As  As4       1.0  0.22249497357797615  0.27766209055063906  0.42593107580912276  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I6Ge2Ag2
+_chemical_formula_sum              "I6 Ge2 Ag2"
+_cell_length_a       7.644101514363703
+_cell_length_b       7.644101510523112
+_cell_length_c       18.6393981
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000001662022
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.638385615869489  3.0213757686010736e-19  0.5973282331354032  1.0000
+  I   I2        1.0  0.3616143841305115  0.36161438413051  0.5973282331354032  1.0000
+  I   I3        1.0  1.1410293822323297e-15  0.6383855958694881  0.5973282331354032  1.0000
+  I   I4        1.0  0.36161439413051283  1.8281960852037818e-19  0.40267176686459677  1.0000
+  I   I5        1.0  0.63838561586949  0.6383856058694879  0.40267176686459677  1.0000
+  I   I6        1.0  2.364640586913178e-16  0.36161438413051  0.40267176686459677  1.0000
+  Ge  Ge1       1.0  0.3333333300000012  0.66666667  0.5  1.0000
+  Ge  Ge2       1.0  0.6666666700000001  0.33333333  0.5  1.0000
+  Ag  Ag1       1.0  0.0  7.364847765216158e-22  0.5807107818750575  1.0000
+  Ag  Ag2       1.0  0.0  0.0  0.41928921812494246  1.0000

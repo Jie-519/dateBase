@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       I2Y2Se2
+_chemical_formula_sum              "I2 Y2 Se2"
+_cell_length_a       4.247588642244999
+_cell_length_b       7.357328195280002
+_cell_length_c       18.37690131
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.7498720418011818  0.7830274888097857  0.5978102452289482  1.0000
+  I   I2        1.0  0.25012798819881876  0.28302747880978557  0.5978102452289482  1.0000
+  Y   Y1        1.0  0.24987338119810856  0.6164211929603062  0.486055744659845  1.0000
+  Y   Y2        1.0  0.7501265888018924  0.1164211829603055  0.48605575465984496  1.0000
+  Se  Se1       1.0  0.7498784012753816  0.44973024778063125  0.4161296294514045  1.0000
+  Se  Se2       1.0  0.25012158872461787  0.9497302577806304  0.4161296194514046  1.0000

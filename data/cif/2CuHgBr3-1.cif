@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Br6Hg2Cu2
+_chemical_formula_sum              "Br6 Hg2 Cu2"
+_cell_length_a       7.101571266463418
+_cell_length_b       7.10157304682362
+_cell_length_c       18.31691878
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0247072455936
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.3340822135679803  0.3340822835667982  0.4095954430448971  1.0000
+  Br  Br2       1.0  0.6651649906906738  0.999675003858528  0.40958265106365827  1.0000
+  Br  Br3       1.0  0.9996750038596292  0.6651649806927653  0.4095826710636583  1.0000
+  Br  Br4       1.0  0.6659177164320244  0.6659177564332036  0.5904045469551024  1.0000
+  Br  Br5       1.0  0.33483500930932975  0.0003250161414730327  0.5904173389363415  1.0000
+  Br  Br6       1.0  0.0003249561403742593  0.3348349793072322  0.5904173289363416  1.0000
+  Hg  Hg1       1.0  0.6665901975110449  0.3334097924890182  0.50000001  1.0000
+  Hg  Hg2       1.0  0.33340990248896035  0.6665901875109831  0.5  1.0000
+  Cu  Cu1       1.0  0.9995109361556482  0.9995109061556452  0.42512781438378805  1.0000
+  Cu  Cu2       1.0  0.0004890638443539292  0.0004890938443533519  0.574872195616212  1.0000

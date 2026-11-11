@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       P2Hg3
+_chemical_formula_sum              "P2 Hg3"
+_cell_length_a       5.937040841644036
+_cell_length_b       3.3066141570974583
+_cell_length_c       20.73220478
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    106.1577375567374
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.5219053071743247  0.08140354510841707  0.46865671327297853  1.0000
+  P   P2        1.0  0.3919130394661102  0.5164793326442914  0.5314387194661812  1.0000
+  Hg  Hg1       1.0  0.8133896736995  0.7267122732065244  0.6360498705832244  1.0000
+  Hg  Hg2       1.0  0.10066788430302187  0.8690673565970589  0.36390572502251667  1.0000
+  Hg  Hg3       1.0  0.9569538072389354  0.2993329300139436  0.49994510617174237  1.0000

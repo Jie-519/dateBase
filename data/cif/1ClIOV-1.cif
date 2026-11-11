@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VIOCl
+_chemical_formula_sum              "V1 I1 O1 Cl1"
+_cell_length_a       3.7059963574744677
+_cell_length_b       3.8258608711705997
+_cell_length_c       18.539179096108146
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00128172329167
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.29000859626966874  0.919196815594046  0.5130651769378377  1.0000
+  I   I1        1.0  0.7901269034109948  0.9974098856906993  0.4045486567188105  1.0000
+  O   O1        1.0  0.29023130432709865  0.49042215419072427  0.5128666782331431  1.0000
+  Cl  Cl1       1.0  0.7903232367750608  0.9966089984437647  0.5954513432811895  1.0000

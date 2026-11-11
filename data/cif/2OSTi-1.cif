@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       S2O2Ti2
+_chemical_formula_sum              "S2 O2 Ti2"
+_cell_length_a       3.3512120897841857
+_cell_length_b       3.3512566319813994
+_cell_length_c       20.8729365
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    60.00095157220131
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.8991788766175055  0.6172326164042876  0.640673386911336  1.0000
+  S   S2        1.0  0.8990601104748754  0.6176364166508117  0.3593265122022682  1.0000
+  O   O1        1.0  0.23246065407684893  0.9507359008395745  0.5357911059467481  1.0000
+  O   O2        1.0  0.5657694243076826  0.28417321428757675  0.46420895761244607  1.0000
+  Ti  Ti1       1.0  0.5658132187446248  0.2839999848822611  0.5673936545351954  1.0000
+  Ti  Ti2       1.0  0.23241777702610805  0.9509016511747553  0.43260638297385723  1.0000

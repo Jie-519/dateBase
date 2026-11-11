@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrNiCl6
+_chemical_formula_sum              "Zr1 Ni1 Cl6"
+_cell_length_a       6.291498749098968
+_cell_length_b       6.291498749098969
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.96948823833759
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.9977540336658567  0.0023319220501188107  0.5000049526302376  1.0000
+  Ni  Ni1       1.0  0.6645055731672541  0.33559254245269676  0.5000050234409635  1.0000
+  Cl  Cl1       1.0  0.33836027932657675  0.310004453388962  0.5791363422024741  1.0000
+  Cl  Cl2       1.0  0.9645339117666715  0.6616590254361009  0.5791233486639383  1.0000
+  Cl  Cl3       1.0  0.6906979440814716  0.03585963391007706  0.5792881123619832  1.0000
+  Cl  Cl4       1.0  0.9642241721527357  0.3093813535920491  0.4207195988076089  1.0000
+  Cl  Cl5       1.0  0.33843515648631295  0.03554131837076581  0.420892611676062  1.0000
+  Cl  Cl6       1.0  0.6900933606121968  0.661730125735734  0.4208698831649194  1.0000

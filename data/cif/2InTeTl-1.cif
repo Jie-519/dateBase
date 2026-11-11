@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2In2Te2
+_chemical_formula_sum              "Tl2 In2 Te2"
+_cell_length_a       8.718993670757486
+_cell_length_b       4.474239627253047
+_cell_length_c       19.01136655
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    59.161436758250346
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.631096220217747  0.96381953884636  0.5917659530569968  1.0000
+  Tl  Tl2       1.0  0.13109622021774622  0.9638195288463597  0.4082340469430031  1.0000
+  In  In1       1.0  0.013210060959782572  0.08143518132895375  0.6047597550897323  1.0000
+  In  In2       1.0  0.5132100709597824  0.08143517132895321  0.3952402349102688  1.0000
+  Te  Te1       1.0  0.2317288065287308  0.36300005874123054  0.5281668967769673  1.0000
+  Te  Te2       1.0  0.7317288065287316  0.36300005874122854  0.4718331132230328  1.0000

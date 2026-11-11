@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cl2Br2Cd2
+_chemical_formula_sum              "Cl2 Br2 Cd2"
+_cell_length_a       4.195442110750742
+_cell_length_b       8.173567471780949
+_cell_length_c       18.1174517
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.9999999526561267  0.0984412934602338  0.4166468959152166  1.0000
+  Cl  Cl2       1.0  4.7343873226047695e-08  0.5984412934602351  0.4166468959152166  1.0000
+  Br  Br1       1.0  0.5008199688770743  0.3485439998533783  0.5859934525478174  1.0000
+  Br  Br2       1.0  0.4991800311229217  0.8485439998533814  0.5859934525478174  1.0000
+  Cd  Cd1       1.0  0.9990917306430614  0.8484380411188439  0.49735620625517674  1.0000
+  Cd  Cd2       1.0  0.0009082693569329311  0.34843804111884397  0.49735620625517674  1.0000

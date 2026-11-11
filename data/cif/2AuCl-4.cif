@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cl2Au2
+_chemical_formula_sum              "Cl2 Au2"
+_cell_length_a       4.009583164300034
+_cell_length_b       4.009583164300034
+_cell_length_c       18.365828278447967
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  1.9767066666916392e-16  9.386342878885709e-17  0.6041242616428046  1.0000
+  Cl  Cl2       1.0  0.5  0.5  0.3958758036772667  1.0000
+  Au  Au1       1.0  0.5000000000000001  1.6059195254433135e-16  0.5000000697381725  1.0000
+  Au  Au2       1.0  1.6754020633535206e-16  0.5000000000000001  0.5000000697381725  1.0000

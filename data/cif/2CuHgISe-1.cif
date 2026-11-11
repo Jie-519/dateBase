@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Hg2Se2Cu2I2
+_chemical_formula_sum              "Hg2 Se2 Cu2 I2"
+_cell_length_a       4.276591182337056
+_cell_length_b       7.3025862098978225
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99999999999999
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.500000000000002  0.09637584051799508  0.5180829044663778  1.0000
+  Hg  Hg2       1.0  0.5000000000000024  0.5963758405180188  0.4819170955336222  1.0000
+  Se  Se1       1.0  0.5000000000000026  0.2597247930037417  0.4584836243688211  1.0000
+  Se  Se2       1.0  0.4999999999999969  0.7597247930037159  0.5415163756311717  1.0000
+  Cu  Cu1       1.0  0.0  0.11952565681590507  0.4549525025853703  1.0000
+  Cu  Cu2       1.0  0.0  0.6195256568158402  0.5450474974146298  1.0000
+  I   I1        1.0  2.9316972233772015e-17  0.28096312749994407  0.5628149554000387  1.0000
+  I   I2        1.0  4.3985272032308166e-17  0.7809631274999365  0.43718504459996177  1.0000

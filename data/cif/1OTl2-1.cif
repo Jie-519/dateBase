@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       Tl2O
+_chemical_formula_sum              "Tl2 O1"
+_cell_length_a       3.5134911562056583
+_cell_length_b       3.513594024507343
+_cell_length_c       18.19812684
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    59.99285208030941
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.39645860611741596  0.42682590610814025  0.5876733032459107  1.0000
+  Tl  Tl2       1.0  0.39645860611741596  0.42682590610814025  0.4123270167540891  1.0000
+  O   O1        1.0  0.06292447267022716  0.09326386268868989  0.49999967  1.0000

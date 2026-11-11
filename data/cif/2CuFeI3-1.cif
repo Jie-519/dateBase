@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I6Fe2Cu2
+_chemical_formula_sum              "I6 Fe2 Cu2"
+_cell_length_a       6.912902042343226
+_cell_length_b       6.912902047266471
+_cell_length_c       18.29808464
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000002577747
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.6323322784631948  4.108256823315015e-13  0.5820049109165036  1.0000
+  I   I2        1.0  0.36766771153678696  0.36766772153717786  0.5820049109165036  1.0000
+  I   I3        1.0  1.547554931446657e-14  0.632332268462405  0.5820049109165036  1.0000
+  I   I4        1.0  0.3676677115368083  0.9999999999995891  0.4179950890834961  1.0000
+  I   I5        1.0  0.6323322884632082  0.6323322884628143  0.4179950890834961  1.0000
+  I   I6        1.0  0.9999999999999801  0.36766772153758975  0.4179950890834961  1.0000
+  Fe  Fe1       1.0  0.33333332999999765  0.6666666699999966  0.5  1.0000
+  Fe  Fe2       1.0  0.6666666700000001  0.33333332999999865  0.5  1.0000
+  Cu  Cu1       1.0  0.0  0.0  0.571940531561105  1.0000
+  Cu  Cu2       1.0  9.49455198212753e-20  3.025422472211402e-19  0.42805946843889603  1.0000

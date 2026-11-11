@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       AsTe2As
+_chemical_formula_sum              "As2 Te2"
+_cell_length_a       3.8469377097459057
+_cell_length_b       6.528588893342166
+_cell_length_c       18.482221106641873
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    107.11953895898719
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.3501229390218614  0.700292815847143  0.5662446891052645  1.0000
+  Te  Te1       1.0  0.6740252576230051  0.3477290633581525  0.44069493978704644  1.0000
+  Te  Te2       1.0  0.9973556729907398  0.9950977490910641  0.5593071426452114  1.0000
+  As  As2       1.0  0.3213232974987218  0.6425367340654571  0.43376919711530143  1.0000

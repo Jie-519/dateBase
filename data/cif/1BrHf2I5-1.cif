@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       I2BrHfI3Hf
+_chemical_formula_sum              "I5 Br1 Hf2"
+_cell_length_a       6.844954319678933
+_cell_length_b       6.959443815511182
+_cell_length_c       19.060416941485947
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    117.69974226655845
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.826821346990294  0.3029307027712816  0.3934856211710603  1.0000
+  I   I2        1.0  0.5088282124774609  0.9895715233728172  0.6065143788289395  1.0000
+  Br  Br1       1.0  0.15771791043654618  0.27467137794650626  0.572765776235497  1.0000
+  Hf  Hf1       1.0  0.805494327819717  0.009096033556813604  0.49950015979741685  1.0000
+  I   I3        1.0  0.8145672208403587  0.638229732168857  0.5840223373787822  1.0000
+  I   I4        1.0  0.5098620637992407  0.6446719128694324  0.4157820885272101  1.0000
+  I   I5        1.0  0.16779712865913238  0.9878277402557931  0.4114893845933784  1.0000
+  Hf  Hf2       1.0  0.5247901295691328  0.2767039485241072  0.49883818415505393  1.0000

@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CoTeI
+_chemical_formula_sum              "Co1 Te1 I1"
+_cell_length_a       3.775822661365476
+_cell_length_b       3.776217987723167
+_cell_length_c       17.844277087544796
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.01191190567322
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.8238481664957651  0.8367965571003181  0.5050847613490105  1.0000
+  Te  Te1       1.0  0.4903169251720333  0.16960580709605338  0.579697178921585  1.0000
+  I   I1        1.0  0.15713989849264967  0.5036140193835367  0.42030282107841505  1.0000

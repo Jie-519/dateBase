@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Se3In2
+_chemical_formula_sum              "Se3 In2"
+_cell_length_a       4.020198035307701
+_cell_length_b       10.655737146012392
+_cell_length_c       18.51450332
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    41.00531652017386
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.5583124668471887  0.6406168056945465  0.5259480311974358  1.0000
+  Se  Se2       1.0  0.38316086661767856  0.22818224467151643  0.39828110724848437  1.0000
+  Se  Se3       1.0  0.017639559659393667  0.16103503435757782  0.586916644852671  1.0000
+  In  In1       1.0  0.5133863471193751  0.41306717189793646  0.4739176686233534  1.0000
+  In  In2       1.0  0.8235962727591697  0.008075372137692506  0.5149316744929779  1.0000

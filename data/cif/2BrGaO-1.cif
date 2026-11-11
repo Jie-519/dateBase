@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Ga2O2Br2
+_chemical_formula_sum              "Ga2 O2 Br2"
+_cell_length_a       3.8432062263015885
+_cell_length_b       3.410042106545941
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.49999999999999983  2.459246498134116e-17  0.45770451599728107  1.0000
+  Ga  Ga2       1.0  3.507474689028473e-18  0.5  0.5422954648636532  1.0000
+  O   O1        1.0  0.49999999999999983  0.5  0.5158428354454208  1.0000
+  O   O2        1.0  4.2165970079004564e-20  3.808198491775457e-19  0.4841572363177759  1.0000
+  Br  Br1       1.0  0.49999999999999983  0.5  0.3701938344625543  1.0000
+  Br  Br2       1.0  3.7247768665984157e-19  2.9505545971211556e-19  0.6298061642952334  1.0000

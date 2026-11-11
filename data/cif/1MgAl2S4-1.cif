@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       AlS2MgAlS2
+_chemical_formula_sum              "Al2 S4 Mg1"
+_cell_length_a       3.717462151466682
+_cell_length_b       3.717462151466662
+_cell_length_c       39.02500000000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999984
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  1.2017367281544647e-18  2.406522200954236e-18  0.5910613794804828  1.0000
+  S   S1        1.0  0.6666666666666662  0.33333333333333465  0.6159383863238885  1.0000
+  S   S2        1.0  0.0  0.0  0.5353295701734223  1.0000
+  Mg  Mg1       1.0  0.6666666666666662  0.33333333333333465  0.5  1.0000
+  Al  Al2       1.0  0.3333333333333313  0.6666666666666692  0.40893862051951657  1.0000
+  S   S3        1.0  0.6666666666666662  0.33333333333333465  0.38406161367611213  1.0000
+  S   S4        1.0  0.3333333333333313  0.6666666666666692  0.46467042982657797  1.0000

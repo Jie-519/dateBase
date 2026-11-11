@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SeNiSZr
+_chemical_formula_sum              "Se1 Ni1 S1 Zr1"
+_cell_length_a       3.9686857058279945
+_cell_length_b       3.968000127439562
+_cell_length_c       18.178644696750894
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99566156165332
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.8437091468396328  0.49888365694123404  0.587427988988613  1.0000
+  Ni  Ni1       1.0  0.1769206505401958  0.16546427998183647  0.5408670278066249  1.0000
+  S   S1        1.0  0.1772579879389695  0.16569863606005103  0.4125720110113869  1.0000
+  Zr  Zr1       1.0  0.510629609353101  0.8323806786379074  0.47968564403621217  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Rh2I6
+_chemical_formula_sum              "Rh2 I6"
+_cell_length_a       6.933567041804196
+_cell_length_b       6.933567041804197
+_cell_length_c       18.03458503826331
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.6666666666666665  0.33333333333333337  0.4999905777163845  1.0000
+  Rh  Rh2       1.0  0.33333333333333365  0.6666666666666667  0.5000094222836158  1.0000
+  I   I1        1.0  0.6422966032275419  1.004377385107951e-05  0.41583650541237294  1.0000
+  I   I2        1.0  0.35771344054630905  0.3577033967724567  0.41583650541237294  1.0000
+  I   I3        1.0  0.9999899562261486  0.6422865594536896  0.41583650541237294  1.0000
+  I   I4        1.0  0.35770339677245955  0.9999899562261384  0.5841634945876247  1.0000
+  I   I5        1.0  0.6422865594536804  0.642296603227541  0.5841634945876247  1.0000
+  I   I6        1.0  1.004377386218682e-05  0.35771344054632265  0.5841634945876247  1.0000

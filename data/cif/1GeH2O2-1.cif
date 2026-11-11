@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       OHGeOH
+_chemical_formula_sum              "O2 H2 Ge1"
+_cell_length_a       3.6272352776291283
+_cell_length_b       3.6277359123274096
+_cell_length_c       18.838005600000002
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99543503660608
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.33304607099931993  0.6660921419986392  0.5588065777435732  1.0000
+  H   H1        1.0  0.3332527838992915  0.6665055677985824  0.610466393601412  1.0000
+  Ge  Ge1       1.0  0.9999998294188  0.9999996588375994  0.5000000034599744  1.0000
+  O   O2        1.0  0.666953985366617  0.33390797073323325  0.44119342613551976  1.0000
+  H   H2        1.0  0.6667472589723425  0.33349451794468454  0.38953360961655026  1.0000

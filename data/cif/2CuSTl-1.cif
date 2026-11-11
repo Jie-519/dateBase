@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2S2Cu2
+_chemical_formula_sum              "Tl2 S2 Cu2"
+_cell_length_a       5.0978088936312815
+_cell_length_b       4.800990002243285
+_cell_length_c       18.68512585
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.9731233193496588  0.3547970930925005  0.5984695772634814  1.0000
+  Tl  Tl2       1.0  0.4731233193496589  0.23352059690749954  0.4015304227365185  1.0000
+  S   S1        1.0  0.47369560914895115  0.9883750516827751  0.5796958735255634  1.0000
+  S   S2        1.0  0.9736956091489514  0.5999526383172249  0.4203041264744365  1.0000
+  Cu  Cu1       1.0  0.7242412565808791  0.7949793696227672  0.5000036571615865  1.0000
+  Cu  Cu2       1.0  0.22424125658087857  0.7933383203772331  0.4999963428384135  1.0000

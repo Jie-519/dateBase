@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TaOClOTaOClO
+_chemical_formula_sum              "Ta2 O4 Cl2"
+_cell_length_a       3.694751784791276
+_cell_length_b       3.846575423795947
+_cell_length_c       37.332757300000004
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.5000000000000001  0.944525827138367  0.4611103659213536  1.0000
+  O   O1        1.0  0.5000000000000001  0.44426898046944274  0.4554637221995705  1.0000
+  Cl  Cl1       1.0  0.0  0.9446820675757633  0.41049279116805154  1.0000
+  O   O2        1.0  1.0860048063942186e-17  0.9433679032825651  0.48321966359837665  1.0000
+  Ta  Ta2       1.0  7.218101178017468e-18  0.9456835289831731  0.5388900932126105  1.0000
+  O   O3        1.0  0.0  0.4459403257462065  0.5445367981713328  1.0000
+  Cl  Cl2       1.0  0.5  0.9455277906104422  0.5895077044424367  1.0000
+  O   O4        1.0  0.5  0.9468437407355953  0.5167807916621276  1.0000

@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       CdAlInS4
+_chemical_formula_sum              "Cd1 Al1 In1 S4"
+_cell_length_a       3.889567961493563
+_cell_length_b       3.8895641340207683
+_cell_length_c       39.30476960000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9999674483742
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.9999971186783666  0.9999985593391834  0.4975858736158939  1.0000
+  Al  Al1       1.0  0.6666625368232512  0.333331268411627  0.4053818437238419  1.0000
+  In  In1       1.0  0.3333407023466036  0.6666703511732996  0.5949378269079018  1.0000
+  S   S1        1.0  0.6666615447449973  0.33333077237249886  0.46086207269125107  1.0000
+  S   S2        1.0  0.3333336325054681  0.6666668162527377  0.5339581913231705  1.0000
+  S   S3        1.0  0.33333034019744356  0.6666651700987234  0.3827282613082377  1.0000
+  S   S4        1.0  0.666674128913997  0.33333706445700034  0.6245465650927555  1.0000

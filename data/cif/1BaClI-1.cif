@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       ClIBa
+_chemical_formula_sum              "Cl1 I1 Ba1"
+_cell_length_a       4.950637141360603
+_cell_length_b       4.951073992754606
+_cell_length_c       18.232602694898333
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.02473311214827
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.5000954538540457  0.16633709836199198  0.5886489644126027  1.0000
+  I   I1        1.0  0.16617307581014806  0.49958804306670707  0.41135103558739733  1.0000
+  Ba  Ba1       1.0  0.8329909022364129  0.8330237135087246  0.5180736811784967  1.0000

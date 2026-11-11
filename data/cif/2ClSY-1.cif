@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Y2S2Cl2
+_chemical_formula_sum              "Y2 S2 Cl2"
+_cell_length_a       3.994983520938648
+_cell_length_b       5.36378536134416
+_cell_length_c       20.89545245
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99999961076489
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.6180554106508834  0.5786793415993362  0.5559749685120602  1.0000
+  Y   Y2        1.0  0.11805557730703194  0.07888137697886675  0.4440248096007443  1.0000
+  S   S1        1.0  0.6180579078538244  0.07869554586693715  0.5343415468783127  1.0000
+  S   S2        1.0  0.11805766384410803  0.5788618522355845  0.4656580928863822  1.0000
+  Cl  Cl1       1.0  0.11805637588173021  0.5777467885957325  0.6407113299294155  1.0000
+  Cl  Cl2       1.0  0.6180570153883327  0.0798162099199263  0.3592885331743598  1.0000

@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       NiAlS2AlS2
+_chemical_formula_sum              "Ni1 Al2 S4"
+_cell_length_a       3.6268202109981624
+_cell_length_b       3.626820210998179
+_cell_length_c       38.822593
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999982
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.6666666666666663  0.3333333333333331  0.4999451759588841  1.0000
+  Al  Al1       1.0  0.33333333333333365  0.666666666666667  0.4124834975376039  1.0000
+  S   S1        1.0  0.6666666666666663  0.33333333333333315  0.38626878762232625  1.0000
+  S   S2        1.0  0.33333333333333365  0.666666666666667  0.46911346826065614  1.0000
+  Al  Al2       1.0  0.9999999999999998  1.5041715668328668e-18  0.5873820703745525  1.0000
+  S   S3        1.0  0.6666666666666661  0.33333333333333315  0.6135880249731258  1.0000
+  S   S4        1.0  0.9999999999999998  0.0  0.5307578092890625  1.0000

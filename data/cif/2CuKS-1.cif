@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       K2S2Cu2
+_chemical_formula_sum              "K2 S2 Cu2"
+_cell_length_a       4.886471232372979
+_cell_length_b       4.703852470778479
+_cell_length_c       19.24300922
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.7271623049244915  0.9632290957608721  0.6102328854371452  1.0000
+  K   K2        1.0  0.22716230492449194  0.9618931842391298  0.38976711456285484  1.0000
+  S   S1        1.0  0.22776804760127703  0.4636980790978787  0.5939595989051257  1.0000
+  S   S2        1.0  0.7277680476012774  0.4614242009021218  0.40604040109487466  1.0000
+  Cu  Cu1       1.0  0.47796022270027483  0.4626908213240306  0.5000404024992053  1.0000
+  Cu  Cu2       1.0  0.9779602227002749  0.46243144867597036  0.4999595975007947  1.0000

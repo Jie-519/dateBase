@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BrSeGe2SeCl
+_chemical_formula_sum              "Br1 Se2 Ge2 Cl1"
+_cell_length_a       5.98018498686982
+_cell_length_b       5.9714609485914325
+_cell_length_c       17.892797014403396
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    74.34347541043472
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.8137294086972208  0.5707832394307082  0.41916308523271273  1.0000
+  Se  Se1       1.0  0.8915461034703852  0.11277378030728898  0.5808369147672872  1.0000
+  Ge  Ge1       1.0  0.624090927610549  0.38113501612504697  0.5065308207684885  1.0000
+  Ge  Ge2       1.0  0.125327951318785  0.8823926131037126  0.47954122695336504  1.0000
+  Se  Se2       1.0  0.35537818037330376  0.6482666387475382  0.5808112674174484  1.0000
+  Cl  Cl1       1.0  0.44561420385809797  0.20206191454943667  0.4268640339898144  1.0000

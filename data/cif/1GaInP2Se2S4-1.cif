@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       PS3PGaSeSInSe
+_chemical_formula_sum              "P2 S4 Ga1 Se2 In1"
+_cell_length_a       6.543960619010498
+_cell_length_b       6.542690895647027
+_cell_length_c       18.624950756576414
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.4308027785919
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.4952573262833783  0.850814003810069  0.5609650442720463  1.0000
+  S   S1        1.0  0.4620983752183769  0.13265799228829603  0.4084926213822571  1.0000
+  S   S2        1.0  0.8101732345574639  0.12199875158479802  0.5934642601224258  1.0000
+  S   S3        1.0  0.21933708172093996  0.5331397976348542  0.40646994637265615  1.0000
+  P   P2        1.0  0.49158094794495805  0.847223453300207  0.43908225556318453  1.0000
+  Ga  Ga1       1.0  0.8341942805032907  0.5082936111183962  0.5005549762153829  1.0000
+  Se  Se1       1.0  0.83453781606063  0.8876900956870876  0.40268562843591793  1.0000
+  S   S4        1.0  0.21090734768257735  0.882051754193009  0.5915464682846553  1.0000
+  In  In1       1.0  0.16310307306810143  0.17945469756058077  0.4996825444294619  1.0000
+  Se  Se2       1.0  0.45295143446973074  0.506937304019075  0.5973143715640817  1.0000

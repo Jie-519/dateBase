@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       F2Sn2Cl2
+_chemical_formula_sum              "F2 Sn2 Cl2"
+_cell_length_a       5.872158033358222
+_cell_length_b       4.433651622119277
+_cell_length_c       18.07360051
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.8737930369001664  0.54650282231677  0.573496615366344  1.0000
+  F   F2        1.0  0.3737930369001713  0.5481234676832232  0.42650338463365745  1.0000
+  Sn  Sn1       1.0  0.4059575354977922  0.04851740851865947  0.41421843723293345  1.0000
+  Sn  Sn2       1.0  0.9059575354977902  0.04610888148134031  0.5857815627670683  1.0000
+  Cl  Cl1       1.0  0.44587490157645415  0.04744004765740825  0.5591724498335164  1.0000
+  Cl  Cl2       1.0  0.9458749015764493  0.04718624234259139  0.4408275501664845  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       TeGeCuBr
+_chemical_formula_sum              "Te1 Ge1 Cu1 Br1"
+_cell_length_a       4.273312178855988
+_cell_length_b       4.282105470880826
+_cell_length_c       18.61224736735394
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.96548813814319
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.4971644518874135  0.46857425541763165  0.5970395271473196  1.0000
+  Ge  Ge1       1.0  0.8318011849744185  0.1379555032391254  0.4891991612792783  1.0000
+  Cu  Cu1       1.0  0.16411674011612687  0.8027531666748511  0.5511018207823196  1.0000
+  Br  Br1       1.0  0.16135410014704127  0.7971543688731342  0.4029604728526804  1.0000

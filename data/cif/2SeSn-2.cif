@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Sn2Se2
+_chemical_formula_sum              "Sn2 Se2"
+_cell_length_a       6.181293916069591
+_cell_length_b       3.9086434114743946
+_cell_length_c       18.0
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sn  Sn1       1.0  0.9867705060347916  0.0  0.44304845864237913  1.0000
+  Sn  Sn2       1.0  0.48677050603480854  0.5000000000000038  0.5569515413576208  1.0000
+  Se  Se1       1.0  0.013254048972346874  0.5000000000000038  0.5484917290361255  1.0000
+  Se  Se2       1.0  0.5132540489723548  0.0  0.4515082709638744  1.0000

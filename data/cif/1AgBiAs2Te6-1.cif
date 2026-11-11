@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       BiTe6As2Ag
+_chemical_formula_sum              "Bi1 Te6 As2 Ag1"
+_cell_length_a       7.264772915419093
+_cell_length_b       7.265072109785406
+_cell_length_c       33.51516779999999
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99893136196881
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Bi  Bi1       1.0  4.965610377216656e-05  0.9999923646733733  0.5067136615879345  1.0000
+  Te  Te1       1.0  0.6447900620956527  0.5813728560257079  0.554914536139636  1.0000
+  Te  Te2       1.0  0.9367233579328776  0.3552305612499209  0.5549095850696363  1.0000
+  Te  Te3       1.0  0.4186310911215622  0.06330303754513852  0.5549112964024173  1.0000
+  Te  Te4       1.0  0.6909678126985103  0.9782849457375908  0.4413561037992353  1.0000
+  Te  Te5       1.0  0.28745047267031554  0.309097825349149  0.44136025832431874  1.0000
+  Te  Te6       1.0  0.021724966671525146  0.7125801811446232  0.44135652725392477  1.0000
+  As  As1       1.0  0.3333400890508817  0.6665514237543536  0.4699535031057158  1.0000
+  As  As2       1.0  0.3333308509836945  0.6665958677355244  0.5467009254729885  1.0000
+  Ag  Ag1       1.0  0.6666906998736238  0.3332907807721344  0.47084599731566673  1.0000

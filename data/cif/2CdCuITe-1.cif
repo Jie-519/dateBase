@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cd2Te2Cu2I2
+_chemical_formula_sum              "Cd2 Te2 Cu2 I2"
+_cell_length_a       4.488370234740327
+_cell_length_b       7.484316173684129
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.49999999999999384  0.11814439763298834  0.5229956963232613  1.0000
+  Cd  Cd2       1.0  0.49999999999999967  0.6181443976329831  0.47700430367673885  1.0000
+  Te  Te1       1.0  0.4999999999999998  0.25794397843790057  0.45754075904951186  1.0000
+  Te  Te2       1.0  0.4999999999999951  0.7579439784378728  0.5424592409504809  1.0000
+  Cu  Cu1       1.0  0.0  0.10843443266141643  0.4524181980704283  1.0000
+  Cu  Cu2       1.0  0.0  0.6084344326613407  0.5475818019295716  1.0000
+  I   I1        1.0  2.298572880797869e-17  0.2721311911857281  0.5637471192736171  1.0000
+  I   I2        1.0  4.481231218985911e-17  0.7721311911857209  0.4362528807263834  1.0000

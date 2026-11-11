@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       SeHSrSeH
+_chemical_formula_sum              "Se2 H2 Sr1"
+_cell_length_a       4.925281088618445
+_cell_length_b       4.929940292541035
+_cell_length_c       19.208510457334267
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99096699397826
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.7344816549368828  0.3337426426329452  0.5716229830500794  1.0000
+  H   H1        1.0  0.7353157943604565  0.33347798705814874  0.6486052700456895  1.0000
+  Sr  Sr1       1.0  0.06748765161427606  0.9999729658910467  0.49999770851224357  1.0000
+  Se  Se2       1.0  0.40083386444636415  0.6661847387567611  0.42838462519804466  1.0000
+  H   H2        1.0  0.4018021653254426  0.6665894047018538  0.35140271072185153  1.0000

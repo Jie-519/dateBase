@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrCoBr6
+_chemical_formula_sum              "Zr1 Co1 Br6"
+_cell_length_a       6.505822103445011
+_cell_length_b       6.505822103445011
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    117.6425187828947
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.04586378181539055  0.9543793060625759  0.4998450581700394  1.0000
+  Co  Co1       1.0  0.6992103702338114  0.30118496808483064  0.4998916175287589  1.0000
+  Br  Br1       1.0  0.3884972258386258  0.29498488048429405  0.5781928990152857  1.0000
+  Br  Br2       1.0  0.02231223510578684  0.648605394496645  0.5948461108520633  1.0000
+  Br  Br3       1.0  0.7295943357450375  0.018957730816697334  0.5811178934649324  1.0000
+  Br  Br4       1.0  0.9811870534859024  0.27060073901224463  0.41855764981579224  1.0000
+  Br  Br5       1.0  0.35145745528384703  0.9774873666419103  0.40479829117549354  1.0000
+  Br  Br6       1.0  0.7050158700350142  0.6115841127399493  0.4215318939236068  1.0000

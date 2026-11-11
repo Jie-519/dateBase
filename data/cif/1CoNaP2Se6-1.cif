@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       CoSeNaSePSe3PSe
+_chemical_formula_sum              "Co1 Se6 Na1 P2"
+_cell_length_a       6.362460437550033
+_cell_length_b       6.363099139397214
+_cell_length_c       33.22614168318993
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99698517583751
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.6774624751356602  0.9985005845761797  0.5000000888153809  1.0000
+  Se  Se1       1.0  0.652990151811189  0.7032572009873874  0.5498434448993641  1.0000
+  Na  Na1       1.0  0.010744165162344754  0.6650680188107181  0.5000000371750289  1.0000
+  Se  Se2       1.0  0.9725998214817839  0.2690697540988405  0.5498528389982809  1.0000
+  P   P1        1.0  0.34412194684301783  0.3318194224224573  0.5330064936279567  1.0000
+  Se  Se3       1.0  0.4067501139250945  0.023064160588640137  0.549855170604827  1.0000
+  Se  Se4       1.0  0.40668621927102244  0.7032544101607279  0.45015617156787435  1.0000
+  Se  Se5       1.0  0.6528946883391293  0.26907392161552407  0.45014794449176376  1.0000
+  P   P2        1.0  0.34411922137126344  0.33182076134722094  0.46699337181187245  1.0000
+  Se  Se6       1.0  0.972732468660425  0.023068212500595788  0.4501444045500786  1.0000

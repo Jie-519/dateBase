@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       WAg2O4
+_chemical_formula_sum              "W1 Ag2 O4"
+_cell_length_a       5.874825914598967
+_cell_length_b       5.886789132614566
+_cell_length_c       17.61186088641994
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  W   W1        1.0  0.17420627037103537  0.09731218987917355  0.47985077594009673  1.0000
+  Ag  Ag1       1.0  0.1711044408975587  0.5989230608892309  0.5453644435579701  1.0000
+  Ag  Ag2       1.0  0.6729430284452655  0.10082272332091205  0.5454496446000162  1.0000
+  O   O1        1.0  0.34899848488487517  0.9232453629509993  0.4251893137592463  1.0000
+  O   O2        1.0  0.0030965953055526185  0.26588824521311  0.4222763645098091  1.0000
+  O   O3        1.0  0.9894507010839354  0.916654050089481  0.5424389751811477  1.0000
+  O   O4        1.0  0.35530631680815017  0.28369490277855  0.5417204958662151  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrMnI6
+_chemical_formula_sum              "Zr1 Mn1 I6"
+_cell_length_a       7.348520484628351
+_cell_length_b       7.348520484628351
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.85271811413439
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.062093780978895285  0.9379590206008006  0.4999727025234847  1.0000
+  Mn  Mn1       1.0  0.7282695568214564  0.2718054930817598  0.4999922799286027  1.0000
+  I   I1        1.0  0.39230920440900785  0.2444271277737188  0.5938390792628274  1.0000
+  I   I2        1.0  0.03769276780935552  0.6072255276917009  0.5938350335578606  1.0000
+  I   I3        1.0  0.7566899285524091  0.9634974312854041  0.5941372192530886  1.0000
+  I   I4        1.0  0.036568433615834485  0.24334257165530024  0.4058869460363994  1.0000
+  I   I5        1.0  0.3928146235154354  0.9623811226615305  0.40618748968540946  1.0000
+  I   I6        1.0  0.7556857397142449  0.6077944086108757  0.4061881965849484  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cs2Br2
+_chemical_formula_sum              "Cs2 Br2"
+_cell_length_a       7.26538483979049
+_cell_length_b       5.136474100681265
+_cell_length_c       18.66903539
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    45.002409989987726
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cs  Cs1       1.0  0.4758194887976777  0.9550092676982751  0.5978080319815573  1.0000
+  Cs  Cs2       1.0  0.9758194887976742  0.9550092676982709  0.4021919680184428  1.0000
+  Br  Br1       1.0  0.9758205091598893  0.9550007491126106  0.597371558941092  1.0000
+  Br  Br2       1.0  0.47582050915989466  0.9550007491126073  0.40262844105890966  1.0000

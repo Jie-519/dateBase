@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       TeInTe4In
+_chemical_formula_sum              "Te5 In2"
+_cell_length_a       4.356287450614228
+_cell_length_b       8.872839312479904
+_cell_length_c       34.281572825607064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    104.21051673440408
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.3244527324112353  0.6189350172210193  0.4999998136151839  1.0000
+  In  In1       1.0  0.6328682109640839  0.23724385220897728  0.4673120895769664  1.0000
+  Te  Te2       1.0  0.8640775570721645  0.6970489991015404  0.5591256374887708  1.0000
+  Te  Te3       1.0  0.7859623645305427  0.540820009732098  0.4408739862005212  1.0000
+  Te  Te4       1.0  0.6166267354775983  0.20401799480387714  0.5514525950089275  1.0000
+  Te  Te5       1.0  0.03154530349957952  0.03385392607820454  0.44854715372096665  1.0000
+  In  In2       1.0  0.014555041819162555  0.00062650961390409  0.5326880251192648  1.0000

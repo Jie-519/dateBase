@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BrIrBr4CoCl
+_chemical_formula_sum              "Br5 Ir1 Co1 Cl1"
+_cell_length_a       6.247037390495741
+_cell_length_b       6.2577700333168025
+_cell_length_c       17.80493062547927
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.3170470754272
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.48040014505492634  0.8166782881235862  0.5787683671585147  1.0000
+  Ir  Ir1       1.0  0.1619317895388845  0.8388865549595945  0.4996828202620824  1.0000
+  Br  Br2       1.0  0.4741528123499329  0.1832306815877752  0.4215881690776656  1.0000
+  Br  Br3       1.0  0.81697977590016  0.8108575392625336  0.4212316328414852  1.0000
+  Br  Br4       1.0  0.18211737670931447  0.18253308490873169  0.5758940445354073  1.0000
+  Br  Br5       1.0  0.8167805163270185  0.5196968488086995  0.5759612816604511  1.0000
+  Co  Co1       1.0  0.4912914814433926  0.5084137054083625  0.49949876717003194  1.0000
+  Cl  Cl1       1.0  0.19879463170482223  0.5362603651353793  0.42929488266297344  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cu2Bi2S4
+_chemical_formula_sum              "Cu2 Bi2 S4"
+_cell_length_a       3.9316401388587088
+_cell_length_b       6.224688359832457
+_cell_length_c       35.44269776
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.0  0.007050581268989761  0.46730545622913067  1.0000
+  Cu  Cu2       1.0  0.0  0.5070505812689902  0.5326945437708693  1.0000
+  Bi  Bi1       1.0  0.5000000000000001  0.5057758607791594  0.42623512029601807  1.0000
+  Bi  Bi2       1.0  0.5000000000000001  0.005775860779159392  0.5737648797039798  1.0000
+  S   S1        1.0  0.5000000000000001  0.11147662668147598  0.4383910087536986  1.0000
+  S   S2        1.0  0.5000000000000001  0.6114766266814755  0.5616089912463013  1.0000
+  S   S3        1.0  7.511833989449397e-19  0.6351730335457857  0.47126252946019204  1.0000
+  S   S4        1.0  2.035077373392138e-18  0.13517303354578375  0.528737470539808  1.0000

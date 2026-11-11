@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Ni2Cu2Br6
+_chemical_formula_sum              "Ni2 Cu2 Br6"
+_cell_length_a       6.574485938733473
+_cell_length_b       6.574485936197151
+_cell_length_c       17.9652158
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999996263763
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.3333333300000005  0.66666667  0.5  1.0000
+  Ni  Ni2       1.0  0.6666666699999998  0.3333333299999999  0.5  1.0000
+  Cu  Cu1       1.0  3.733839448388169e-20  1.3960713197287193e-19  0.5735495939089524  1.0000
+  Cu  Cu2       1.0  0.0  0.0  0.4264504060910476  1.0000
+  Br  Br1       1.0  0.6384765829960318  1.2473989852949396e-15  0.5825308705162577  1.0000
+  Br  Br2       1.0  0.3615234070039671  0.36152340700396757  0.5825308805162578  1.0000
+  Br  Br3       1.0  9.960561913891379e-16  0.6384765929960309  0.5825308705162577  1.0000
+  Br  Br4       1.0  0.3615234070039678  0.9999999999999988  0.4174691294837423  1.0000
+  Br  Br5       1.0  0.6384765829960337  0.6384765829960324  0.4174691294837423  1.0000
+  Br  Br6       1.0  0.9999999999999996  0.3615234170039687  0.4174691294837423  1.0000

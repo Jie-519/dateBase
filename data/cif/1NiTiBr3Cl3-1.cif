@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ClTiBrNiBrClBrCl
+_chemical_formula_sum              "Cl3 Ti1 Br3 Ni1"
+_cell_length_a       6.368709961978425
+_cell_length_b       6.304059204010593
+_cell_length_c       18.04631035962096
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.09062263709679
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.19100592092619093  0.5441375596486139  0.5716512956047941  1.0000
+  Ti  Ti1       1.0  0.1593191059019652  0.8402493297708906  0.4993369993381548  1.0000
+  Br  Br1       1.0  0.46478382356642034  0.17001965540247965  0.5844025814395044  1.0000
+  Ni  Ni1       1.0  0.49379245627462304  0.5089371963495257  0.5010228793527456  1.0000
+  Br  Br2       1.0  0.46273835425751053  0.8131475127785405  0.4155974185604957  1.0000
+  Cl  Cl2       1.0  0.20013251609223065  0.1687242164512227  0.42630057395647836  1.0000
+  Br  Br3       1.0  0.8291768259111729  0.8231020122646194  0.5822513205654722  1.0000
+  Cl  Cl3       1.0  0.8298035051838579  0.5468599809949121  0.4284303684031914  1.0000

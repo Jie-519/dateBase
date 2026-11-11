@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       F2Cu2Cl2
+_chemical_formula_sum              "F2 Cu2 Cl2"
+_cell_length_a       3.7326299081746406
+_cell_length_b       5.714059708361031
+_cell_length_c       17.24196947
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.882818171499062  0.9253811973827587  0.43784705390795325  1.0000
+  F   F2        1.0  0.11715182850093868  0.42538119738275737  0.43784705390795325  1.0000
+  Cu  Cu1       1.0  0.2220259422929467  0.13045802681283572  0.49354035673474256  1.0000
+  Cu  Cu2       1.0  0.7779740577070542  0.630458026812839  0.49354035673474256  1.0000
+  Cl  Cl1       1.0  0.6473063627417142  0.3153484872387855  0.5686172082620145  1.0000
+  Cl  Cl2       1.0  0.35270363725828674  0.815348487238787  0.5686172082620145  1.0000

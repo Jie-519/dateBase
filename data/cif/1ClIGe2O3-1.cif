@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       IGeClO2GeO
+_chemical_formula_sum              "I1 Ge2 Cl1 O3"
+_cell_length_a       3.8698145532687396
+_cell_length_b       5.2875482442862705
+_cell_length_c       20.868251632170942
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    111.47274985554226
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.8369945068496607  0.9573231354654498  0.35939762142976267  1.0000
+  Ge  Ge1       1.0  0.8956256009511298  0.07325368647316409  0.47653257346516253  1.0000
+  Cl  Cl1       1.0  0.15531983170953154  0.5941399713507376  0.6406023785702373  1.0000
+  O   O1        1.0  0.3726360039026724  0.027675348552109985  0.4973005896865542  1.0000
+  O   O2        1.0  0.754102188866786  0.7907220778530245  0.5363579154595071  1.0000
+  Ge  Ge2       1.0  0.2088338972755217  0.6996802240317298  0.5407108653935118  1.0000
+  O   O3        1.0  0.07579254931048507  0.4336736186159401  0.4833249259869  1.0000

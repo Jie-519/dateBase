@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BrMnCl2Br3Ga
+_chemical_formula_sum              "Br4 Mn1 Cl2 Ga1"
+_cell_length_a       6.628413386785546
+_cell_length_b       6.3339295997243505
+_cell_length_c       17.990160917019356
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.7737912427859
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.7981972767588414  0.16295702139538393  0.5801151346522928  1.0000
+  Mn  Mn1       1.0  0.5063226964859819  0.8420444825498242  0.49678671945611025  1.0000
+  Cl  Cl1       1.0  0.8049918942053159  0.7901430692610347  0.41757946253541584  1.0000
+  Cl  Cl2       1.0  0.5539239421076666  0.16575551554686713  0.42287110493567126  1.0000
+  Br  Br2       1.0  0.17773555166567223  0.5379222895244206  0.41689454778054374  1.0000
+  Br  Br3       1.0  0.5095007431552958  0.5236950837401694  0.5759063634487724  1.0000
+  Br  Br4       1.0  0.15210800236205715  0.8177965442367262  0.5831054522194559  1.0000
+  Ga  Ga1       1.0  0.8441042627974059  0.5235820221658873  0.4969990920414151  1.0000

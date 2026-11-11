@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Be2Br2Cl2
+_chemical_formula_sum              "Be2 Br2 Cl2"
+_cell_length_a       22.034422328646357
+_cell_length_b       3.542763214943098
+_cell_length_c       19.44512715
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    15.279794611419685
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.8923455526528314  0.7417664572057766  0.44812475701629423  1.0000
+  Be  Be2       1.0  0.3923455226528312  0.7417664272057788  0.5518752229837058  1.0000
+  Br  Br1       1.0  0.4919421797542596  0.6441326768837152  0.6143253930476674  1.0000
+  Br  Br2       1.0  0.9919421497542578  0.6441326568837218  0.3856746269523326  1.0000
+  Cl  Cl1       1.0  0.039481308806401445  0.8584268343734116  0.5427440498875826  1.0000
+  Cl  Cl2       1.0  0.5394812988064016  0.8584268343734107  0.4572559401124174  1.0000

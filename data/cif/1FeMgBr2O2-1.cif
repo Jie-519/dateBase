@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       OMgFeBrOBr
+_chemical_formula_sum              "O2 Mg1 Fe1 Br2"
+_cell_length_a       3.654330926250726
+_cell_length_b       6.04454885790804
+_cell_length_c       18.653246893440954
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    107.56202747716516
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.8250212248127625  0.44206745940408165  0.4714924315635695  1.0000
+  Mg  Mg1       1.0  0.3783779098914086  0.5492063688496007  0.4866079948061151  1.0000
+  Fe  Fe1       1.0  0.6836452192422607  0.15836063763850608  0.5132466571022297  1.0000
+  Br  Br1       1.0  0.5206053085506621  0.8309719215112962  0.5979252275571806  1.0000
+  O   O2        1.0  0.20586388424686086  0.20317142421023837  0.5293714677892393  1.0000
+  Br  Br2       1.0  0.5600159564341646  0.9148574887082932  0.4020747724428194  1.0000

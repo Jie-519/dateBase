@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       P2CrTeAgTe5
+_chemical_formula_sum              "P2 Cr1 Te6 Ag1"
+_cell_length_a       6.88749396613864
+_cell_length_b       6.887281817994269
+_cell_length_c       33.472592892367544
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.01407100994417
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.963733913377029  0.315042337410528  0.5334473275512417  1.0000
+  P   P2        1.0  0.9629663132778409  0.31435890515509346  0.4665622452855877  1.0000
+  Cr  Cr1       1.0  0.2966504209801589  0.9813700412897858  0.5000014680648359  1.0000
+  Te  Te1       1.0  0.007134883447151637  0.685426530323533  0.5537726347414682  1.0000
+  Ag  Ag1       1.0  0.6301008175801309  0.6476658853193455  0.4999760537669707  1.0000
+  Te  Te2       1.0  0.2909375781034728  0.2715082255379371  0.5536611309904366  1.0000
+  Te  Te3       1.0  0.5928508533705811  0.9881417909739137  0.5537256033670456  1.0000
+  Te  Te4       1.0  0.5925925761068078  0.2710591793036904  0.4462555625441461  1.0000
+  Te  Te5       1.0  0.2896942266538871  0.685228016384616  0.4462460609812667  1.0000
+  Te  Te6       1.0  0.0064635394431037  0.987106056790006  0.4463640430747053  1.0000

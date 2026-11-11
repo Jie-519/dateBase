@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl2Se4Ag2
+_chemical_formula_sum              "Cl2 Se4 Ag2"
+_cell_length_a       5.276697854444233
+_cell_length_b       8.260245563837874
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.9466253361921507  0.9578462591049209  0.4134208434007534  1.0000
+  Cl  Cl2       1.0  0.44615812819368034  0.05235556602528124  0.586676212342484  1.0000
+  Se  Se1       1.0  0.6231889781716423  0.6381683907708033  0.44789975627173917  1.0000
+  Se  Se2       1.0  0.12330519317273808  0.3717357398450948  0.5519865822539872  1.0000
+  Se  Se3       1.0  0.9376635080046386  0.6236356165265742  0.5534562455559304  1.0000
+  Se  Se4       1.0  0.4375657100269633  0.3862170951102965  0.44641131375122317  1.0000
+  Ag  Ag1       1.0  0.780374061643  0.17268934466625513  0.49829044900576064  1.0000
+  Ag  Ag2       1.0  0.28072623519433143  0.8372370494848986  0.5017608641192339  1.0000

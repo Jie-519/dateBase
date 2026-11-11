@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Al2Br2Te2
+_chemical_formula_sum              "Al2 Br2 Te2"
+_cell_length_a       4.171386940544975
+_cell_length_b       6.035738302471758
+_cell_length_c       35.149896
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  4.8991686144331945e-20  0.010028061609286086  0.5294999623559445  1.0000
+  Al  Al2       1.0  0.4999999999999882  0.5100280616092862  0.47050003764405546  1.0000
+  Br  Br1       1.0  0.0  0.22426418025130754  0.5833087510676918  1.0000
+  Br  Br2       1.0  0.4999999999999882  0.7242641802513102  0.41669124893231196  1.0000
+  Te  Te1       1.0  2.2257572568877645e-19  0.23266618393406605  0.4640047211687509  1.0000
+  Te  Te2       1.0  0.4999999999999882  0.7326661839340664  0.5359952788312491  1.0000

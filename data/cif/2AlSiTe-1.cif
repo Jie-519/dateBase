@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Al2Si2Te2
+_chemical_formula_sum              "Al2 Si2 Te2"
+_cell_length_a       4.023495100026091
+_cell_length_b       4.023495100026097
+_cell_length_c       38.17081506
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999991
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.9999999999999984  6.661338147750939e-16  0.5738442880669572  1.0000
+  Al  Al2       1.0  0.3333333333333333  0.6666666666666669  0.4261557119330427  1.0000
+  Si  Si1       1.0  0.9999999999999984  6.661338147750939e-16  0.5096637253191316  1.0000
+  Si  Si2       1.0  0.3333333333333333  0.6666666666666669  0.4903362746808684  1.0000
+  Te  Te1       1.0  0.6666666666666683  0.3333333333333333  0.39183598399057357  1.0000
+  Te  Te2       1.0  0.6666666666666683  0.3333333333333333  0.608164016009425  1.0000

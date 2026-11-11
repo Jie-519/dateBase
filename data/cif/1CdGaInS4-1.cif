@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       CdInGaS4
+_chemical_formula_sum              "Cd1 In1 Ga1 S4"
+_cell_length_a       3.911278268039383
+_cell_length_b       3.911287955594701
+_cell_length_c       39.30476960000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00008193277496
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.9999972161743098  0.9999986080871549  0.5020527401660849  1.0000
+  In  In1       1.0  0.6666596980199483  0.3333298490099749  0.40480324678771173  1.0000
+  Ga  Ga1       1.0  0.33334468621997215  0.6666723431099846  0.5948325971883996  1.0000
+  S   S1        1.0  0.6666741885427662  0.3333370942713832  0.4658605849480934  1.0000
+  S   S2        1.0  0.33332214746743166  0.6666610737337172  0.5380265069081551  1.0000
+  S   S3        1.0  0.3333287128708925  0.666664356435448  0.3755334689200767  1.0000
+  S   S4        1.0  0.6666733387363125  0.333336669368156  0.6188885866374314  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SPbGeSe
+_chemical_formula_sum              "S1 Pb1 Ge1 Se1"
+_cell_length_a       4.308702714738977
+_cell_length_b       4.1038133907929
+_cell_length_c       17.762676120858735
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    90.01160021644763
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.7660746137418392  0.2421966663648817  0.564846426029124  1.0000
+  Pb  Pb1       1.0  0.22163954094033497  0.7432965418740594  0.5777693072840544  1.0000
+  Ge  Ge1       1.0  0.7087073159723232  0.24262727298434147  0.4293535109995779  1.0000
+  Se  Se1       1.0  0.3034073731153939  0.7422159790866901  0.42221696700440725  1.0000

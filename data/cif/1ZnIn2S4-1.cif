@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       In2ZnS4
+_chemical_formula_sum              "In2 Zn1 S4"
+_cell_length_a       3.9181522026584483
+_cell_length_b       3.918210988000272
+_cell_length_c       39.21798
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00049630749918
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  5.167563302950357e-05  2.5837816514812648e-05  0.4007474664864468  1.0000
+  In  In2       1.0  0.666708451696331  0.33335422584816676  0.5035481711330306  1.0000
+  Zn  Zn1       1.0  0.3333774266949756  0.6666887133474837  0.6111540272484351  1.0000
+  S   S1        1.0  0.33336315331335675  0.6666815766566674  0.3716395253174609  1.0000
+  S   S2        1.0  0.33338950250688254  0.6666947512534452  0.5345138607317474  1.0000
+  S   S3        1.0  5.407403257932354e-05  2.7037016289669113e-05  0.4623372429771086  1.0000
+  S   S4        1.0  5.5802665181688775e-05  2.7901332590824536e-05  0.6175047054502175  1.0000

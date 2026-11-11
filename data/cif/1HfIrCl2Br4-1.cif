@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfBrClIrBr2ClBr
+_chemical_formula_sum              "Hf1 Br4 Cl2 Ir1"
+_cell_length_a       6.40137880536772
+_cell_length_b       6.06082765844133
+_cell_length_c       18.494195768620525
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    116.55152739302046
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.5227085018487049  0.12730688747378646  0.4972784962110495  1.0000
+  Br  Br1       1.0  0.8413442896245463  0.15584974616460445  0.4055326381223563  1.0000
+  Cl  Cl1       1.0  0.5333366399546691  0.5100424128464551  0.4297013946231031  1.0000
+  Ir  Ir1       1.0  0.807901469705751  0.8448601706358703  0.49918636531524746  1.0000
+  Br  Br2       1.0  0.19548547118890341  0.8421724391234388  0.4127876686944228  1.0000
+  Br  Br3       1.0  0.1476113833517635  0.15740197359164304  0.5692614525416512  1.0000
+  Cl  Cl2       1.0  0.5002612242222497  0.8554297786071116  0.5944673618776437  1.0000
+  Br  Br4       1.0  0.8029989251125451  0.5086356826963061  0.5813420284278701  1.0000

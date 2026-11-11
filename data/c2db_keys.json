@@ -1,0 +1,360 @@
+{
+ "source": "https://c2db.fysik.dtu.dk/help#keys",
+ "access": "2026-10-31T17:2x+08:00",
+ "note": "C2DB 检索页/筛选器可用的全部键（description + key），截至访问日",
+ "n_keys": 88,
+ "keys": [
+  {
+   "desc": "2D Bravais type",
+   "key": "bravais_type"
+  },
+  {
+   "desc": "Px",
+   "key": "Px"
+  },
+  {
+   "desc": "Py",
+   "key": "Py"
+  },
+  {
+   "desc": "Pz",
+   "key": "Pz"
+  },
+  {
+   "desc": "Anisotropic exchange (out-of-plane) [meV]",
+   "key": "lam"
+  },
+  {
+   "desc": "Band gap (G₀W₀) [eV]",
+   "key": "gap_gw"
+  },
+  {
+   "desc": "Band gap (HSE06) [eV]",
+   "key": "gap_hse"
+  },
+  {
+   "desc": "Band gap (PBE) [eV]",
+   "key": "gap"
+  },
+  {
+   "desc": "Band gap (PBE+U) [eV]",
+   "key": "gap_u"
+  },
+  {
+   "desc": "C2DB UID",
+   "key": "uid"
+  },
+  {
+   "desc": "CBM (vs. avg. vacuum) (PBE) [eV]",
+   "key": "cbm_evac"
+  },
+  {
+   "desc": "CBM DOS effective mass (PBE)",
+   "key": "emass_cbm"
+  },
+  {
+   "desc": "CBM wrt. vacuum (G₀W₀) [eV]",
+   "key": "cbm_gw"
+  },
+  {
+   "desc": "CBM wrt. vacuum (HSE06) [eV]",
+   "key": "cbm_hse"
+  },
+  {
+   "desc": "CBM wrt. vacuum (PBE) [eV]",
+   "key": "cbm"
+  },
+  {
+   "desc": "CBM wrt. vacuum (PBE+U) [eV]",
+   "key": "cbm_u"
+  },
+  {
+   "desc": "Direct band gap (G₀W₀) [eV]",
+   "key": "gap_dir_gw"
+  },
+  {
+   "desc": "Direct band gap (HSE06) [eV]",
+   "key": "gap_dir_hse"
+  },
+  {
+   "desc": "Direct band gap (PBE) [eV]",
+   "key": "gap_dir"
+  },
+  {
+   "desc": "Direct band gap (PBE+U) [eV]",
+   "key": "gap_dir_u"
+  },
+  {
+   "desc": "Direct half-metal gap (HSE06) [eV]",
+   "key": "halfmetal_gap_dir_hse"
+  },
+  {
+   "desc": "Direct half-metal gap [eV]",
+   "key": "halfmetal_gap_dir"
+  },
+  {
+   "desc": "Dynamically stable",
+   "key": "dyn_stab"
+  },
+  {
+   "desc": "Energy [eV]",
+   "key": "energy"
+  },
+  {
+   "desc": "Energy above hull [eV/atom]",
+   "key": "ehull"
+  },
+  {
+   "desc": "Exciton binding energy (BSE) [eV]",
+   "key": "E_B"
+  },
+  {
+   "desc": "Fermi level wrt. vacuum (G₀W₀) [eV]",
+   "key": "efermi_gw"
+  },
+  {
+   "desc": "Fermi level wrt. vacuum (HSE06) [eV]",
+   "key": "efermi_hse"
+  },
+  {
+   "desc": "Fermi level wrt. vacuum (PBE) [eV]",
+   "key": "efermi"
+  },
+  {
+   "desc": "Fermi level wrt. vacuum (PBE+U) [eV]",
+   "key": "efermi_u"
+  },
+  {
+   "desc": "Ferroelectric",
+   "key": "is_ferroelectric"
+  },
+  {
+   "desc": "Formula",
+   "key": "formula"
+  },
+  {
+   "desc": "Half-metal gap (HSE06) [eV]",
+   "key": "halfmetal_gap_hse"
+  },
+  {
+   "desc": "Half-metal gap [eV]",
+   "key": "halfmetal_gap"
+  },
+  {
+   "desc": "Heat of formation [eV/atom]",
+   "key": "hform"
+  },
+  {
+   "desc": "Interband polarizability (x) [Å]",
+   "key": "alphax_el"
+  },
+  {
+   "desc": "Interband polarizability (y) [Å]",
+   "key": "alphay_el"
+  },
+  {
+   "desc": "Interband polarizability (z) [Å]",
+   "key": "alphaz_el"
+  },
+  {
+   "desc": "Inversion symmetry",
+   "key": "has_inversion_symmetry"
+  },
+  {
+   "desc": "Layer group (not Space group)",
+   "key": "layergroup"
+  },
+  {
+   "desc": "Layer group number",
+   "key": "lgnum"
+  },
+  {
+   "desc": "Magnetic",
+   "key": "is_magnetic"
+  },
+  {
+   "desc": "Magnetic +U",
+   "key": "is_magnetic_u"
+  },
+  {
+   "desc": "Magnetic anisotropy energy, xz [meV/unit cell]",
+   "key": "dE_zx"
+  },
+  {
+   "desc": "Magnetic anisotropy energy, yz [meV/unit cell]",
+   "key": "dE_zy"
+  },
+  {
+   "desc": "Magnetic state",
+   "key": "magstate"
+  },
+  {
+   "desc": "Maximum value of Sz at magnetic sites",
+   "key": "spin"
+  },
+  {
+   "desc": "Mono/few-layer report(s)",
+   "key": "doi"
+  },
+  {
+   "desc": "Nearest neighbor exchange coupling [meV]",
+   "key": "J"
+  },
+  {
+   "desc": "Number of atoms",
+   "key": "natoms"
+  },
+  {
+   "desc": "Number of nearest neighbors",
+   "key": "N_nn"
+  },
+  {
+   "desc": "Number of species",
+   "key": "nspecies"
+  },
+  {
+   "desc": "Old uid",
+   "key": "olduid"
+  },
+  {
+   "desc": "Origin label",
+   "key": "label"
+  },
+  {
+   "desc": "Origin publication",
+   "key": "publication"
+  },
+  {
+   "desc": "Original file-system folder",
+   "key": "folder"
+  },
+  {
+   "desc": "Out-of-plane dipole [e Å/unit cell]",
+   "key": "dipz"
+  },
+  {
+   "desc": "Parent bulk structure from COD",
+   "key": "cod_id"
+  },
+  {
+   "desc": "Parent bulk structure from ICSD",
+   "key": "icsd_id"
+  },
+  {
+   "desc": "Plasma frequency (x) [eV Å0.5]",
+   "key": "plasmafrequency_x"
+  },
+  {
+   "desc": "Plasma frequency (y) [eV Å0.5]",
+   "key": "plasmafrequency_y"
+  },
+  {
+   "desc": "Point group",
+   "key": "pointgroup"
+  },
+  {
+   "desc": "Reduced formula",
+   "key": "reduced"
+  },
+  {
+   "desc": "Single-ion anisotropy (out-of-plane) [meV]",
+   "key": "A"
+  },
+  {
+   "desc": "Space group (bulk in AA-stacking)",
+   "key": "international"
+  },
+  {
+   "desc": "Space group number (bulk in AA-stacking)",
+   "key": "number"
+  },
+  {
+   "desc": "Spin axis",
+   "key": "spin_axis"
+  },
+  {
+   "desc": "Spontaneous polarization [pC/m]",
+   "key": "P_spontaneous_norm"
+  },
+  {
+   "desc": "Static polarizability (phonons + electrons) (x) [Å]",
+   "key": "alphax"
+  },
+  {
+   "desc": "Static polarizability (phonons + electrons) (y) [Å]",
+   "key": "alphay"
+  },
+  {
+   "desc": "Static polarizability (phonons + electrons) (z) [Å]",
+   "key": "alphaz"
+  },
+  {
+   "desc": "Static polarizability (phonons) (x) [Å]",
+   "key": "alphax_lat"
+  },
+  {
+   "desc": "Static polarizability (phonons) (y) [Å]",
+   "key": "alphay_lat"
+  },
+  {
+   "desc": "Static polarizability (phonons) (z) [Å]",
+   "key": "alphaz_lat"
+  },
+  {
+   "desc": "Stoichiometry",
+   "key": "stoichiometry"
+  },
+  {
+   "desc": "Thickness [Å]",
+   "key": "thickness"
+  },
+  {
+   "desc": "Topology",
+   "key": "topology"
+  },
+  {
+   "desc": "Total magnetic moment [μB]",
+   "key": "magmom"
+  },
+  {
+   "desc": "Unit cell area [Å2]",
+   "key": "area"
+  },
+  {
+   "desc": "VBM (vs. avg. vacuum) (PBE) [eV]",
+   "key": "vbm_evac"
+  },
+  {
+   "desc": "VBM DOS effective mass (PBE)",
+   "key": "emass_vbm"
+  },
+  {
+   "desc": "VBM wrt. vacuum (G₀W₀) [eV]",
+   "key": "vbm_gw"
+  },
+  {
+   "desc": "VBM wrt. vacuum (HSE06) [eV]",
+   "key": "vbm_hse"
+  },
+  {
+   "desc": "VBM wrt. vacuum (PBE) [eV]",
+   "key": "vbm"
+  },
+  {
+   "desc": "VBM wrt. vacuum (PBE+U) [eV]",
+   "key": "vbm_u"
+  },
+  {
+   "desc": "Vacuum level [eV]",
+   "key": "evac"
+  },
+  {
+   "desc": "Vacuum level shift",
+   "key": "evacdiff"
+  },
+  {
+   "desc": "Work function (avg. if finite dipole) [eV]",
+   "key": "workfunction"
+  }
+ ]
+}

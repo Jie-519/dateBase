@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Sc2S2F2
+_chemical_formula_sum              "Sc2 S2 F2"
+_cell_length_a       5.091318921984358
+_cell_length_b       3.4615656922956766
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.49999999999999994  0.0  0.4498378594452766  1.0000
+  Sc  Sc2       1.0  2.7262492392467873e-17  0.5  0.5501621474077205  1.0000
+  S   S1        1.0  0.49999999999999994  0.5  0.5410636967717045  1.0000
+  S   S2        1.0  0.0  1.527037319671279e-17  0.4589362770391323  1.0000
+  F   F1        1.0  0.49999999999999994  0.5  0.3977064091495115  1.0000
+  F   F2        1.0  1.8169832858022743e-19  3.3831350614120892e-18  0.6022936655670049  1.0000

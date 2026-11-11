@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Pb4O4
+_chemical_formula_sum              "Pb4 O4"
+_cell_length_a       10.284138763453457
+_cell_length_b       3.5579084028427816
+_cell_length_c       19.38755752
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    46.261943676455566
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  0.3059137638936031  0.23517470843671986  0.6076659648990279  1.0000
+  Pb  Pb2       1.0  0.8059137538935891  0.23517471843674356  0.3923340451009721  1.0000
+  Pb  Pb3       1.0  0.8279907229923883  0.6910806838862933  0.5756947817423268  1.0000
+  Pb  Pb4       1.0  0.32799073299241605  0.691080713886295  0.42430522825767314  1.0000
+  O   O1        1.0  0.35350721124595386  0.6400863757041085  0.5384769123645204  1.0000
+  O   O2        1.0  0.8535072112458778  0.6400864157041164  0.4615230876354796  1.0000
+  O   O3        1.0  0.012612033976377885  0.8223939388230903  0.5902703546869236  1.0000
+  O   O4        1.0  0.5126120239763501  0.8223939788230963  0.4097296453130712  1.0000

@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       AlTe2MgAlTe2
+_chemical_formula_sum              "Al2 Te4 Mg1"
+_cell_length_a       4.264747127356478
+_cell_length_b       4.264747127356442
+_cell_length_c       39.02500000000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.0  0.0  0.6047043963759988  1.0000
+  Te  Te1       1.0  0.6666666666666654  0.3333333333333341  0.6352294957196161  1.0000
+  Te  Te2       1.0  0.0  0.0  0.5394827543744499  1.0000
+  Mg  Mg1       1.0  0.6666666666666655  0.3333333333333343  0.5  1.0000
+  Al  Al2       1.0  0.33333333333333354  0.6666666666666693  0.3952956036239987  1.0000
+  Te  Te3       1.0  0.6666666666666655  0.3333333333333343  0.36477050428038565  1.0000
+  Te  Te4       1.0  0.33333333333333354  0.6666666666666693  0.46051724562555035  1.0000

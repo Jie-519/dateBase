@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       PdClPdBrCl2BrCl
+_chemical_formula_sum              "Pd2 Cl4 Br2"
+_cell_length_a       6.4670403341872005
+_cell_length_b       6.407987832543953
+_cell_length_c       17.891261879632896
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    121.17314434206133
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.1705092600664108  0.5003583422918702  0.49826082121030185  1.0000
+  Cl  Cl1       1.0  0.803253520222967  0.45713397308501813  0.4224411751469509  1.0000
+  Pd  Pd2       1.0  0.4966564901320971  0.16363916174013513  0.498740556692721  1.0000
+  Br  Br1       1.0  0.833856548395345  0.1875806427735051  0.5774906493879944  1.0000
+  Cl  Cl2       1.0  0.1983883907952026  0.831457169065396  0.5709041176077708  1.0000
+  Cl  Cl3       1.0  0.45801979177845853  0.8026867507456215  0.41919905093658427  1.0000
+  Br  Br2       1.0  0.1783676718476561  0.17738356576313075  0.42078923836526816  1.0000
+  Cl  Cl4       1.0  0.4745846687617485  0.4741174066868201  0.5808009490634156  1.0000

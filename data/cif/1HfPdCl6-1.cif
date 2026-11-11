@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfPdCl6
+_chemical_formula_sum              "Hf1 Pd1 Cl6"
+_cell_length_a       6.429494254964976
+_cell_length_b       6.429681086390062
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99908669003707
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.9413845346824066  0.8826990330909325  0.4999818829359682  1.0000
+  Pd  Pd1       1.0  0.27476602804471184  0.5494612098406848  0.49999524806342427  1.0000
+  Cl  Cl1       1.0  0.24416959516862927  0.8615170281099005  0.5805621472027523  1.0000
+  Cl  Cl2       1.0  0.6174149223647454  0.5801587029617805  0.5806018269707383  1.0000
+  Cl  Cl3       1.0  0.962705123453005  0.20683124442263515  0.5805258426258078  1.0000
+  Cl  Cl4       1.0  0.2441668209141354  0.20681298466096254  0.4194957082408211  1.0000
+  Cl  Cl5       1.0  0.9628237328729476  0.5801863938571054  0.4194200123507516  1.0000
+  Cl  Cl6       1.0  0.617436675114967  0.8615055984385133  0.4194590434521941  1.0000

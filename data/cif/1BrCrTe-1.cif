@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CrTeBr
+_chemical_formula_sum              "Cr1 Te1 Br1"
+_cell_length_a       3.782776484299406
+_cell_length_b       3.7841829133764384
+_cell_length_c       33.27052761505107
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.96164205959667
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.002809663723167766  0.9984912043357218  0.5003660823882995  1.0000
+  Te  Te1       1.0  0.6694332792725624  0.33228392187217004  0.4539143017157903  1.0000
+  Br  Br1       1.0  0.33607805794193896  0.6652190553994525  0.5462693613332782  1.0000

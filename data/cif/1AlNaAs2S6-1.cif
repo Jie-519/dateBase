@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       SAlAs2NaS5
+_chemical_formula_sum              "S6 Al1 As2 Na1"
+_cell_length_a       6.577309005020161
+_cell_length_b       6.577309005020189
+_cell_length_c       32.962332254769855
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    111.35143060191244
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.30265995279324065  0.01382706715142603  0.45631797396231943  1.0000
+  Al  Al1       1.0  0.999008097486205  0.0009919025137957527  0.5  1.0000
+  As  As1       1.0  0.48564498360989056  0.8375589520202674  0.48750093964571684  1.0000
+  As  As2       1.0  0.16244104797973447  0.5143550163901095  0.512499060354283  1.0000
+  Na  Na1       1.0  0.626126206223137  0.37387379377686203  0.5  1.0000
+  S   S2        1.0  0.727068214535424  0.7710887286742879  0.45007251959010236  1.0000
+  S   S3        1.0  0.2289112713257112  0.27293178546457575  0.5499274804098973  1.0000
+  S   S4        1.0  0.6805080598581046  0.9985051697091278  0.5402229571590471  1.0000
+  S   S5        1.0  0.0014948302908732026  0.3194919401418965  0.4597770428409537  1.0000
+  S   S6        1.0  0.9861729328485725  0.6973400472067589  0.5436820260376829  1.0000

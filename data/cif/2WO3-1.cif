@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       W2O6
+_chemical_formula_sum              "W2 O6"
+_cell_length_a       3.7392582213499863
+_cell_length_b       3.8097382521498573
+_cell_length_c       36.13772307013053
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  W   W1        1.0  1.0410433754501963e-19  0.051381005457111995  0.5426610661820751  1.0000
+  W   W2        1.0  0.49999999999999994  0.11734970712067697  0.45733729396712064  1.0000
+  O   O1        1.0  0.49999999999999994  0.0858591246635682  0.5279424589412649  1.0000
+  O   O2        1.0  0.0  0.08273752041416847  0.47205362861188327  1.0000
+  O   O3        1.0  6.284234057843724e-19  0.5730987015822953  0.5350373052310067  1.0000
+  O   O4        1.0  0.49999999999999994  0.5955916014650277  0.4649646557564864  1.0000
+  O   O5        1.0  2.518864818073846e-19  0.06496940458868718  0.5894240462365357  1.0000
+  O   O6        1.0  0.49999999999999994  0.10382808374924621  0.41057396930180934  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       InTeGaTe
+_chemical_formula_sum              "In1 Te2 Ga1"
+_cell_length_a       4.259534236484257
+_cell_length_b       4.259546401777894
+_cell_length_c       20.295323499103613
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0078966889324
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.5000860944032757  0.172046951514735  0.5597533935593144  1.0000
+  Te  Te1       1.0  0.16667337943111954  0.5059472418719531  0.3695432595755989  1.0000
+  Ga  Ga1       1.0  0.5001539639839333  0.17298797347883244  0.4298698704550436  1.0000
+  Te  Te2       1.0  0.833400626300769  0.8387186572551361  0.630456740424401  1.0000

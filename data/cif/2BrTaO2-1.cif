@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TaOBrOTaOBrO
+_chemical_formula_sum              "Ta2 O4 Br2"
+_cell_length_a       3.7384121388254394
+_cell_length_b       3.86057373748349
+_cell_length_c       37.332757300000004
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.5000000000000001  0.945353698951504  0.46158201509081226  1.0000
+  O   O1        1.0  0.5000000000000001  0.4445328129396099  0.4567137722595069  1.0000
+  Br  Br1       1.0  4.03263497863656e-18  0.9441907493765558  0.4062897569605444  1.0000
+  O   O2        1.0  4.0490729436976704e-20  0.9433607525276351  0.4827112761904825  1.0000
+  Ta  Ta2       1.0  1.3234511658881501e-18  0.9448533352070643  0.5384182921007786  1.0000
+  O   O3        1.0  2.1927668344078403e-18  0.44567553923933567  0.5432866463033901  1.0000
+  Br  Br2       1.0  0.5  0.9460165549480916  0.5937104740818749  1.0000
+  O   O4        1.0  0.5  0.9468488169294571  0.5172890433350448  1.0000

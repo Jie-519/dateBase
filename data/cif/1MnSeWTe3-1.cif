@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       TeMnTe2WSe
+_chemical_formula_sum              "Te3 Mn1 W1 Se1"
+_cell_length_a       3.4497365659225103
+_cell_length_b       6.0783959749665675
+_cell_length_c       18.953715895206347
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0023117120927
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  0.2288508929953279  0.813797512093236  0.6042434576271877  1.0000
+  Mn  Mn1       1.0  0.22886262813025474  0.5590377623510452  0.49378927438882686  1.0000
+  Te  Te2       1.0  0.7289033582735859  0.6682334186447764  0.3956963322319222  1.0000
+  Te  Te3       1.0  0.22893470753003559  0.18797538142035924  0.41798360073859797  1.0000
+  W   W1        1.0  0.7288510054701344  0.9436718863653543  0.502949747752967  1.0000
+  Se  Se1       1.0  0.7287786156660716  0.34210578420734966  0.5600145620458824  1.0000

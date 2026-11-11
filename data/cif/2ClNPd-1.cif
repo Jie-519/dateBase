@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Pd2N2Cl2
+_chemical_formula_sum              "Pd2 N2 Cl2"
+_cell_length_a       4.063809311398987
+_cell_length_b       3.195137427538497
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.4999999999999999  0.0  0.457090002556386  1.0000
+  Pd  Pd2       1.0  1.7608154800179926e-16  0.5  0.5429056825762182  1.0000
+  N   N1        1.0  0.4999999999999999  0.5  0.5193555354436499  1.0000
+  N   N2        1.0  1.0970169744680837e-17  1.5363563266590053e-17  0.4806400211536947  1.0000
+  Cl  Cl1       1.0  0.4999999999999999  0.5  0.3727645043821619  1.0000
+  Cl  Cl2       1.0  0.0  0.0  0.6272317068844633  1.0000

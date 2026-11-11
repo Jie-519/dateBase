@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl2S4Au2
+_chemical_formula_sum              "Cl2 S4 Au2"
+_cell_length_a       4.948719762764706
+_cell_length_b       7.9954190500884765
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999997
+_cell_angle_gamma    89.97834851819016
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.9670149418528348  0.9702337823054661  0.40896814150400196  1.0000
+  Cl  Cl2       1.0  0.46656057228298875  0.9019529448070198  0.5910716358853295  1.0000
+  S   S1        1.0  0.5074048367040898  0.5251726798228329  0.4376020762553956  1.0000
+  S   S2        1.0  0.007782764158659602  0.34631531052970543  0.5624544999740957  1.0000
+  S   S3        1.0  0.8951476980270138  0.5754975139022384  0.5449394260507677  1.0000
+  S   S4        1.0  0.3949057008768712  0.2960810295812686  0.4552385862332922  1.0000
+  Au  Au1       1.0  0.6740112798689064  0.1435987280796432  0.5461609137377501  1.0000
+  Au  Au2       1.0  0.1732193723426654  0.7278992328006895  0.4535790076876232  1.0000

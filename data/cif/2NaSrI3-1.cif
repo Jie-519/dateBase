@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I6Sr2Na2
+_chemical_formula_sum              "I6 Sr2 Na2"
+_cell_length_a       8.439859381137884
+_cell_length_b       8.439859391096975
+_cell_length_c       19.39869901
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000015632
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.6427246638449591  8.526768904978414e-17  0.5976023112886298  1.0000
+  I   I2        1.0  0.35727533615504103  0.357275336155042  0.5976023212886298  1.0000
+  I   I3        1.0  1.788428253736972e-16  0.6427246638449601  0.5976023212886298  1.0000
+  I   I4        1.0  0.35727533615504126  0.9999999999999999  0.4023976787113699  1.0000
+  I   I5        1.0  0.6427246738449588  0.64272466384496  0.4023976787113699  1.0000
+  I   I6        1.0  0.9999999999999999  0.3572753461550419  0.4023976887113699  1.0000
+  Sr  Sr1       1.0  0.3333333299999997  0.666666670000001  0.5  1.0000
+  Sr  Sr2       1.0  0.6666666700000002  0.3333333300000005  0.5  1.0000
+  Na  Na1       1.0  0.0  0.0  0.6132675513527465  1.0000
+  Na  Na2       1.0  3.943274441983412e-21  0.0  0.3867324586472534  1.0000

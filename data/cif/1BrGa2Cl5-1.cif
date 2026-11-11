@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl2GaClBrGaCl2
+_chemical_formula_sum              "Cl5 Ga2 Br1"
+_cell_length_a       6.247401380797576
+_cell_length_b       6.178688622368107
+_cell_length_c       17.90311804647491
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.59173073592798
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.46624821058638777  0.46754618420245975  0.5723248918005341  1.0000
+  Cl  Cl2       1.0  0.8251215603389606  0.4567205133403233  0.42030134878386927  1.0000
+  Ga  Ga1       1.0  0.49000531428838173  0.15796849489920733  0.4964514371165625  1.0000
+  Cl  Cl3       1.0  0.19517739887759994  0.19292315757921336  0.4189214404178458  1.0000
+  Br  Br1       1.0  0.8253318568901306  0.17533022875615292  0.5810785595821543  1.0000
+  Ga  Ga2       1.0  0.1600757357418765  0.49308684833947763  0.49650003214692395  1.0000
+  Cl  Cl4       1.0  0.4556272224811141  0.8228903152329552  0.4190425979659005  1.0000
+  Cl  Cl5       1.0  0.18399465309127222  0.8266332766874295  0.5723748005615319  1.0000

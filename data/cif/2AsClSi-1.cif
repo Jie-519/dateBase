@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       As2Si2Cl2
+_chemical_formula_sum              "As2 Si2 Cl2"
+_cell_length_a       3.7292941004770874
+_cell_length_b       6.458950203151251
+_cell_length_c       18.13144383
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00653728437317
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.7498999662702471  0.5060905750196664  0.5774068978307627  1.0000
+  As  As2       1.0  0.25008324372921403  0.006090585019908922  0.5774068978307627  1.0000
+  Si  Si1       1.0  0.7501153756612777  0.17275400246393532  0.5182759216005871  1.0000
+  Si  Si2       1.0  0.2499059643377599  0.6727540024636599  0.5182759116005871  1.0000
+  Cl  Cl1       1.0  0.24956546859097287  0.6727106392707121  0.4043173675604612  1.0000
+  Cl  Cl2       1.0  0.7504399714105296  0.17271067926520428  0.4043173475604612  1.0000

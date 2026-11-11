@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       MnSe3NbSe
+_chemical_formula_sum              "Mn1 Se4 Nb1"
+_cell_length_a       3.3368884847248825
+_cell_length_b       5.7039919980889975
+_cell_length_c       18.372500646149685
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.98856086665194
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.7494030769328881  0.13350645745097228  0.49996896413234515  1.0000
+  Se  Se1       1.0  0.24934922214801053  0.2915262315792204  0.41480792405914524  1.0000
+  Se  Se2       1.0  0.24919490993806753  0.29135878612563837  0.5850909199520925  1.0000
+  Se  Se3       1.0  0.7496077967250592  0.8238707739502815  0.5917812090771775  1.0000
+  Nb  Nb1       1.0  0.2496119516119459  0.645738159746342  0.49998439671698114  1.0000
+  Se  Se4       1.0  0.7497492335936182  0.8240523651347869  0.40821879092282254  1.0000

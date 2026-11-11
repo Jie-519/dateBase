@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       SeNi2O3SeO3
+_chemical_formula_sum              "Se2 Ni2 O6"
+_cell_length_a       3.842328454158246
+_cell_length_b       6.208022037555824
+_cell_length_c       33.96301908541456
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.004471776609357159  0.49999999999999795  0.5567304900505217  1.0000
+  Ni  Ni1       1.0  0.49650255831236845  0.7500013732364367  0.49999949291549217  1.0000
+  Ni  Ni2       1.0  0.49650255831236845  0.249998626763555  0.49999949291549217  1.0000
+  O   O1        1.0  0.2613296701427966  0.7210696505398195  0.5486446042936836  1.0000
+  O   O2        1.0  0.2613296701427966  0.27893034946018064  0.5486446042936836  1.0000
+  O   O3        1.0  0.7655115160165177  0.49999999999999795  0.5095388515757522  1.0000
+  Se  Se2       1.0  0.9885392672902119  0.0  0.44326802722186526  1.0000
+  O   O4        1.0  0.7316872971789602  0.2210703819064543  0.4513545648422535  1.0000
+  O   O5        1.0  0.7316872971789602  0.778929618093549  0.4513545648422535  1.0000
+  O   O6        1.0  0.22748552649981568  1.5362234271616154e-18  0.49046034260604865  1.0000

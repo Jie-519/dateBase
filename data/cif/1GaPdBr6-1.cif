@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BrGaBr4PdBr
+_chemical_formula_sum              "Br6 Ga1 Pd1"
+_cell_length_a       6.706028031500734
+_cell_length_b       6.530050332733386
+_cell_length_c       18.12191009387764
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.88554549592611
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.13121744282719325  0.508179989768991  0.580234625468789  1.0000
+  Ga  Ga1       1.0  0.8240883519067342  0.15652210462258817  0.49992338946523635  1.0000
+  Br  Br2       1.0  0.5169453249359285  0.868612159299082  0.4138636579227827  1.0000
+  Br  Br3       1.0  0.8439157936911923  0.86925852478364  0.5861363420772172  1.0000
+  Br  Br4       1.0  0.1472924942342696  0.1462209972228721  0.4219164131179096  1.0000
+  Br  Br5       1.0  0.4904084188238242  0.14602554591524852  0.577869246988646  1.0000
+  Pd  Pd1       1.0  0.1631107691337662  0.8349740456964226  0.49987503491708857  1.0000
+  Br  Br6       1.0  0.868074233786394  0.5080173947602914  0.41955472043714515  1.0000

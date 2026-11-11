@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BaIBaF2I
+_chemical_formula_sum              "Ba2 I2 F2"
+_cell_length_a       4.503008827296637
+_cell_length_b       4.5030088272966635
+_cell_length_c       34.6656
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ba  Ba1       1.0  0.0  8.304627553419424e-17  0.45728482993647795  1.0000
+  I   I1        1.0  0.5000000000000007  0.5000000000000006  0.4089635511890141  1.0000
+  Ba  Ba2       1.0  0.5000000000000007  0.5000000000000006  0.5427151700635218  1.0000
+  F   F1        1.0  0.5000000000000007  1.830346048723091e-18  0.5  1.0000
+  F   F2        1.0  5.129877294727933e-19  0.5000000000000006  0.5  1.0000
+  I   I2        1.0  1.7465363094406896e-18  0.0  0.5910364488109832  1.0000

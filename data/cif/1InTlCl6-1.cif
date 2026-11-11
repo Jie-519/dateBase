@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       InCl3TlCl3
+_chemical_formula_sum              "In1 Cl6 Tl1"
+_cell_length_a       6.681730463984662
+_cell_length_b       6.6780920136675395
+_cell_length_c       17.97380800540728
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.97990859576197
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.8358402498718133  0.5034307628543899  0.49986951056281836  1.0000
+  Cl  Cl1       1.0  0.8110371490395547  0.8027712120152132  0.4172738463515179  1.0000
+  Cl  Cl2       1.0  0.16022219089621004  0.5271312683352081  0.4176625223504009  1.0000
+  Cl  Cl3       1.0  0.15992559356379327  0.803623947315357  0.5822658389965506  1.0000
+  Tl  Tl1       1.0  0.5025536553352394  0.8364164835491948  0.5000775372526189  1.0000
+  Cl  Cl4       1.0  0.536738786603935  0.5280858984456466  0.5827261536484818  1.0000
+  Cl  Cl5       1.0  0.8118746270413622  0.17917735443270455  0.5823868169838263  1.0000
+  Cl  Cl6       1.0  0.5356343931587024  0.17897702979356955  0.41760544517147474  1.0000

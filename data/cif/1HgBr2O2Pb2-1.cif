@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       OPbHgBrPbBrO
+_chemical_formula_sum              "O2 Pb2 Hg1 Br2"
+_cell_length_a       4.078709057275998
+_cell_length_b       6.357666076362296
+_cell_length_c       33.842086877324824
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    108.70955451667075
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.7028531896155709  0.405706379231147  0.487789074544166  1.0000
+  Pb  Pb1       1.0  0.7977747222007042  0.5955494444014134  0.5470243184096664  1.0000
+  Hg  Hg1       1.0  0.5331845816427274  0.06636916328545517  0.4999994111572698  1.0000
+  Br  Br1       1.0  0.960915717150272  0.9218314343005443  0.4307070620491483  1.0000
+  Pb  Pb2       1.0  0.26859423471742966  0.5371884694348602  0.45297557698057317  1.0000
+  Br  Br2       1.0  0.10545969664817396  0.21091939329634796  0.5692939495132774  1.0000
+  O   O2        1.0  0.3635166425220197  0.7270332850440406  0.5122108548154323  1.0000

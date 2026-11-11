@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2Br4
+_chemical_formula_sum              "Co2 Br4"
+_cell_length_a       10.18567188392811
+_cell_length_b       7.631470403227294
+_cell_length_c       19.71507551
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    19.20091129686983
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.1696949726757724  0.3039815401348362  0.44238310513563883  1.0000
+  Co  Co2       1.0  0.6696955926757722  0.30398104013483646  0.5576169748643612  1.0000
+  Br  Br1       1.0  0.279718023993886  0.583876894525381  0.6205683390677766  1.0000
+  Br  Br2       1.0  0.7797193439938847  0.5838754245253808  0.37943155093222325  1.0000
+  Br  Br3       1.0  0.8005516818916376  0.041678851585638096  0.44418981435816157  1.0000
+  Br  Br4       1.0  0.3005512918916406  0.0416793615856381  0.5558102256418384  1.0000

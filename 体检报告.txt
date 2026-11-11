@@ -1,0 +1,73 @@
+C2DB 材料数据库 · 体检报告
+========================================================================
+结论：全部通过
+
+[OK] 1 行数：三子库与源表保留行一一对应
+        源表保留 3354 行；库内 material=3354、structure=3354、electrical=3354、stability=3354
+[OK] 2 外键完整性
+        foreign_key_check 返回 0 行违规
+[OK] 3 三子库 1:1 覆盖（无孤儿行）
+        {"structure": 0, "electrical": 0, "stability": 0, "extra": 0}
+[OK] 4 主键唯一且非空
+        重复 0，空值 0
+[OK] 5 评分与结论（保留口径 ≥90）
+        分数区间 90.0–100.0；结论分布 {'保留': 3354}
+[OK] 6 数值域（晶格/角度/空间群/带隙）
+        {"a<=0": 0, "angle": 0, "space_group": 0, "gap<0": 0}
+[OK] 7 库内不存“缺失/未计算/源表无此字段”字符串（应为 NULL）
+        0 命中
+[OK] 8 官网无的字段（晶相/迁移率/介电常数）必须为空
+        {"crystal_phase": 0, "mobility": 0, "dielectric": 0}
+[OK] 9 有效质量补抓与库内一致（emass_cbm / emass_vbm）
+        官网子集 3664 条，落在本库 2769 条，库内有值 2769 条（0.000 共 1 条、∞(平带) 共 176 条）
+[OK] 10 极化率(Å) 未被当成介电常数
+        有极化率 1975 行；字典中 3 条明确标注“不是介电常数”（3/3）；dielectric_static 全空
+[OK] 11 方法/泛函齐全（每列都标了方法）
+        eff_mass_cbm:PBE/PBE/m0；eff_mass_vbm:PBE/PBE/m0；gap_dir_pbe:PBE/PBE/eV；gap_gw:G0W0/G0W0@PBE/eV；gap_hse06:HSE06/HSE06@PBE/eV；gap_pbe:PBE/PBE/eV
+[OK] 12 抽样 30 条逐值比对（11 个数值列）
+        全部一致
+[OK] 13 CIF 原文件内嵌库内（内容 = 官网下载字节，逐条重算哈希）
+        内嵌 3354/3354 条、共 4.33 MB；sha256 逐条重算不一致 0 条；与 data/cif 抽检 20 条，全部逐字节一致
+
+------------------------------------------------------------------------
+规模
+  material        3354
+  structure       3354
+  electrical      3354
+  stability       3354
+  表 10 个：data_gap、electrical、element、field_dictionary、import_batch、material、material_element、property_dictionary、stability、structure
+  视图 5 个：v_category_summary、v_material_full、v_material_missing、v_method_map、v_missing_counts
+
+缺失率（官网有该字段；分母 = 库内材料数）
+  gap_gw                  3015   89.89%
+  polarizability_lat      1379   41.12%
+  polarizability_total    1379   41.12%
+  polarizability_el        824   24.57%
+  eff_mass_cbm             585   17.44%
+  eff_mass_vbm             585   17.44%
+  ehull                      0    0.00%
+  energy                     0    0.00%
+  gap_dir_pbe                0    0.00%
+  gap_hse06                  0    0.00%
+  gap_pbe                    0    0.00%
+  hform                      0    0.00%
+
+官网无此字段（全局，不存在逐行缺失率）
+  dielectric_static、mobility_e、mobility_h
+
+类别分布
+  三元化合物   含金属=1   1520 条  均分 90.32  平均带隙 1.402 eV  直接带隙 545
+  二元化合物   含金属=1    965 条  均分 92.26  平均带隙 1.557 eV  直接带隙 308
+  多元化合物   含金属=1    605 条  均分 90.0  平均带隙 1.734 eV  直接带隙 166
+  二元化合物   含金属=0    117 条  均分 92.82  平均带隙 1.725 eV  直接带隙 28
+  三元化合物   含金属=0    110 条  均分 93.45  平均带隙 1.642 eV  直接带隙 15
+  多元化合物   含金属=0     26 条  均分 90.0  平均带隙 2.991 eV  直接带隙 2
+  单质      含金属=0      8 条  均分 92.5  平均带隙 0.77 eV  直接带隙 4
+  单质      含金属=1      3 条  均分 90.0  平均带隙 0.258 eV  直接带隙 0
+
+电学覆盖
+  PBE 带隙全有；其中零带隙 78 条；HSE06 3354 条；G0W0 339 条；直接带隙 1068 条
+  有效质量（PBE·DOS）：CBM/VBM 有值 2769 条；其中 ∞(平带) 176 条、0.000（<0.0005 m0）1 条
+  动力学稳定 Yes/No：{'No': 359, 'Yes': 2995}
+
+注：所有数值按官网显示精度 3 位小数存储。

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cl2Mg2Cl2
+_chemical_formula_sum              "Cl4 Mg2"
+_cell_length_a       3.6652396516824917
+_cell_length_b       6.31459582394541
+_cell_length_c       34.37166
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.0  2.287434018099991e-16  0.46741519029970585  1.0000
+  Cl  Cl2       1.0  0.5000000000000057  2.585424650532035e-16  0.5515472327373182  1.0000
+  Mg  Mg1       1.0  0.5000000000000048  0.7500000000001238  0.5  1.0000
+  Mg  Mg2       1.0  0.5000000000000048  0.25000000000003714  0.5  1.0000
+  Cl  Cl3       1.0  0.0  0.5000000000000743  0.5325848097002841  1.0000
+  Cl  Cl4       1.0  0.5000000000000048  0.5000000000000743  0.4484527672626821  1.0000

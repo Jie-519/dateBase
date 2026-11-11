@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Tl2Cl6
+_chemical_formula_sum              "Tl2 Cl6"
+_cell_length_a       7.102360305686589
+_cell_length_b       7.102360305686588
+_cell_length_c       18.362647973794385
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.6666666666666666  0.3333333333333333  0.5000169299012059  1.0000
+  Tl  Tl2       1.0  0.33333333333333404  0.6666666666666666  0.4999827316806227  1.0000
+  Cl  Cl1       1.0  0.47988318349115294  0.9999823501617461  0.40827979572954015  1.0000
+  Cl  Cl2       1.0  0.5200991666706141  0.520116816508874  0.40827979572954015  1.0000
+  Cl  Cl3       1.0  1.764983827334544e-05  0.4799008333293998  0.40827979572954015  1.0000
+  Cl  Cl4       1.0  0.47990101401434093  1.7877502542621356e-05  0.5917199252494653  1.0000
+  Cl  Cl5       1.0  0.5201168634881917  0.520098985985644  0.5917199252494653  1.0000
+  Cl  Cl6       1.0  0.9999821224974611  0.4798831365118223  0.5917199252494653  1.0000

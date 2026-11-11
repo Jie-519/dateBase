@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       HOSrI
+_chemical_formula_sum              "H1 O1 Sr1 I1"
+_cell_length_a       4.2612043053161
+_cell_length_b       4.265139174131871
+_cell_length_c       19.09512067790881
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00335799421879
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.5013442864450263  0.5038364091295705  0.607229505039119  1.0000
+  O   O1        1.0  0.5004767517509314  0.5034265990760296  0.5562717294460476  1.0000
+  Sr  Sr1       1.0  0.16719311358290778  0.8368600158657595  0.5023407727699166  1.0000
+  I   I1        1.0  0.833632817861735  0.17023132752552989  0.3927704949608812  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Cl6In4
+_chemical_formula_sum              "Cl6 In4"
+_cell_length_a       8.555779376948937
+_cell_length_b       8.555779379458086
+_cell_length_c       18.62187036
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000002842133
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.26904461652856637  0.9999999999999947  0.40740069050337935  1.0000
+  Cl  Cl2       1.0  0.9999999999999949  0.2690446365285645  0.40740070050337934  1.0000
+  Cl  Cl3       1.0  0.7309568334714127  0.7309566834713874  0.4074007405033794  1.0000
+  Cl  Cl4       1.0  0.3333333299999944  0.6666666699999735  0.5956429055970963  1.0000
+  Cl  Cl5       1.0  0.6666666699999902  0.3333333299999794  0.5956429055970963  1.0000
+  Cl  Cl6       1.0  0.0  0.0  0.5722692102638829  1.0000
+  In  In1       1.0  0.5884452314989287  2.881932415659834e-15  0.5238151436834336  1.0000
+  In  In2       1.0  7.68089123006996e-15  0.5884449314989054  0.5238151436834336  1.0000
+  In  In3       1.0  0.41155354850106085  0.4115539785010552  0.5238150736834335  1.0000
+  In  In4       1.0  2.0149209689941296e-19  0.0  0.442515817971275  1.0000

@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       VTeI
+_chemical_formula_sum              "V1 Te1 I1"
+_cell_length_a       3.6139391125714773
+_cell_length_b       3.613735290812363
+_cell_length_c       33.53383198672762
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00316864749908
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.0013781068497208903  0.998444788093481  0.49863087062021444  1.0000
+  Te  Te1       1.0  0.33451223669943503  0.6647116433960939  0.44693744091455184  1.0000
+  I   I1        1.0  0.33469909955189464  0.6650272436998723  0.5515312816151238  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       O4Cd2Bi2Cl2
+_chemical_formula_sum              "O4 Cd2 Bi2 Cl2"
+_cell_length_a       4.294455559249854
+_cell_length_b       7.547180363762503
+_cell_length_c       36.36461788082604
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  4.5216815738631984e-23  0.5838261681684044  0.5028173696781161  1.0000
+  O   O2        1.0  0.4999999999999993  0.8814691436435125  0.4971826448560437  1.0000
+  O   O3        1.0  1.2280740488551287e-17  0.14541186368479084  0.488673564859475  1.0000
+  O   O4        1.0  0.4999999999999993  0.31989142558959804  0.5113263394536774  1.0000
+  Cd  Cd1       1.0  0.4999999999999993  0.6049771338477108  0.4764894773639035  1.0000
+  Cd  Cd2       1.0  1.397852748475653e-19  0.86031872020585  0.5235104255275815  1.0000
+  Bi  Bi1       1.0  1.335655321908891e-18  0.33994170607093727  0.5336096696689632  1.0000
+  Bi  Bi2       1.0  0.4999999999999993  0.12535736889264637  0.46639066878548724  1.0000
+  Cl  Cl1       1.0  0.4999999999999993  0.461088916672881  0.41694928927607594  1.0000
+  Cl  Cl2       1.0  0.0  0.004209406629846886  0.5830504320554841  1.0000

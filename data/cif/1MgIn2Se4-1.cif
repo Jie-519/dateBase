@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       InSe2MgInSe2
+_chemical_formula_sum              "In2 Se4 Mg1"
+_cell_length_a       4.12341803293503
+_cell_length_b       4.123418032934997
+_cell_length_c       39.02500000000001
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999991
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  1.2039622130977206e-17  2.361922198566486e-17  0.5993576658634998  1.0000
+  Se  Se1       1.0  0.6666666666666653  0.3333333333333352  0.6308404097716289  1.0000
+  Se  Se2       1.0  0.0  0.0  0.5344787813291629  1.0000
+  Mg  Mg1       1.0  0.6666666666666653  0.3333333333333352  0.5  1.0000
+  In  In2       1.0  0.33333333333333104  0.666666666666669  0.4006423341365006  1.0000
+  Se  Se3       1.0  0.6666666666666653  0.3333333333333352  0.3691595902283709  1.0000
+  Se  Se4       1.0  0.33333333333333104  0.666666666666669  0.46552121867083734  1.0000

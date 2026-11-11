@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cd2Se2Cu2Cl2
+_chemical_formula_sum              "Cd2 Se2 Cu2 Cl2"
+_cell_length_a       4.168871199896061
+_cell_length_b       6.929963097689739
+_cell_length_c       39.52370426
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.49999999999999656  0.11446662637899507  0.5190098363145975  1.0000
+  Cd  Cd2       1.0  0.49999999999999606  0.6144666263790037  0.48099016368540265  1.0000
+  Se  Se1       1.0  0.49999999999999617  0.2616529757010464  0.45754491087593696  1.0000
+  Se  Se2       1.0  0.49999999999999944  0.7616529757010115  0.5424550891240558  1.0000
+  Cu  Cu1       1.0  0.0  0.10480274451674985  0.45756005963065605  1.0000
+  Cu  Cu2       1.0  0.0  0.6048027445166826  0.542439940369344  1.0000
+  Cl  Cl1       1.0  2.2916641020041508e-17  0.27564519903573687  0.5518631116839092  1.0000
+  Cl  Cl2       1.0  4.3908608099359327e-17  0.7756451990357326  0.4481368883160912  1.0000

@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       NiBr2
+_chemical_formula_sum              "Ni1 Br2"
+_cell_length_a       3.699008445787564
+_cell_length_b       3.6990084457875643
+_cell_length_c       17.806787675759303
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  2.3393722032830734e-19  4.94457685647142e-19  0.5000000000000001  1.0000
+  Br  Br1       1.0  0.6666666666666673  0.3333333333333333  0.5788358175268085  1.0000
+  Br  Br2       1.0  0.33333333333333376  0.6666666666666666  0.4211641824731914  1.0000

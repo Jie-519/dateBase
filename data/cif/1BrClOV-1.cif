@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VBrClO
+_chemical_formula_sum              "V1 Br1 Cl1 O1"
+_cell_length_a       3.5606929664648974
+_cell_length_b       3.815043229494303
+_cell_length_c       33.48574451941899
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.9379560542723
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.11945493464773252  0.07844906498196534  0.49700409614602137  1.0000
+  Br  Br1       1.0  0.6197531699736322  0.1587671301945047  0.5506495483940587  1.0000
+  Cl  Cl1       1.0  0.6196161533815295  0.1573330151304423  0.44962275179859534  1.0000
+  O   O1        1.0  0.1199925307622381  0.6512611404154622  0.49686762505530413  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       SHCaSH
+_chemical_formula_sum              "S2 H2 Ca1"
+_cell_length_a       4.411783319607069
+_cell_length_b       4.4119485195482175
+_cell_length_c       19.208510457334267
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.85480205577097
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.7346644654562292  0.33420383299882944  0.5684421985176972  1.0000
+  H   H1        1.0  0.7357391637996176  0.3339470702986463  0.6387242308038914  1.0000
+  Ca  Ca1       1.0  0.06731646028378283  0.9999407249829353  0.5000056391168024  1.0000
+  S   S2        1.0  0.400396216915003  0.665726766143283  0.43156139391459725  1.0000
+  H   H2        1.0  0.4018021980877444  0.6661491646452824  0.361279885102726  1.0000

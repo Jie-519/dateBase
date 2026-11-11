@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       MoAu2Te4
+_chemical_formula_sum              "Mo1 Au2 Te4"
+_cell_length_a       6.089576035215964
+_cell_length_b       6.089576278303189
+_cell_length_c       17.61186088641994
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.9062985389763321  0.9480106101643073  0.49996649000793947  1.0000
+  Au  Au1       1.0  0.9063450926719893  0.4479385408452684  0.49999520987362395  1.0000
+  Au  Au2       1.0  0.4063706207766054  0.9479640346930488  0.49999520569968275  1.0000
+  Te  Te1       1.0  0.14041558286515124  0.7138935513984046  0.4057905011488061  1.0000
+  Te  Te2       1.0  0.6723603750975743  0.18194876383974423  0.4057068858694205  1.0000
+  Te  Te3       1.0  0.6723331483077156  0.7140010864946235  0.5942372802973893  1.0000
+  Te  Te4       1.0  0.14030806445306052  0.1819759859673908  0.5942372781178658  1.0000

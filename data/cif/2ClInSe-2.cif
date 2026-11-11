@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cl2Se2In2
+_chemical_formula_sum              "Cl2 Se2 In2"
+_cell_length_a       6.8209698578293105
+_cell_length_b       4.091821332992292
+_cell_length_c       20.09119545
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.6144875758441128  0.534005901093693  0.6265279681064756  1.0000
+  Cl  Cl2       1.0  0.11448745584411234  0.021021778906307995  0.37347193189352434  1.0000
+  Se  Se1       1.0  0.1487304051437604  0.5266206914155528  0.552364632640704  1.0000
+  Se  Se2       1.0  0.6487305451437607  0.02839442858444863  0.447635207359296  1.0000
+  In  In1       1.0  0.27142124761360586  0.026892594269969785  0.47848709367895836  1.0000
+  In  In2       1.0  0.771421237613606  0.5281282657300296  0.5215131663210416  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Se2Bi2
+_chemical_formula_sum              "Se2 Bi2"
+_cell_length_a       4.1245939235705125
+_cell_length_b       4.125589175921442
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99202016639958
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.999992611044103  0.00010280527459803697  0.34374146146629736  1.0000
+  Se  Se2       1.0  0.33334141474643153  0.6665631932290892  0.6563256953732499  1.0000
+  Bi  Bi1       1.0  0.9999399839470102  7.233877108452914e-05  0.5733582966268974  1.0000
+  Bi  Bi2       1.0  0.3333928676741991  0.6665947959168351  0.42671154953143653  1.0000

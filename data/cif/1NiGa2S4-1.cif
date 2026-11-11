@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       NiGa2S4
+_chemical_formula_sum              "Ni1 Ga2 S4"
+_cell_length_a       3.6659919901279245
+_cell_length_b       3.6656620936666195
+_cell_length_c       38.86338
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00297710222995
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  6.594537767568443e-18  1.3189075569429747e-17  0.5000000000000001  1.0000
+  Ga  Ga1       1.0  0.6666894188448378  0.3333788376896748  0.41227633851835305  1.0000
+  Ga  Ga2       1.0  0.33331058115516216  0.6666211623103244  0.5877236614816472  1.0000
+  S   S1        1.0  0.6666650255764843  0.3333300511529679  0.6149959491412991  1.0000
+  S   S2        1.0  0.33333497442351495  0.66666994884703  0.3850040508587  1.0000
+  S   S3        1.0  0.6664746673432335  0.33294933468646626  0.47013628469536434  1.0000
+  S   S4        1.0  0.3335253326567666  0.6670506653135332  0.5298637153046357  1.0000

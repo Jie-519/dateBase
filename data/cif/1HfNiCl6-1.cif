@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfNiCl6
+_chemical_formula_sum              "Hf1 Ni1 Cl6"
+_cell_length_a       6.271014663645446
+_cell_length_b       6.27101466364545
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9788145574216
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.9977156757457301  0.0023673734259167297  0.5000048782760099  1.0000
+  Ni  Ni1       1.0  0.664489713557338  0.3356067260199982  0.5000049789960855  1.0000
+  Cl  Cl1       1.0  0.33655219380250534  0.309824032194893  0.5789094657917625  1.0000
+  Cl  Cl2       1.0  0.9663326203824624  0.6635422581167556  0.5788796541263086  1.0000
+  Cl  Cl3       1.0  0.6907057536124169  0.03409742576565958  0.5790431424137781  1.0000
+  Cl  Cl4       1.0  0.9659927660211342  0.3093776956014053  0.4209652738810018  1.0000
+  Cl  Cl5       1.0  0.3365498597765392  0.03374557228261456  0.42113578845606603  1.0000
+  Cl  Cl6       1.0  0.6902722394065084  0.6635338117234099  0.4210966195689951  1.0000

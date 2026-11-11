@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfFeI6
+_chemical_formula_sum              "Hf1 Fe1 I6"
+_cell_length_a       7.0441780975304
+_cell_length_b       7.044178097530405
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.95573631442753
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.0605451473848717  0.9395204769659979  0.5000092087483187  1.0000
+  Fe  Fe1       1.0  0.7271075142123821  0.27295792253749385  0.5000069125759679  1.0000
+  I   I1        1.0  0.41244270689823215  0.25769107709939115  0.5891529503005114  1.0000
+  I   I2        1.0  0.026096965246838924  0.5872984833043414  0.5893408798882819  1.0000
+  I   I3        1.0  0.7419602763498021  0.9732185463806649  0.5890719513993639  1.0000
+  I   I4        1.0  0.02684936374653592  0.2581142565755051  0.4109365352898772  1.0000
+  I   I5        1.0  0.41277543467497824  0.9739719135330492  0.41066564772584196  1.0000
+  I   I6        1.0  0.7423804061004955  0.587629604531516  0.4108580268214855  1.0000

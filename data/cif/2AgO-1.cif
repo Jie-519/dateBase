@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       AgOAgO
+_chemical_formula_sum              "Ag2 O2"
+_cell_length_a       3.052384420158478
+_cell_length_b       6.270149491823274
+_cell_length_c       17.10059228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ag  Ag1       1.0  7.992319026596089e-23  0.9999403471356972  0.5000069298481397  1.0000
+  O   O1        1.0  8.31869887728085e-17  0.3111026141828332  0.5356514312262337  1.0000
+  Ag  Ag2       1.0  0.5000000007666352  0.49994513663171236  0.4999935435080976  1.0000
+  O   O2        1.0  3.39370554498062e-17  0.688800819958339  0.4643480272236499  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       OHBaOH
+_chemical_formula_sum              "O2 H2 Ba1"
+_cell_length_a       4.232704329633442
+_cell_length_b       4.233655910616223
+_cell_length_c       19.208510457334267
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.02653517196671
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.3332423016359981  0.6588651014551183  0.5643997235593577  1.0000
+  H   H1        1.0  0.3319961736257073  0.6577676978188569  0.6149491057466975  1.0000
+  Ba  Ba1       1.0  5.0389239025516754e-05  0.9920556417271988  0.4999820242499223  1.0000
+  O   O2        1.0  0.6668017918651085  0.32549084198139655  0.43560929333553927  1.0000
+  H   H2        1.0  0.6680510260469785  0.32597203407579556  0.3850612391346496  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cr2Se2I2
+_chemical_formula_sum              "Cr2 Se2 I2"
+_cell_length_a       5.0054873969634395
+_cell_length_b       3.795899099623782
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.4999999999999999  0.9999999999999999  0.44887780406289784  1.0000
+  Cr  Cr2       1.0  1.281400991107178e-16  0.5  0.5510932101182721  1.0000
+  Se  Se1       1.0  0.4999999999999999  0.5  0.5275935209374406  1.0000
+  Se  Se2       1.0  2.390092647265564e-18  1.9453820478495384e-17  0.4723760435550944  1.0000
+  I   I1        1.0  0.4999999999999999  0.5  0.35694598952702855  1.0000
+  I   I2        1.0  7.946824403357203e-18  0.0  0.6430253776057433  1.0000

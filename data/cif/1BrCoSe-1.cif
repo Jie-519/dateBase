@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CoSeBr
+_chemical_formula_sum              "Co1 Se1 Br1"
+_cell_length_a       3.474090677460589
+_cell_length_b       3.473647702364673
+_cell_length_c       17.720400670521276
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.98924795743221
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.835333192405586  0.8348247967712953  0.5074509286134589  1.0000
+  Se  Se1       1.0  0.1685564021218099  0.501497582442708  0.5767590056540536  1.0000
+  Br  Br1       1.0  0.501497966705734  0.1676101049624728  0.42324099434594636  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       S2Ge2
+_chemical_formula_sum              "S2 Ge2"
+_cell_length_a       4.481773396444417
+_cell_length_b       3.6520887422112422
+_cell_length_c       17.10979291
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.03048074076543521  0.9999230482162579  0.43759928255722985  1.0000
+  S   S2        1.0  0.5304818542389738  0.4998978029515825  0.5624065666759211  1.0000
+  Ge  Ge1       1.0  0.16313593383467892  0.9999240144992687  0.5749126537643653  1.0000
+  Ge  Ge2       1.0  0.663139295240563  0.4999041867794934  0.425077788932966  1.0000

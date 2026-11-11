@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Se4Br4V2
+_chemical_formula_sum              "Se4 Br4 V2"
+_cell_length_a       6.649457099291524
+_cell_length_b       6.637520697160041
+_cell_length_c       19.18428573
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.05950587722432
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Se  Se1       1.0  0.0025507846232535702  0.0  0.3910022362399643  1.0000
+  Se  Se2       1.0  0.9974492253767463  6.501325882027531e-20  0.6089977637600358  1.0000
+  Se  Se3       1.0  0.7173454078398956  4.9897447263943746e-20  0.4573518481946947  1.0000
+  Se  Se4       1.0  0.2826545621601044  0.0  0.5426481618053053  1.0000
+  Br  Br1       1.0  0.8925339112371972  0.41804171171912613  0.5774909043515944  1.0000
+  Br  Br2       1.0  0.107466088762803  0.5819582782808742  0.42250909564840555  1.0000
+  Br  Br3       1.0  0.5255078204819289  0.41804172171912607  0.42250909564840555  1.0000
+  Br  Br4       1.0  0.47449220951807114  0.5819582982808741  0.5774909043515944  1.0000
+  V   V1        1.0  0.8745448999122  0.7490897998244004  0.5  1.0000
+  V   V2        1.0  0.12545509008779993  0.25091019017559985  0.5  1.0000

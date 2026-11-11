@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       PdF4NiF2
+_chemical_formula_sum              "Pd1 F6 Ni1"
+_cell_length_a       4.956883865475528
+_cell_length_b       4.96043274665032
+_cell_length_c       17.556895361082535
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    104.06702610914171
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.11433447329199872  0.1215466227203475  0.49998536049833264  1.0000
+  F   F1        1.0  0.856274778308669  0.368929021096208  0.48822315920092746  1.0000
+  F   F2        1.0  0.3584544785480155  0.3663806867425317  0.4271825881371294  1.0000
+  F   F3        1.0  0.35420011474102264  0.3702434615407278  0.5728174118628704  1.0000
+  F   F4        1.0  0.3725722400056091  0.8742438086271961  0.5116399163506609  1.0000
+  Ni  Ni1       1.0  0.6142743300881588  0.621440364986387  0.5000247882021874  1.0000
+  F   F5        1.0  0.8704698141039326  0.8766747278123884  0.5728102049570367  1.0000
+  F   F6        1.0  0.8743283700998578  0.8726057732905809  0.42722899942295095  1.0000

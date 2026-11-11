@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       RuSe2RuSe2
+_chemical_formula_sum              "Ru2 Se4"
+_cell_length_a       3.5954547929159912
+_cell_length_b       5.792452872509963
+_cell_length_c       18.3211216819077
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ru  Ru1       1.0  0.0  0.05243311076834654  0.5011832528926162  1.0000
+  Se  Se1       1.0  0.5  0.15643267054521884  0.5906378789966339  1.0000
+  Se  Se2       1.0  0.0  0.3435673302366858  0.40936212102622205  1.0000
+  Ru  Ru2       1.0  0.5  0.44756689102864905  0.49881674707314627  1.0000
+  Se  Se3       1.0  0.0  0.6593787771045727  0.5675291828468279  1.0000
+  Se  Se4       1.0  0.49999999999999994  0.8406212245536941  0.4324708173128594  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrPdI6
+_chemical_formula_sum              "Zr1 Pd1 I6"
+_cell_length_a       7.313144651691584
+_cell_length_b       7.312320226937658
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00384204631052
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.941480780619275  0.882891116093596  0.5000186617793106  1.0000
+  Pd  Pd1       1.0  0.27478297334698726  0.5494951456919908  0.5000108511097997  1.0000
+  I   I1        1.0  0.2486890267347959  0.8557912765441446  0.5929195081847124  1.0000
+  I   I2        1.0  0.6070830792479909  0.5754641512655148  0.592894056367603  1.0000
+  I   I3        1.0  0.9685244242419778  0.21713998694644665  0.5929469092465851  1.0000
+  I   I4        1.0  0.24870068679103144  0.21715217287397018  0.4070562253777977  1.0000
+  I   I5        1.0  0.9684453982789826  0.5754458061941911  0.40711053218423376  1.0000
+  I   I6        1.0  0.6071608450509888  0.8557920047800456  0.4070832997108845  1.0000

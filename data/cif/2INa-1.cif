@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       I2Na2
+_chemical_formula_sum              "I2 Na2"
+_cell_length_a       6.3522207078571045
+_cell_length_b       4.468308851336921
+_cell_length_c       18.56554475
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    45.33096954582026
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.15481246  0.49953996  0.59602586  1.0000
+  I   I2        1.0  0.65481246  0.49952996000000005  0.40397414000000004  1.0000
+  Na  Na1       1.0  0.6547375400000003  0.49990003999999993  0.5760031100000002  1.0000
+  Na  Na2       1.0  0.15473754  0.49990003999999993  0.42399689  1.0000

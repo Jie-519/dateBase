@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       YClOYClO3
+_chemical_formula_sum              "Y2 Cl2 O4"
+_cell_length_a       3.5054503647847612
+_cell_length_b       6.432629848457764
+_cell_length_c       35.39011612651005
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.0  0.38142306906160883  0.4748213399853202  1.0000
+  Cl  Cl1       1.0  0.5  0.30926543044174093  0.41866796219169344  1.0000
+  O   O1        1.0  0.5  0.6332283588588403  0.4788898457542511  1.0000
+  Y   Y2        1.0  0.5  0.8830983438417407  0.5251821351903748  1.0000
+  Cl  Cl2       1.0  0.0  0.95528517819938  0.581337774407635  1.0000
+  O   O2        1.0  6.016339620314414e-18  0.6313016153905135  0.5211168396995676  1.0000
+  O   O3        1.0  0.4999999999999984  0.22672347549983743  0.5113768380577951  1.0000
+  O   O4        1.0  0.0  0.03780959298143198  0.48862757076865804  1.0000

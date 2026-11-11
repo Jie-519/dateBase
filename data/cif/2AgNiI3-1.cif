@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I6Ni2Ag2
+_chemical_formula_sum              "I6 Ni2 Ag2"
+_cell_length_a       7.264172725679554
+_cell_length_b       7.264172731125397
+_cell_length_c       18.19457191
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000002060555
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.6210630533926751  1.846205827961354e-15  0.5880639402415646  1.0000
+  I   I2        1.0  0.3789369566073214  0.37893694660732435  0.5880639402415646  1.0000
+  I   I3        1.0  0.9999999999999978  0.6210630533926725  0.5880639302415647  1.0000
+  I   I4        1.0  0.37893694660732186  0.9999999999999981  0.41193606975843483  1.0000
+  I   I5        1.0  0.6210630433926759  0.6210630433926758  0.41193606975843483  1.0000
+  I   I6        1.0  0.9999999999999999  0.3789369366073263  0.41193606975843483  1.0000
+  Ni  Ni1       1.0  0.3333333299999986  0.6666666699999999  0.5  1.0000
+  Ni  Ni2       1.0  0.6666666699999992  0.3333333299999999  0.5  1.0000
+  Ag  Ag1       1.0  1.4637312028737135e-21  1.1359577078748384e-20  0.5821386101717563  1.0000
+  Ag  Ag2       1.0  0.0  1.1753184697289588e-20  0.41786138982824356  1.0000

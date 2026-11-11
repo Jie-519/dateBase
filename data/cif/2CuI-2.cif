@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       I2Cu2
+_chemical_formula_sum              "I2 Cu2"
+_cell_length_a       4.114941111817358
+_cell_length_b       4.114941111817358
+_cell_length_c       18.83251875403109
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  1.810602139340199e-16  1.5512878595047392e-16  0.5913605137734453  1.0000
+  I   I2        1.0  0.5000000000000001  0.5  0.40863940476748123  1.0000
+  Cu  Cu1       1.0  0.5000000000000001  1.502226390081883e-16  0.4999999581461849  1.0000
+  Cu  Cu2       1.0  1.5042540167845023e-16  0.5000000000000001  0.4999999581461849  1.0000

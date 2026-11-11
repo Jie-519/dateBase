@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SGaIIrIS
+_chemical_formula_sum              "S2 Ga1 I2 Ir1"
+_cell_length_a       3.7809401019418987
+_cell_length_b       4.732320557610387
+_cell_length_c       21.123501218420188
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99983541947003
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.7520731436215179  0.7470498150763111  0.4849771129265112  1.0000
+  Ga  Ga1       1.0  0.7513844000080895  0.2471841672767195  0.4518209230607973  1.0000
+  I   I1        1.0  0.7519687930236694  0.7469646701842553  0.6449452236895357  1.0000
+  Ir  Ir1       1.0  0.2521460880409632  0.7471344898673598  0.5529048975251616  1.0000
+  I   I2        1.0  0.25111358112932014  0.24859936347417147  0.3550547763104642  1.0000
+  S   S2        1.0  0.2517339247109848  0.24691615872401051  0.5284303862312938  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Na2Hg2Br6
+_chemical_formula_sum              "Na2 Hg2 Br6"
+_cell_length_a       7.454718481474739
+_cell_length_b       7.454718481755162
+_cell_length_c       18.65688089
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999875565
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.33333333000000437  0.6666666700000088  0.5  1.0000
+  Na  Na2       1.0  0.6666666699999949  0.3333333300000037  0.5  1.0000
+  Hg  Hg1       1.0  0.0  7.896086781608852e-20  0.5954086558277197  1.0000
+  Hg  Hg2       1.0  0.0  0.0  0.404591344172279  1.0000
+  Br  Br1       1.0  0.652555077578242  3.7613227114799213e-19  0.5966776902483604  1.0000
+  Br  Br2       1.0  0.34744492242174574  0.34744492242174735  0.5966776902483604  1.0000
+  Br  Br3       1.0  1.0704837814121908e-14  0.6525550775782635  0.5966776902483604  1.0000
+  Br  Br4       1.0  0.3474449224217442  0.0  0.4033223097516426  1.0000
+  Br  Br5       1.0  0.652555087578258  0.6525550775782635  0.4033223097516426  1.0000
+  Br  Br6       1.0  2.1869068473810998e-15  0.3474449324217479  0.4033223097516426  1.0000

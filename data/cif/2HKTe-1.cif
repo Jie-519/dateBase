@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       K2TeHTeH
+_chemical_formula_sum              "K2 Te2 H2"
+_cell_length_a       6.943652722050998
+_cell_length_b       6.943834900217605
+_cell_length_c       18.615232076943553
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00071503918869
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.9114109736830287  0.9461656953707707  0.5000481120926208  1.0000
+  K   K2        1.0  0.412390588935073  0.4470761962252597  0.5000259289954816  1.0000
+  Te  Te1       1.0  0.41238877235701193  0.9468953624647277  0.4558697599924566  1.0000
+  H   H1        1.0  0.41180666601730387  0.9464068057721599  0.36592910344801644  1.0000
+  Te  Te2       1.0  0.9115558641913922  0.44621194241770834  0.5442546607118288  1.0000
+  H   H2        1.0  0.912004068475157  0.4466330848662461  0.6341959588657424  1.0000

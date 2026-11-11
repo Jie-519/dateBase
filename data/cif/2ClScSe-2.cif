@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Sc2Se2Cl2
+_chemical_formula_sum              "Sc2 Se2 Cl2"
+_cell_length_a       3.799238554110015
+_cell_length_b       6.580390524605141
+_cell_length_c       17.97503819
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00031903344203
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.24997907425882135  0.34465140256574256  0.5028923371483718  1.0000
+  Sc  Sc2       1.0  0.7499987645656221  0.8446514221020661  0.5028923280636756  1.0000
+  Se  Se1       1.0  0.2499987370958272  0.011312406711143023  0.5809977860225483  1.0000
+  Se  Se2       1.0  0.7499881450796886  0.5113123746237423  0.5809977957142015  1.0000
+  Cl  Cl1       1.0  0.7499813894931976  0.1780092270147239  0.41610978304974205  1.0000
+  Cl  Cl2       1.0  0.24999399694594873  0.6780092885520347  0.4161097745689555  1.0000

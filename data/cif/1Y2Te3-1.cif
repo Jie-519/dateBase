@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Y2Te3
+_chemical_formula_sum              "Y2 Te3"
+_cell_length_a       4.386974374029459
+_cell_length_b       4.387280660349741
+_cell_length_c       22.24194124
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    60.01190550150445
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.38546043034395217  0.32924238131985495  0.5915054040014085  1.0000
+  Y   Y2        1.0  0.38546043034395217  0.32924238131985495  0.4084945959985915  1.0000
+  Te  Te1       1.0  0.7188499120072094  0.6627756109685028  0.6615742016232053  1.0000
+  Te  Te2       1.0  0.7188499120072094  0.6627756109685028  0.3384257983767948  1.0000
+  Te  Te3       1.0  0.052209342291016106  0.9960936254326429  0.5  1.0000

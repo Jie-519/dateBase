@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrI2TeI3Mn
+_chemical_formula_sum              "Cr1 I5 Te1 Mn1"
+_cell_length_a       6.979134081573745
+_cell_length_b       7.021365364159907
+_cell_length_c       18.26867502162432
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.50998153837243
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8279354453523614  0.490006442068952  0.5019859476453445  1.0000
+  I   I1        1.0  0.12768386511356236  0.46180008634839853  0.4105388043261144  1.0000
+  I   I2        1.0  0.15312119722227954  0.8325784404274799  0.5835714218397812  1.0000
+  Te  Te1       1.0  0.4979575831454561  0.2096306906959689  0.41856426929852986  1.0000
+  I   I3        1.0  0.5072943802293531  0.4805777446590466  0.5894611956738856  1.0000
+  I   I4        1.0  0.8487556098623121  0.8134733463831608  0.41245166313047854  1.0000
+  I   I5        1.0  0.855647640522165  0.1850709919192686  0.5868984631719035  1.0000
+  Mn  Mn1       1.0  0.1705708349819837  0.16975482386559204  0.5001753239463476  1.0000

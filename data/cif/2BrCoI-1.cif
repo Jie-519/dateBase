@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2I2Br2
+_chemical_formula_sum              "Co2 I2 Br2"
+_cell_length_a       10.593776249178612
+_cell_length_b       4.131985000525466
+_cell_length_c       19.98120059
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    141.21922978385746
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.951988446602227  0.09548678337979308  0.5573892680285585  1.0000
+  Co  Co2       1.0  0.4519884873199744  0.09548532661839194  0.4426107208611923  1.0000
+  I   I1        1.0  0.06693909443420337  0.8253536994907281  0.62644131697851  1.0000
+  I   I2        1.0  0.5669391559907039  0.8253522519031781  0.3735587027635926  1.0000
+  Br  Br1       1.0  0.5873376806119104  0.3663707028719792  0.5538536034938787  1.0000
+  Br  Br2       1.0  0.08733762283704145  0.36636864099868816  0.4461463722579943  1.0000

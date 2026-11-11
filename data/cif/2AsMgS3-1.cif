@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Mg2S6As2
+_chemical_formula_sum              "Mg2 S6 As2"
+_cell_length_a       6.247882234614104
+_cell_length_b       6.24788223461419
+_cell_length_c       33.43001821333334
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999999999
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mg  Mg1       1.0  5.329070518200751e-15  0.0  0.4999915874465861  1.0000
+  Mg  Mg2       1.0  0.333333333333339  0.6666666666666679  0.5000084125534137  1.0000
+  S   S1        1.0  0.66663111546297  0.9912033531720391  0.44965383592855446  1.0000
+  S   S2        1.0  0.008796646827986532  0.675427762290928  0.44965383592855446  1.0000
+  S   S3        1.0  0.3245722377090798  0.33336888453703495  0.44965383592855446  1.0000
+  S   S4        1.0  0.6667022178703744  0.6754633134946226  0.55034616407145  1.0000
+  S   S5        1.0  0.3245366865053728  0.9912389043757421  0.55034616407145  1.0000
+  S   S6        1.0  0.008761095624268744  0.3332977821296321  0.55034616407145  1.0000
+  As  As1       1.0  0.6666666666666735  0.33333333333333376  0.4639099267090303  1.0000
+  As  As2       1.0  0.6666666666666735  0.33333333333333376  0.5360900732909725  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl2O4Cu2
+_chemical_formula_sum              "Cl2 O4 Cu2"
+_cell_length_a       4.484268570852395
+_cell_length_b       6.656283062021437
+_cell_length_c       18.169744886120114
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00457374659712
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.03258750599436436  0.03085301543315688  0.4226680047117532  1.0000
+  Cl  Cl2       1.0  0.5325769125235874  0.030569292287464866  0.5773443062811409  1.0000
+  O   O1        1.0  0.5656739280435428  0.6242036474022202  0.463827521078209  1.0000
+  O   O2        1.0  0.06565996001246586  0.4372098397825877  0.5361654320023801  1.0000
+  O   O3        1.0  0.9983890278955333  0.6242421779539488  0.5361804259227246  1.0000
+  O   O4        1.0  0.4983525243890783  0.4371679894113327  0.4638161139444044  1.0000
+  Cu  Cu1       1.0  0.7820467831879973  0.23988070151150082  0.499916548334349  1.0000
+  Cu  Cu2       1.0  0.28213936156462355  0.8215271119434244  0.5000640645787807  1.0000

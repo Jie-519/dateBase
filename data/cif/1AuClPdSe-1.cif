@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       PdAuClSe
+_chemical_formula_sum              "Pd1 Au1 Cl1 Se1"
+_cell_length_a       5.552592992551304
+_cell_length_b       3.41594466566798
+_cell_length_c       18.042578775610906
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.97674184750377
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.882077980460506  0.3729839086586572  0.4945607104824341  1.0000
+  Au  Au1       1.0  0.3611854041727443  0.8727818265537283  0.49350521973942796  1.0000
+  Cl  Cl1       1.0  0.03696989432662135  0.8729487902313121  0.5843166271698289  1.0000
+  Se  Se1       1.0  0.7142901447973056  0.8729017675560033  0.4156833728301711  1.0000

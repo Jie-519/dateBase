@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       As2Bi2
+_chemical_formula_sum              "As2 Bi2"
+_cell_length_a       6.269218467320986
+_cell_length_b       4.636873934991222
+_cell_length_c       17.9486398
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    42.27229558370509
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.08417611662630822  0.4198440631977091  0.5811854801651024  1.0000
+  As  As2       1.0  0.5841761166263074  0.4198440631977083  0.4188145198348966  1.0000
+  Bi  Bi1       1.0  0.5846191303445871  0.5117975680384413  0.5708741205253594  1.0000
+  Bi  Bi2       1.0  0.08461913034458797  0.5117975680384421  0.42912587947464015  1.0000

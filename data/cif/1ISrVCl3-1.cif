@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SrIVCl3
+_chemical_formula_sum              "Sr1 I1 V1 Cl3"
+_cell_length_a       4.13309877931795
+_cell_length_b       7.126566620742964
+_cell_length_c       18.185629751487692
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.00000000000003
+_cell_angle_gamma    89.97361836236217
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.5430256570853421  0.4491678008083005  0.518073278446815  1.0000
+  I   I1        1.0  0.5444638543865039  0.8217212706285284  0.4124135431376224  1.0000
+  V   V1        1.0  0.04407998878576476  0.9582654066711077  0.5082110994560988  1.0000
+  Cl  Cl1       1.0  0.043132022428978845  0.6689537268200103  0.5875864568623775  1.0000
+  Cl  Cl2       1.0  0.543553639617651  0.07557143230361543  0.5827132678205709  1.0000
+  Cl  Cl3       1.0  0.0435784121270426  0.25863653742741843  0.4377241874813069  1.0000

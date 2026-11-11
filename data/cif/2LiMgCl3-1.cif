@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Mg2Li2Cl6
+_chemical_formula_sum              "Mg2 Li2 Cl6"
+_cell_length_a       6.456877604681821
+_cell_length_b       6.4568776051979535
+_cell_length_c       18.42490385
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000004855045
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mg  Mg1       1.0  0.3333333299999997  0.6666666700000006  0.5  1.0000
+  Mg  Mg2       1.0  0.6666666700000007  0.3333333300000006  0.5  1.0000
+  Li  Li1       1.0  0.0  0.0  0.5929506811522792  1.0000
+  Li  Li2       1.0  2.549237361864882e-20  0.0  0.4070493188477212  1.0000
+  Cl  Cl1       1.0  0.6429392925597791  2.34480579265384e-16  0.5780145633026273  1.0000
+  Cl  Cl2       1.0  0.35706069744022034  0.35706069744022056  0.5780145633026273  1.0000
+  Cl  Cl3       1.0  7.632079387542672e-17  0.6429393025597796  0.5780145633026273  1.0000
+  Cl  Cl4       1.0  0.3570606974402205  0.9999999999999998  0.42198543669737254  1.0000
+  Cl  Cl5       1.0  0.6429393025597802  0.6429393025597808  0.42198543669737254  1.0000
+  Cl  Cl6       1.0  2.434795623997128e-16  0.3570606974402212  0.42198543669737254  1.0000

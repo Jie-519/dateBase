@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       In2I2Te2
+_chemical_formula_sum              "In2 I2 Te2"
+_cell_length_a       4.46180194153597
+_cell_length_b       6.373985993436141
+_cell_length_c       35.149896
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  3.1022594371790054e-21  0.995259029474856  0.5290874034632139  1.0000
+  In  In2       1.0  0.4999999999999961  0.49525902947486156  0.4709125965367861  1.0000
+  I   I1        1.0  1.9425053448905273e-17  0.2525764230957655  0.5912443467661275  1.0000
+  I   I2        1.0  0.4999999999999961  0.7525764230957628  0.4087556532338767  1.0000
+  Te  Te1       1.0  0.0  0.21908136052595237  0.45918458431496684  1.0000
+  Te  Te2       1.0  0.4999999999999961  0.7190813605259715  0.5408154156850331  1.0000

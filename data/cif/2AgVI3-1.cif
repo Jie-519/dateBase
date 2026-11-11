@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       I6Ag2V2
+_chemical_formula_sum              "I6 Ag2 V2"
+_cell_length_a       7.430667581290916
+_cell_length_b       7.43066758301242
+_cell_length_c       18.29842813
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99999999233623
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.6268120106949058  0.0  0.5901053325467562  1.0000
+  I   I2        1.0  0.37318797930509523  0.37318798930509633  0.5901053225467563  1.0000
+  I   I3        1.0  0.9999999999999986  0.6268120206949029  0.5901053325467562  1.0000
+  I   I4        1.0  0.3731879793050946  0.0  0.4098946674532442  1.0000
+  I   I5        1.0  0.6268120206949044  0.6268120206949029  0.4098946674532442  1.0000
+  I   I6        1.0  1.1029572244773848e-15  0.3731879693050963  0.4098946674532442  1.0000
+  Ag  Ag1       1.0  6.827176203909969e-20  2.098216606982791e-19  0.5810186001848564  1.0000
+  Ag  Ag2       1.0  3.1433149125930913e-20  1.0377543752539376e-21  0.4189813998151433  1.0000
+  V   V1        1.0  0.3333333299999999  0.6666666699999999  0.5  1.0000
+  V   V2        1.0  0.6666666700000001  0.33333333  0.5  1.0000

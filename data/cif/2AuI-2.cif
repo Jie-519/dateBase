@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       I2Au2
+_chemical_formula_sum              "I2 Au2"
+_cell_length_a       4.443145315842252
+_cell_length_b       4.444194955061102
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9921874293195
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.9998809332333997  0.00015660562579150982  0.3838067123024904  1.0000
+  I   I2        1.0  0.3334523474353842  0.6665100732767526  0.6162643481568812  1.0000
+  Au  Au1       1.0  0.9997957404948606  0.00025741129647536046  0.5358650935394413  1.0000
+  Au  Au2       1.0  0.3335377954674289  0.6664090652867373  0.46420068081563387  1.0000

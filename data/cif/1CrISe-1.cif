@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CrISe
+_chemical_formula_sum              "Cr1 I1 Se1"
+_cell_length_a       3.7738935343862576
+_cell_length_b       3.775127272930155
+_cell_length_c       18.04285991224592
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.0132861614914
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8109271769832164  0.11224096706936439  0.48552359091749836  1.0000
+  I   I1        1.0  0.14393728164370093  0.7787717646028957  0.5843231041820784  1.0000
+  Se  Se1       1.0  0.4776676421438552  0.4454411752147573  0.41567689581792155  1.0000

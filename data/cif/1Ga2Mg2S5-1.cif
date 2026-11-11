@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       S5Mg2Ga2
+_chemical_formula_sum              "S5 Mg2 Ga2"
+_cell_length_a       3.7434067713622703
+_cell_length_b       3.7434452941397356
+_cell_length_c       42.768
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99965958604037
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  2.2323974781001943e-17  4.464794956158087e-17  0.5  1.0000
+  S   S2        1.0  0.6666678812588266  0.3333357625176499  0.4334085418174004  1.0000
+  S   S3        1.0  0.3333321187411709  0.6666642374823403  0.5665914581825997  1.0000
+  S   S4        1.0  0.6666668460676722  0.3333336921353418  0.6424941767642898  1.0000
+  S   S5        1.0  0.3333331539323264  0.6666663078646512  0.35750582323570956  1.0000
+  Mg  Mg1       1.0  0.6666680677935475  0.33333613558709213  0.5355312648966473  1.0000
+  Mg  Mg2       1.0  0.3333319322064477  0.6666638644128938  0.46446873510335274  1.0000
+  Ga  Ga1       1.0  0.6666668993230541  0.3333337986461054  0.3813873381016355  1.0000
+  Ga  Ga2       1.0  0.3333331006769441  0.6666662013538867  0.6186126618983646  1.0000

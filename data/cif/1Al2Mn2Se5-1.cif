@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Mn2Al2Se5
+_chemical_formula_sum              "Mn2 Al2 Se5"
+_cell_length_a       3.870646172620627
+_cell_length_b       3.870646172620638
+_cell_length_c       42.16152
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99958229920745
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.9999716187293982  2.838127060172975e-05  0.46295987582104103  1.0000
+  Mn  Mn2       1.0  0.6666283948978402  0.33337160510215846  0.5370404414101322  1.0000
+  Al  Al1       1.0  0.9999477319266262  5.226807337382225e-05  0.6257499601701164  1.0000
+  Al  Al2       1.0  0.6666522721163546  0.33334772788365513  0.37425065721367773  1.0000
+  Se  Se1       1.0  0.3333000041899172  0.6666999958100879  0.5000002240670076  1.0000
+  Se  Se2       1.0  0.9999554400657966  4.455993420337606e-05  0.570328509752311  1.0000
+  Se  Se3       1.0  0.6666445901626263  0.33335540983738976  0.42967193108711416  1.0000
+  Se  Se4       1.0  0.9999859667323475  1.4033267652558021e-05  0.34823694420919876  1.0000
+  Se  Se5       1.0  0.6666140363264701  0.33338596367353607  0.6517638058801862  1.0000

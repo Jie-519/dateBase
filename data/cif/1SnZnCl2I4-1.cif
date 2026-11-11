@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       IClIZnSnI2Cl
+_chemical_formula_sum              "I4 Cl2 Zn1 Sn1"
+_cell_length_a       7.07707037567256
+_cell_length_b       6.846384345107182
+_cell_length_c       18.454502970912166
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    118.93833068715408
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.827970197162008  0.49621989403422795  0.5935951235413147  1.0000
+  Cl  Cl1       1.0  0.5486271290076019  0.49590102648879736  0.42719434961352365  1.0000
+  I   I2        1.0  0.1778163788790365  0.8420695903792403  0.40800888655651907  1.0000
+  Zn  Zn1       1.0  0.8252697404232707  0.8159990255607525  0.5000986158674933  1.0000
+  Sn  Sn1       1.0  0.5120558921120799  0.1594977356192878  0.4998766647981494  1.0000
+  I   I3        1.0  0.17821597534280798  0.14232251040293106  0.5919398262742572  1.0000
+  I   I4        1.0  0.8282614996108861  0.1385602547561958  0.4064048764586853  1.0000
+  Cl  Cl2       1.0  0.548802708725288  0.8599088301812232  0.5727836231503309  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Re2As2Se2
+_chemical_formula_sum              "Re2 As2 Se2"
+_cell_length_a       6.477685621732804
+_cell_length_b       5.613601005969275
+_cell_length_c       18.46016861
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    150.06986752654166
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.38267895429856036  0.4344497139242695  0.4984490637217782  1.0000
+  Re  Re2       1.0  0.8826789642985609  0.4344497139242695  0.5015509162782218  1.0000
+  As  As1       1.0  0.8826616267742924  0.771112944586386  0.5933977327754325  1.0000
+  As  As2       1.0  0.3826616167742914  0.7711129445863855  0.4066022772245676  1.0000
+  Se  Se1       1.0  0.3826594202580597  0.7616176083863129  0.5909219153983428  1.0000
+  Se  Se2       1.0  0.8826594102580599  0.7616176083863125  0.4090780846016569  1.0000

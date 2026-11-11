@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       O2SnO2S
+_chemical_formula_sum              "O4 Sn1 S1"
+_cell_length_a       4.7896295921125285
+_cell_length_b       4.803778532337209
+_cell_length_c       16.898058159806553
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    104.24252206454085
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.1515571213827787  0.5623609660881186  0.4441547009854492  1.0000
+  O   O2        1.0  0.7260081504303944  0.14336632399357355  0.4438379800253841  1.0000
+  Sn  Sn1       1.0  0.4564913141306365  0.8365706656081427  0.5350857571330585  1.0000
+  O   O3        1.0  0.06117099007896326  0.2259270160476197  0.5561620199746159  1.0000
+  O   O4        1.0  0.7482613103821547  0.5463297985860188  0.5353728789575065  1.0000
+  S   S1        1.0  0.9249438125472417  0.36642503113931024  0.4941675195636582  1.0000

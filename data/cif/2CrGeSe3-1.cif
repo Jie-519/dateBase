@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       CrSeCrGeSeGeSe4
+_chemical_formula_sum              "Cr2 Se6 Ge2"
+_cell_length_a       6.366507748468009
+_cell_length_b       6.365322692406377
+_cell_length_c       33.45828373333333
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9978279860438
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.3326755697434685  0.3103492405697966  0.5000037962716719  1.0000
+  Se  Se1       1.0  0.37154899838173433  0.01590234960903647  0.5486468020187509  1.0000
+  Cr  Cr2       1.0  0.665991078541173  0.9769840842605622  0.49999620352719665  1.0000
+  Ge  Ge1       1.0  0.9993760197050227  0.6436641701673959  0.4646966270833983  1.0000
+  Se  Se2       1.0  0.6271176485017869  0.27143097033626135  0.4513531982283762  1.0000
+  Ge  Ge2       1.0  0.9992906273793637  0.6436691476379277  0.5353033713931862  1.0000
+  Se  Se3       1.0  0.9992765167970983  0.27141159099052  0.5486468668269475  1.0000
+  Se  Se4       1.0  0.627038398878929  0.6436857829111651  0.5486537237714214  1.0000
+  Se  Se5       1.0  0.3716282509768335  0.6436475407221327  0.4513462749562519  1.0000
+  Se  Se6       1.0  0.9993901259063784  0.01592172411505047  0.45135313292573853  1.0000

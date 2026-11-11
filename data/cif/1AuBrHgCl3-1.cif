@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cl3AuBrHg
+_chemical_formula_sum              "Cl3 Au1 Br1 Hg1"
+_cell_length_a       4.459955592329279
+_cell_length_b       6.808430042406828
+_cell_length_c       18.129586594715988
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    97.31124502572474
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.7236630164822171  0.9553880378516827  0.5863115818544955  1.0000
+  Cl  Cl2       1.0  0.3552861505625533  0.4592143333332016  0.5798754899249767  1.0000
+  Cl  Cl3       1.0  0.32582545789536876  0.03563176396071244  0.4270821431605528  1.0000
+  Au  Au1       1.0  0.3441087476218972  0.7473256475290037  0.5031720070625674  1.0000
+  Br  Br1       1.0  0.9552095662934812  0.5371085450812999  0.41368841814550444  1.0000
+  Hg  Hg1       1.0  0.8445821204745361  0.2439507025184144  0.5046514701657595  1.0000

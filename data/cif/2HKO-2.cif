@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       K2OHOH
+_chemical_formula_sum              "K2 O2 H2"
+_cell_length_a       5.101688736050315
+_cell_length_b       5.102853672005049
+_cell_length_c       18.615232076943553
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99892921677866
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.9657021789626179  0.9795187118958683  0.5001139141568844  1.0000
+  K   K2        1.0  0.4651723328415683  0.4792707015658922  0.499895909901133  1.0000
+  O   O1        1.0  0.46605169723962825  0.9787457261884942  0.45007052857588953  1.0000
+  H   H1        1.0  0.46466824902137327  0.9795398118224966  0.39786690078312403  1.0000
+  O   O2        1.0  0.9655580793072247  0.4799732179968502  0.5499230314822694  1.0000
+  H   H2        1.0  0.9650608030595101  0.4792462240222298  0.6021279527757165  1.0000

@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Tl2Ga2O6
+_chemical_formula_sum              "Tl2 Ga2 O6"
+_cell_length_a       3.3700903306461085
+_cell_length_b       5.4454593727980996
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  8.073840230941914e-20  0.0105159835243342  0.46514856961336454  1.0000
+  Tl  Tl2       1.0  0.4999999999999985  0.5105159835243368  0.5348514303866353  1.0000
+  Ga  Ga1       1.0  0.4999999999999985  0.5573170132213331  0.4357569864236146  1.0000
+  Ga  Ga2       1.0  0.0  0.05731701322133267  0.5642430135763826  1.0000
+  O   O1        1.0  0.4999999999999985  0.7399851867586286  0.48191946526663565  1.0000
+  O   O2        1.0  0.0  0.23998518675863253  0.5180805347333642  1.0000
+  O   O3        1.0  5.654291032852874e-18  0.6839433760286298  0.420049324246479  1.0000
+  O   O4        1.0  0.4999999999999985  0.18394337602863098  0.5799506757535176  1.0000
+  O   O5        1.0  0.0  0.7139710862294063  0.5590079859772759  1.0000
+  O   O6        1.0  0.4999999999999985  0.21397108622940844  0.44099201402272437  1.0000

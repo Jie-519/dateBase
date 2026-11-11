@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Na2O2C2N2
+_chemical_formula_sum              "Na2 O2 C2 N2"
+_cell_length_a       3.557771721681994
+_cell_length_b       5.348840995220796
+_cell_length_c       34.3578
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.0  0.034436645542388455  0.5379406596049893  1.0000
+  Na  Na2       1.0  0.49999999999999867  0.5344366455423631  0.4620593403950059  1.0000
+  O   O1        1.0  1.0935183135397885e-16  0.8089140751710868  0.44046537480155806  1.0000
+  O   O2        1.0  0.49999999999999795  0.3089140751710783  0.5595346251984408  1.0000
+  C   C1        1.0  0.9999999999999999  0.02061410229993277  0.453748838951911  1.0000
+  C   C2        1.0  0.49999999999999795  0.5206141022999229  0.5462511610480902  1.0000
+  N   N1        1.0  7.842388933954966e-18  0.22549503360843381  0.4677967625238625  1.0000
+  N   N2        1.0  0.4999999999999979  0.7254950336084233  0.5322032374761329  1.0000

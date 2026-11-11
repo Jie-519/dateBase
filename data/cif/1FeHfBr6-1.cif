@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfFeBr6
+_chemical_formula_sum              "Hf1 Fe1 Br6"
+_cell_length_a       6.447532420163329
+_cell_length_b       6.4475324201633315
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.98970369857422
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.03374891635763894  0.9663332982535332  0.5000022017475305  1.0000
+  Fe  Fe1       1.0  0.7000514440232201  0.30002881201566234  0.5000031744086403  1.0000
+  Br  Br1       1.0  0.38396773791910466  0.28848917832756665  0.5832959883599703  1.0000
+  Br  Br2       1.0  0.00458610274633142  0.6159634019061071  0.5833742340528386  1.0000
+  Br  Br3       1.0  0.7114743807267656  0.9949678126876955  0.583082859658107  1.0000
+  Br  Br4       1.0  0.0051108757102399215  0.28859914099711165  0.41692807885720984  1.0000
+  Br  Br5       1.0  0.38411400466003665  0.9954884690413212  0.4166386380245735  1.0000
+  Br  Br6       1.0  0.7115961610751449  0.6161102425768409  0.41671287911741034  1.0000

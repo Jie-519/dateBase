@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       AuFInF3
+_chemical_formula_sum              "Au1 F4 In1"
+_cell_length_a       3.2433937029815296
+_cell_length_b       7.927483072438896
+_cell_length_c       17.349871203811432
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    65.7749062848846
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.7576104202925802  0.24589970069699607  0.5001430194569848  1.0000
+  F   F1        1.0  0.003272601948100946  0.9982403516182053  0.5600620263491223  1.0000
+  In  In1       1.0  0.25592411685562505  0.7459629855461806  0.5000158406703585  1.0000
+  F   F2        1.0  0.6619429134716961  0.8396785632200136  0.43227986605182367  1.0000
+  F   F3        1.0  0.5091859711637047  0.49349109189036017  0.44013895947942555  1.0000
+  F   F4        1.0  0.8500802064397757  0.6521349581517669  0.567720133948176  1.0000

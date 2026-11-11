@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Sr2I2Cl2
+_chemical_formula_sum              "Sr2 I2 Cl2"
+_cell_length_a       9.069452879941453
+_cell_length_b       16.326951919587678
+_cell_length_c       19.10235102
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    13.951007075067606
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.055045726719587615  0.9214872320936716  0.537247890499866  1.0000
+  Sr  Sr2       1.0  0.5550457567195869  0.9214872320936716  0.46275210950013407  1.0000
+  I   I1        1.0  0.31467899080983874  0.16248673233973787  0.6071342650917002  1.0000
+  I   I2        1.0  0.8146789908098395  0.1624867423397383  0.3928657349082999  1.0000
+  Cl  Cl1       1.0  0.8272640896105364  0.6487574643474281  0.566952277181578  1.0000
+  Cl  Cl2       1.0  0.3272640796105431  0.6487574343474242  0.43304772281842197  1.0000

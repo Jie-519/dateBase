@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       OHRuOH
+_chemical_formula_sum              "O2 H2 Ru1"
+_cell_length_a       3.362137444703397
+_cell_length_b       3.3634576917721684
+_cell_length_c       18.838005600000002
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.98701616934957
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.33330438924123573  0.6666087784824709  0.5462847572322204  1.0000
+  H   H1        1.0  0.3332790486673983  0.6665580973347961  0.5977244636067638  1.0000
+  Ru  Ru1       1.0  4.768368012787956e-15  9.225957827947584e-15  0.49999999999999756  1.0000
+  O   O2        1.0  0.6666956107587723  0.3333912215175441  0.4537152427677766  1.0000
+  H   H2        1.0  0.6667209513326037  0.33344190266520707  0.40227553639323205  1.0000

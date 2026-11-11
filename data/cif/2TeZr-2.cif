@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Te2Zr2
+_chemical_formula_sum              "Te2 Zr2"
+_cell_length_a       4.5299031937925935
+_cell_length_b       4.531006012685391
+_cell_length_c       18.85580293064
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.99194888579645
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Te  Te1       1.0  2.149402708223689e-05  5.3070668674641684e-05  0.391154504530471  1.0000
+  Te  Te2       1.0  0.3333118361633584  0.6666135990735942  0.6089064254547244  1.0000
+  Zr  Zr1       1.0  0.999994901192211  7.063119182223385e-05  0.5492459711565443  1.0000
+  Zr  Zr2       1.0  0.3333384290299504  0.6665960359221876  0.4508267413082087  1.0000

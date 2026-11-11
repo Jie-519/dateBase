@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Os2Te4
+_chemical_formula_sum              "Os2 Te4"
+_cell_length_a       6.651294620340548
+_cell_length_b       6.651148523280417
+_cell_length_c       16.607680082532983
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Os  Os1       1.0  0.5000000337079763  2.171344315840295e-08  0.5000000072027369  1.0000
+  Os  Os2       1.0  0.9999999539087526  0.50000002863725  0.5000000082047061  1.0000
+  Te  Te1       1.0  0.15131183002447515  0.15126896129324252  0.5000659325197436  1.0000
+  Te  Te2       1.0  0.65131175880644  0.34873111735321416  0.49993428582718263  1.0000
+  Te  Te3       1.0  0.8486882023988996  0.8487311015998114  0.49993415301334077  1.0000
+  Te  Te4       1.0  0.34868818726756323  0.6512689344933636  0.5000656618670072  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NbOI2NbOI2
+_chemical_formula_sum              "Nb2 O2 I4"
+_cell_length_a       3.9687059975356602
+_cell_length_b       7.580737539878165
+_cell_length_c       34.532920735510814
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.99997871902787
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.9870595444138608  0.5812914608813903  0.49998493170595665  1.0000
+  O   O1        1.0  0.5363901312245336  0.5775201715324928  0.4999449625495753  1.0000
+  I   I1        1.0  0.04325811499283287  0.28968183359876576  0.4455691623198102  1.0000
+  I   I2        1.0  0.03793380167761648  0.7898245203692154  0.433455974116255  1.0000
+  Nb  Nb2       1.0  0.9870594863866254  0.998169518849521  0.5000150647396582  1.0000
+  O   O2        1.0  0.53639004884724  0.0019418940528979078  0.5000550298730495  1.0000
+  I   I3        1.0  0.04325810884156689  0.28977915600228826  0.5544308354060269  1.0000
+  I   I4        1.0  0.03793379550198306  0.7896363794257243  0.5665440226626558  1.0000

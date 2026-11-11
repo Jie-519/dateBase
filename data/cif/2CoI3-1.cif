@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Co2I6
+_chemical_formula_sum              "Co2 I6"
+_cell_length_a       6.744657513762433
+_cell_length_b       6.7446575137624345
+_cell_length_c       17.95334968413561
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.6666666666666665  0.3333333333333334  0.5000008383036408  1.0000
+  Co  Co2       1.0  0.33333333333333365  0.6666666666666669  0.49999916169635605  1.0000
+  I   I1        1.0  0.636566884961337  0.999999223491394  0.4179843503256224  1.0000
+  I   I2        1.0  0.36343233853005846  0.36343311503866443  0.4179843503256224  1.0000
+  I   I3        1.0  7.765086077011124e-07  0.6365676614699446  0.4179843503256224  1.0000
+  I   I4        1.0  0.3634331150386802  7.765085589776636e-07  0.5820156496743913  1.0000
+  I   I5        1.0  0.636567661469877  0.6365668849613177  0.5820156496743913  1.0000
+  I   I6        1.0  0.9999992234914409  0.3634323385301215  0.5820156496743913  1.0000

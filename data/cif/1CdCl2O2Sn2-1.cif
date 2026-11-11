@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       OSnCdClSnClO
+_chemical_formula_sum              "O2 Sn2 Cd1 Cl2"
+_cell_length_a       3.7161642375773085
+_cell_length_b       6.612761216990114
+_cell_length_c       33.842086877324824
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    106.31895991969908
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.7113666078867904  0.4227332157735823  0.4874299946816576  1.0000
+  Sn  Sn1       1.0  0.7957910201553964  0.5915820403107946  0.543344593465904  1.0000
+  Cd  Cd1       1.0  0.5331950882252119  0.06639017645042314  0.49999994443624424  1.0000
+  Cl  Cl1       1.0  0.9998572188130367  0.9997144376260736  0.4453244674508247  1.0000
+  Sn  Sn2       1.0  0.2705994630087582  0.5411989260175197  0.45665555199699204  1.0000
+  Cl  Cl2       1.0  0.06653081055290808  0.13306162110581696  0.5546754430459229  1.0000
+  O   O2        1.0  0.3550232782979187  0.7100465565958418  0.5125699668998084  1.0000

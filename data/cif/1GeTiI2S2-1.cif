@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       STiGeSI2
+_chemical_formula_sum              "S2 Ti1 Ge1 I2"
+_cell_length_a       6.965774940739141
+_cell_length_b       3.8321300672695564
+_cell_length_c       18.417597753226904
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.98036427492818
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.8996993542298035  0.24628007728521742  0.5695612978280273  1.0000
+  Ti  Ti1       1.0  0.7872618695761353  0.7472070194154299  0.5015599222580347  1.0000
+  Ge  Ge1       1.0  0.19468115697815416  0.24598656321235962  0.4987466203963021  1.0000
+  S   S2        1.0  0.05449279079830142  0.7464738026966813  0.42780015934884896  1.0000
+  I   I1        1.0  0.599010116698271  0.24656281907119776  0.4072192313292293  1.0000
+  I   I2        1.0  0.45296744573289976  0.7467934858342499  0.5927807686707708  1.0000

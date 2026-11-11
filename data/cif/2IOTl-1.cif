@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tl2O2I2
+_chemical_formula_sum              "Tl2 O2 I2"
+_cell_length_a       4.213061932355259
+_cell_length_b       4.009919616291116
+_cell_length_c       21.341805962036666
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.4999999999999999  0.0  0.4496240787862601  1.0000
+  Tl  Tl2       1.0  8.752617752844974e-19  0.5  0.5503749130489302  1.0000
+  O   O1        1.0  0.4999999999999999  0.5  0.512267279865369  1.0000
+  O   O2        1.0  1.892219664838021e-18  1.3844043864922363e-18  0.48773327321685445  1.0000
+  I   I1        1.0  0.4999999999999999  0.5  0.34631059694057353  1.0000
+  I   I2        1.0  0.0  0.0  0.6536892517854328  1.0000

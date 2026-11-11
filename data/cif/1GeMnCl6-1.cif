@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cl3GeMnCl3
+_chemical_formula_sum              "Cl6 Ge1 Mn1"
+_cell_length_a       6.303193057312446
+_cell_length_b       6.3035870452933835
+_cell_length_c       17.72952433586161
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.01742584970069
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.7969836467456672  0.8037735580620551  0.5767520649992111  1.0000
+  Cl  Cl2       1.0  0.19371542402701472  0.47725736041125794  0.5767869404795359  1.0000
+  Cl  Cl3       1.0  0.7965260500354432  0.4772984075865213  0.4230294235626634  1.0000
+  Ge  Ge1       1.0  0.5034986093998286  0.493621874699402  0.5000131493914063  1.0000
+  Mn  Mn1       1.0  0.8365898930497905  0.16024777980623364  0.4999266811367262  1.0000
+  Cl  Cl4       1.0  0.5195321031411937  0.8032609749586344  0.4231552132947075  1.0000
+  Cl  Cl5       1.0  0.1934343887267007  0.19986117611903534  0.4232566260612308  1.0000
+  Cl  Cl6       1.0  0.5202659886985869  0.2008057375872062  0.5769716373479524  1.0000

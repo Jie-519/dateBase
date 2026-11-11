@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       ScTeCl
+_chemical_formula_sum              "Sc1 Te1 Cl1"
+_cell_length_a       3.932767747325965
+_cell_length_b       3.933969992051652
+_cell_length_c       18.156419016294716
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.9939221198117
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.1597511782354535  0.8359161835754266  0.49436972005315827  1.0000
+  Te  Te1       1.0  0.8269690352293679  0.16987202737445195  0.586922950320268  1.0000
+  Cl  Cl1       1.0  0.49389443179779086  0.5031723678941075  0.4130770496797317  1.0000

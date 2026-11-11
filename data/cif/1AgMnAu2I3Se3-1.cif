@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       AuISe2AuI2SeAgMn
+_chemical_formula_sum              "Au2 I3 Se3 Ag1 Mn1"
+_cell_length_a       6.935371626048387
+_cell_length_b       6.523422114569363
+_cell_length_c       21.00735948380295
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    87.81364280438638
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.8009854030303944  0.6430515829293215  0.4933609812147716  1.0000
+  I   I1        1.0  0.037970356098091115  0.17564944494742085  0.5850167891118676  1.0000
+  Se  Se1       1.0  0.12144474527236554  0.550685115757643  0.4508394645892733  1.0000
+  Se  Se2       1.0  0.47737561621054614  0.7217702081771166  0.536473477603965  1.0000
+  Au  Au2       1.0  0.2843945676533758  0.8916865884521483  0.44934127537435903  1.0000
+  I   I2        1.0  0.5135508399715347  0.3443712462634792  0.6429822602986996  1.0000
+  I   I3        1.0  0.03835735940614238  0.043625162992706024  0.3570177397013  1.0000
+  Se  Se3       1.0  0.48445700963374366  0.20790685132075754  0.45300089492615714  1.0000
+  Ag  Ag1       1.0  0.8404407478031677  0.08983690534089832  0.4733566269520302  1.0000
+  Mn  Mn1       1.0  0.32261425087866885  0.3892217917357866  0.5378946508425442  1.0000

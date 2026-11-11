@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrNiF6
+_chemical_formula_sum              "Zr1 Ni1 F6"
+_cell_length_a       5.464737188726114
+_cell_length_b       5.466528134187168
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    119.96017690151143
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.13036615688383357  0.8702604170691018  0.5000212749606211  1.0000
+  Ni  Ni1       1.0  0.4635691513158104  0.5364845387534656  0.5000215159007143  1.0000
+  F   F1        1.0  0.1731843349871229  0.5818661867430712  0.5617189046779154  1.0000
+  F   F2        1.0  0.7991017338739842  0.8274923410072585  0.5616985230343324  1.0000
+  F   F3        1.0  0.4184589477185324  0.20113623125073882  0.5618203906957984  1.0000
+  F   F4        1.0  0.7993004555705001  0.5810983460500165  0.4384909753181003  1.0000
+  F   F5        1.0  0.17343729231953425  0.20117665359477155  0.4382072404706445  1.0000
+  F   F6        1.0  0.41834014355455823  0.8268576964491344  0.4381921168246738  1.0000

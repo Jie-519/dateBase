@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       ZrBr2O
+_chemical_formula_sum              "Zr1 Br2 O1"
+_cell_length_a       3.6699672018522427
+_cell_length_b       3.672269962169725
+_cell_length_c       19.499449552398044
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00671071933495
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.8173998998354608  0.18262082737892285  0.487304156610923  1.0000
+  Br  Br1       1.0  0.1509838098676188  0.849705836322593  0.38462624187653793  1.0000
+  Br  Br2       1.0  0.8170651713462956  0.18228796812877648  0.6153737581234621  1.0000
+  O   O1        1.0  0.4838925642752491  0.515856751890386  0.49492051944140886  1.0000

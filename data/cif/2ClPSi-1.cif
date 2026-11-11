@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       P2Si2Cl2
+_chemical_formula_sum              "P2 Si2 Cl2"
+_cell_length_a       3.57648588395925
+_cell_length_b       6.194688700176913
+_cell_length_c       18.03774935
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    89.9992390961225
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.24981831140443986  0.000792549731638766  0.5743057063662077  1.0000
+  P   P2        1.0  0.7500815366963619  0.5007926325222154  0.5743057619751103  1.0000
+  Si  Si1       1.0  0.25011108161221346  0.33412113187239934  0.5200404260415615  1.0000
+  Si  Si2       1.0  0.7498036529138276  0.8341210864701435  0.5200403522867137  1.0000
+  Cl  Cl1       1.0  0.74950587657337  0.833971175836198  0.4056537916243166  1.0000
+  Cl  Cl2       1.0  0.250479539628778  0.33397140456149305  0.4056538802854543  1.0000

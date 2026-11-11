@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Re2O2
+_chemical_formula_sum              "Re2 O2"
+_cell_length_a       2.9882059698396772
+_cell_length_b       2.988205969839677
+_cell_length_c       19.409498641480607
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.6666666666666667  0.33333333333333326  0.43998463078209626  1.0000
+  Re  Re2       1.0  0.6666666666666667  0.33333333333333326  0.5600144428135159  1.0000
+  O   O1        1.0  0.33333333333333326  0.6666666666666665  0.38615823146141226  1.0000
+  O   O2        1.0  0.33333333333333326  0.6666666666666665  0.6138412294389525  1.0000

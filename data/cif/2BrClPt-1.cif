@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Br2Pt2Cl2
+_chemical_formula_sum              "Br2 Pt2 Cl2"
+_cell_length_a       4.698519863433615
+_cell_length_b       6.4600432293414585
+_cell_length_c       17.5314771
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.5756081965201215  0.04673818530375682  0.5724524934410792  1.0000
+  Br  Br2       1.0  0.4243918034798795  0.5467381853037572  0.5724524934410792  1.0000
+  Pt  Pt1       1.0  0.23950168618597306  0.8371874673435873  0.49831451920932684  1.0000
+  Pt  Pt2       1.0  0.7604983138140293  0.3371874673435871  0.49831451920932684  1.0000
+  Cl  Cl1       1.0  0.06656939653647838  0.12146880545913921  0.42923265739139327  1.0000
+  Cl  Cl2       1.0  0.9334306034635216  0.6214688054591392  0.42923265739139327  1.0000

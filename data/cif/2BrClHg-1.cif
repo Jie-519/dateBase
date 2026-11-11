@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hg2Br2Cl2
+_chemical_formula_sum              "Hg2 Br2 Cl2"
+_cell_length_a       4.960298358591961
+_cell_length_b       6.8496888412566435
+_cell_length_c       18.14749223
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00088942914958
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.7498748052825243  0.5680465901869727  0.4977681859070275  1.0000
+  Hg  Hg2       1.0  0.2500038779067377  0.06804755990956375  0.4977671410538594  1.0000
+  Br  Br1       1.0  0.24997195117595353  0.34265059813107684  0.5868690203067025  1.0000
+  Br  Br2       1.0  0.7500384777136537  0.8426277933462258  0.5868643932506106  1.0000
+  Cl  Cl1       1.0  0.25000193797370723  0.8027146896710473  0.41536409460857177  1.0000
+  Cl  Cl2       1.0  0.749839108576299  0.30273439083087866  0.4153690965020158  1.0000

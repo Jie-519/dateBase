@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Mn2Cl2F2
+_chemical_formula_sum              "Mn2 Cl2 F2"
+_cell_length_a       6.800349908152425
+_cell_length_b       3.4401800743656734
+_cell_length_c       18.29920272
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.38991650578795
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.8288416005628597  0.6973444935163258  0.5300589299556268  1.0000
+  Mn  Mn2       1.0  0.3288415905628583  0.6973444835163244  0.46994106004437336  1.0000
+  Cl  Cl1       1.0  0.08708638618898853  0.4555997631438414  0.5888375052644519  1.0000
+  Cl  Cl2       1.0  0.5870863761889923  0.4555997631438419  0.4111624947355479  1.0000
+  F   F1        1.0  0.6072751933203392  0.9757271937303477  0.5473325475342925  1.0000
+  F   F2        1.0  0.10727520332033569  0.975727203730348  0.45266745246570755  1.0000

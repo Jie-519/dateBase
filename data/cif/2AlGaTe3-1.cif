@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2Ga2Te6
+_chemical_formula_sum              "Al2 Ga2 Te6"
+_cell_length_a       4.138562412262727
+_cell_length_b       6.805460958557109
+_cell_length_c       37.097944
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  3.8955580159434986e-20  0.9887373262600084  0.45248102088595227  1.0000
+  Al  Al2       1.0  0.49999999999999917  0.488737326260006  0.5475189791140476  1.0000
+  Ga  Ga1       1.0  0.49999999999999917  0.5566823767769401  0.42629186638158134  1.0000
+  Ga  Ga2       1.0  0.0  0.056682376776941656  0.5737081336184171  1.0000
+  Te  Te1       1.0  0.49999999999999917  0.760911301680995  0.48783578021239177  1.0000
+  Te  Te2       1.0  5.656920275207429e-19  0.26091130168099624  0.5121642197876081  1.0000
+  Te  Te3       1.0  3.4302566897603558e-18  0.7238047906829792  0.3931083759135948  1.0000
+  Te  Te4       1.0  0.49999999999999917  0.2238047906829839  0.6068916240864047  1.0000
+  Te  Te5       1.0  0.0  0.6758057821471054  0.5833843329102958  1.0000
+  Te  Te6       1.0  0.49999999999999917  0.17580578214711048  0.41661566708970305  1.0000

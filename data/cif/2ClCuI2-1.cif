@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       I2CuICuClICl
+_chemical_formula_sum              "I4 Cu2 Cl2"
+_cell_length_a       6.421821376362924
+_cell_length_b       7.158942224343043
+_cell_length_c       18.723073555405573
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999999
+_cell_angle_gamma    88.51087378506875
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.29035354510668904  0.8632025632051193  0.4005752569312885  1.0000
+  I   I2        1.0  0.05197032392179202  0.19673753737758917  0.410782597353669  1.0000
+  Cu  Cu1       1.0  0.6492144328667171  0.543534288997632  0.5391705800748615  1.0000
+  I   I3        1.0  0.2948033630276193  0.5511637291156019  0.5994247430687116  1.0000
+  Cu  Cu2       1.0  0.0714421850124596  0.7070585107911987  0.4993317168051455  1.0000
+  Cl  Cl1       1.0  0.8155871754327089  0.8197374947965044  0.5730931791771924  1.0000
+  I   I4        1.0  0.6065029805786942  0.20113064468454137  0.5747366855626505  1.0000
+  Cl  Cl2       1.0  0.8215523704243745  0.5314328939769688  0.4296638049906525  1.0000

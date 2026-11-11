@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       I6Na6
+_chemical_formula_sum              "I6 Na6"
+_cell_length_a       6.4048004800000005
+_cell_length_b       6.41033048
+_cell_length_c       21.72389521
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.11126837  0.024036770000000002  0.65475859  1.0000
+  I   I2        1.0  0.11126837  0.023670920000000005  0.34524249  1.0000
+  I   I3        1.0  0.61126837  0.52403677  0.65475859  1.0000
+  I   I4        1.0  0.61126837  0.52367092  0.34524249  1.0000
+  I   I5        1.0  0.11335922  0.52385541  0.49999892  1.0000
+  I   I6        1.0  0.61335922  0.02385541  0.49999892  1.0000
+  Na  Na1       1.0  0.61097973  0.02427661  0.64642527  1.0000
+  Na  Na2       1.0  0.61097973  0.02343109  0.35357582  1.0000
+  Na  Na3       1.0  0.11097973  0.52427661  0.64642527  1.0000
+  Na  Na4       1.0  0.11097973  0.52343109  0.35357582  1.0000
+  Na  Na5       1.0  0.61408457  0.52385541  0.49999892  1.0000
+  Na  Na6       1.0  0.11408457  0.02385541  0.49999892  1.0000

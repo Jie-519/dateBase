@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Tl4F4
+_chemical_formula_sum              "Tl4 F4"
+_cell_length_a       5.760154435685089
+_cell_length_b       5.126762578482446
+_cell_length_c       18.10793895
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00032932691181
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tl  Tl1       1.0  0.5047430334280348  0.14779877462294247  0.586610429421273  1.0000
+  Tl  Tl2       1.0  0.004743306627396872  0.14779144911744518  0.41339005101851367  1.0000
+  Tl  Tl3       1.0  0.4952577211781911  0.6477887733807208  0.413389821672661  1.0000
+  Tl  Tl4       1.0  0.9952574678324273  0.6477960479302363  0.586609687689784  1.0000
+  F   F1        1.0  0.08035121419047717  0.14781369117231327  0.5482926577313018  1.0000
+  F   F2        1.0  0.5803515936235645  0.14774894179577586  0.45170757094023845  1.0000
+  F   F3        1.0  0.9196480056684104  0.6477726024388736  0.4517076767909864  1.0000
+  F   F4        1.0  0.4196476308090662  0.6478377130927253  0.5482920859757119  1.0000

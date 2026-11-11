@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cl2Rb2
+_chemical_formula_sum              "Cl2 Rb2"
+_cell_length_a       6.364789521216452
+_cell_length_b       6.364789521216452
+_cell_length_c       19.553767670841367
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  1.6208121333408178e-16  1.0794333508091322e-16  0.5286191269034168  1.0000
+  Cl  Cl2       1.0  0.5000000000000001  0.5000000000000001  0.4713809006894799  1.0000
+  Rb  Rb1       1.0  0.5000000000000001  1.3291374751189525e-16  0.5000000284047986  1.0000
+  Rb  Rb2       1.0  1.2868803990153964e-16  0.5000000000000001  0.5000000284047986  1.0000

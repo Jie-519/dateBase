@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       PbBi2Te4
+_chemical_formula_sum              "Pb1 Bi2 Te4"
+_cell_length_a       4.47800552775494
+_cell_length_b       4.478005527754878
+_cell_length_c       41.1621312
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000004
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  5.551115123125783e-15  1.3322676295501878e-14  0.5000000000000132  1.0000
+  Bi  Bi1       1.0  0.6666666666666689  0.3333333333333402  0.597576221127399  1.0000
+  Bi  Bi2       1.0  0.3333333333333331  0.6666666666666747  0.4024237788726395  1.0000
+  Te  Te1       1.0  5.551115123125783e-15  1.3322676295501878e-14  0.3616590526874655  1.0000
+  Te  Te2       1.0  5.551115123125783e-15  1.3322676295501878e-14  0.6383409473125754  1.0000
+  Te  Te3       1.0  0.6666666666666689  0.3333333333333402  0.45202081453764875  1.0000
+  Te  Te4       1.0  0.3333333333333331  0.6666666666666747  0.5479791854623767  1.0000

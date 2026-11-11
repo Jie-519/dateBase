@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       F3In3
+_chemical_formula_sum              "F3 In3"
+_cell_length_a       4.914759413618166
+_cell_length_b       3.75206963213237
+_cell_length_c       19.24493924
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.00772560166713
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.5879437528113963  0.43756029723448486  0.6059629551519026  1.0000
+  F   F2        1.0  0.5879502168290183  0.43757050996976526  0.39403681375637956  1.0000
+  F   F3        1.0  0.6491481870459883  0.9375462343455975  0.4999999788311259  1.0000
+  In  In1       1.0  0.8863011949918983  0.9375491998952876  0.6116426558236895  1.0000
+  In  In2       1.0  0.8863072540018552  0.9375677296805175  0.38835702706307207  1.0000
+  In  In3       1.0  0.33565587687429543  0.43750745548323844  0.4999995449400332  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SGa2ClSeI
+_chemical_formula_sum              "S1 Ga2 Cl1 Se1 I1"
+_cell_length_a       3.829120341699647
+_cell_length_b       6.26651361305324
+_cell_length_c       20.78226314189756
+_cell_angle_alpha    90.0
+_cell_angle_beta     89.99999999999996
+_cell_angle_gamma    90.04362904659445
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  S   S1        1.0  0.24989536101462367  0.709224357975012  0.460792928991268  1.0000
+  Ga  Ga1       1.0  0.24902976424022596  0.32949794017929185  0.4606345509740486  1.0000
+  Ga  Ga2       1.0  0.7498865799864393  0.814749062389497  0.5216932958778215  1.0000
+  Cl  Cl1       1.0  0.25076995846916555  0.22757088396946076  0.36088466154005205  1.0000
+  Se  Se1       1.0  0.7489556650869391  0.21288470355297984  0.5275710029829356  1.0000
+  I   I1        1.0  0.7544071928936985  0.7103029531425974  0.639115338459948  1.0000

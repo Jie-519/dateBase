@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfPdI6
+_chemical_formula_sum              "Hf1 Pd1 I6"
+_cell_length_a       7.293833939986091
+_cell_length_b       7.2937014834694125
+_cell_length_c       17.77979631911228
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00073342064427
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.9685026391304024  0.9369205879979806  0.5000058404672612  1.0000
+  Pd  Pd1       1.0  0.30204737090648076  0.6040163346492853  0.5000052015920325  1.0000
+  I   I1        1.0  0.2751440380064638  0.9115869242696474  0.5926304261078875  1.0000
+  I   I2        1.0  0.6363745004624641  0.6305310933337875  0.5925584971211175  1.0000
+  I   I3        1.0  0.9938172669696766  0.26930079789550243  0.5924446644107423  1.0000
+  I   I4        1.0  0.2755630336681008  0.269300753612787  0.40756538126882397  1.0000
+  I   I5        1.0  0.994236179835383  0.6305319333420221  0.40745122071379114  1.0000
+  I   I6        1.0  0.6365188443200598  0.911587368163348  0.40737817591687026  1.0000

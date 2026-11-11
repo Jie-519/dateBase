@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       IMgBr
+_chemical_formula_sum              "I1 Mg1 Br1"
+_cell_length_a       4.054065153581433
+_cell_length_b       4.057521020715656
+_cell_length_c       18.1739416649444
+_cell_angle_alpha    90.00000000000003
+_cell_angle_beta     89.99999999999994
+_cell_angle_gamma    119.9988619601914
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  I   I1        1.0  0.059073021217009504  0.9410297289958589  0.5873212240761891  1.0000
+  Mg  Mg1       1.0  0.7254291643091975  0.27392440800594375  0.4921096644649418  1.0000
+  Br  Br1       1.0  0.3926462308137687  0.607674556090584  0.4126787759238108  1.0000

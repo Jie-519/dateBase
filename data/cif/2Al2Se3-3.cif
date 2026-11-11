@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al4Se6
+_chemical_formula_sum              "Al4 Se6"
+_cell_length_a       3.810411520273571
+_cell_length_b       6.333600336402061
+_cell_length_c       21.07397263
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.08729222422595845  0.6431344179396965  0.5862943255823826  1.0000
+  Al  Al2       1.0  0.08729222422595845  0.26689524206030346  0.4137052944176176  1.0000
+  Al  Al3       1.0  0.5872922242259585  0.14313441793969653  0.5862943255823826  1.0000
+  Al  Al4       1.0  0.5872922242259585  0.7668952420603036  0.4137052944176176  1.0000
+  Se  Se1       1.0  0.07662576124773282  0.29987786769203323  0.6441076513712136  1.0000
+  Se  Se2       1.0  0.07662576124773282  0.6101517923079669  0.3558919786287864  1.0000
+  Se  Se3       1.0  0.5766257612477328  0.7998778676920332  0.6441076513712136  1.0000
+  Se  Se4       1.0  0.5766257612477328  0.11015179230796682  0.3558919786287864  1.0000
+  Se  Se5       1.0  0.4385426582511404  0.45501612  0.50000076  1.0000
+  Se  Se6       1.0  0.9385426582511404  0.95501612  0.50000076  1.0000
