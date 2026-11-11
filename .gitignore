@@ -16,6 +16,12 @@ __pycache__/
 # 训练产物：模型本体 4.7 MB/次，可再生；manifest / predictions / importance 仍然提交
 模型/XGboost/output_XGb/*/artifacts/model.json
 
-# 管理器运行期产物（catalog 可重建、图可重画）
+# ---- 管理器运行期产物（都可重建，不入库）
+# 台账：python cli.py all 能从 manifest 原样重建
 模型/管理器/catalog.sqlite
+模型/管理器/catalog.sqlite-wal
+模型/管理器/catalog.sqlite-shm
+# 旧目录（已废弃，位置改到 figure_XGb）
 模型/管理器/figures/
+# 图与 HTML 报告：150 dpi 重画只要几秒，且 base64 内嵌后单个 HTML 就 500+ KB
+模型/XGboost/figure_XGb/
