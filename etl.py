@@ -54,7 +54,8 @@ C = {
 }
 
 HEADER_CHECKS = {
-    0: "uid (C2DB UID)", 13: "gap (eV, PBE)", 21: "dyn_stab",
+    0: "uid (C2DB UID)", 11: "thickness (Å)", 12: "unit_cell_area (Å²)",
+    13: "gap (eV, PBE)", 20: "evac (eV)", 21: "dyn_stab",
     25: "direct_indirect_PBE", 27: "structure_download_url",
     30: "missing_fields", 32: "材料主库_ID", 55: "完整度评分", 56: "筛选结论",
 }
@@ -109,7 +110,9 @@ PROPS = [
     ("hform", "形成能", "stability", "hform", "eV/atom", "PBE", "PBE", "PBE", 3,
      "hform (eV/atom)", "c2db_table", "source", None),
     ("energy", "总能量", "stability", "energy", "eV", "PBE", "PBE", "PBE", 3,
-     "energy (eV)", "c2db_table", "source", "单胞总能量，跨材料不可直接比较"),
+     "energy (eV)", "c2db_table", "source", "单胞总能量，跨材料不可直接比较；按原子数归一再比"),
+    ("evac", "真空能级", "electrical", "evac", "eV", "PBE", "PBE", "PBE", 3,
+     "evac (eV)", "c2db_table", "source", "真空能级（相对能量的零点参考）"),
 ]
 
 # ---------------------------------------------------------------- 字典：字段级（非数值列 + 元数据）
@@ -159,6 +162,10 @@ MANUAL_FIELDS = [
     ("structure", "origin_note", "数值出处说明", "结构信息库", None, "derived", "—", "—", None),
     ("electrical", "gap_kind_pbe", "直接/间接（PBE）", "电学性能子库", None, "derived",
      "direct_indirect_PBE", "带隙缺失→缺失", "gap 与 gap_dir 相等=直接，否则=间接"),
+    ("structure", "thickness", "厚度", "结构信息库", "Å", "c2db_table", "thickness (Å)",
+     "空白→缺失", "官网 thickness；二维片层厚度，0 是单原子层的有效值（非缺失），可由 c 与真空层反推"),
+    ("structure", "unit_cell_area", "晶胞面积", "结构信息库", "Å²", "c2db_table",
+     "unit_cell_area (Å²)", "空白→缺失", "官网 area；与 a·b·sinγ 应一致（体检第 14 项交叉校验）"),
     ("stability", "dyn_stab", "动力学稳定性", "辅助库", None, "c2db_table", "dyn_stab",
      "Unknown→NULL", "Yes/No 有效；Unknown 不等于不稳定，单独记 unknown"),
 ]
@@ -307,7 +314,9 @@ def build(scope: str = "kept", db_path: Path | None = None, verbose: bool = True
             structures.append((uid, a, b, c, al, be, ga, sg, crystal_system_of(sg), None,
                                text(r[C["cif_url"]]), digest, size, rel,
                                cell_volume(a, b, c, al, be, ga),
-                               "a,b,c,α,β,γ 取自官网 CIF（3 位小数）；cell_volume 由六参数推导",
+                               num(r[C["thickness"]]), num(r[C["area"]]),
+                               "a,b,c,α,β,γ 取自官网 CIF（3 位小数）；cell_volume 由六参数推导；"
+                               "thickness/unit_cell_area 取自官网表格",
                                raw))
 
             em = emass.get(uid, (None, None))
@@ -315,7 +324,7 @@ def build(scope: str = "kept", db_path: Path | None = None, verbose: bool = True
                                 num(r[C["gw"]]), text(r[C["gap_kind"]]),
                                 None, None, em[0], em[1], None,
                                 num(r[C["alphaz_el"]]), num(r[C["alphaz_lat"]]),
-                                num(r[C["alphaz"]])))
+                                num(r[C["alphaz"]]), num(r[C["evac"]])))
             stabilities.append((uid, text(r[C["dyn"]]), num(r[C["ehull"]]),
                                 num(r[C["hform"]]), num(r[C["energy"]])))
 
@@ -343,13 +352,14 @@ def build(scope: str = "kept", db_path: Path | None = None, verbose: bool = True
         "verdict_reason,source_url,batch_id) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", materials)
     con.executemany(
         "INSERT INTO structure(material_id,a,b,c,alpha,beta,gamma,space_group,crystal_system,"
-        "crystal_phase,cif_url,cif_sha256,cif_bytes,cif_cache,cell_volume,origin_note,cif_content) "
-        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", structures)
+        "crystal_phase,cif_url,cif_sha256,cif_bytes,cif_cache,cell_volume,thickness,"
+        "unit_cell_area,origin_note,cif_content) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", structures)
     con.executemany(
         "INSERT INTO electrical(material_id,gap_pbe,gap_dir_pbe,gap_hse06,gap_gw,gap_kind_pbe,"
         "mobility_e,mobility_h,eff_mass_cbm,eff_mass_vbm,dielectric_static,"
-        "polarizability_el,polarizability_lat,polarizability_total) "
-        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)", electricals)
+        "polarizability_el,polarizability_lat,polarizability_total,evac) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", electricals)
     con.executemany("INSERT INTO stability(material_id,dyn_stab,ehull,hform,energy) VALUES(?,?,?,?,?)",
                     stabilities)
     con.executemany("INSERT INTO material_element(material_id,z,count) VALUES(?,?,?)",

@@ -1,0 +1,21 @@
+# C2DB 项目 · git 忽略规则
+# 原则：只提交"人写的源码 + 可复核的台账"，不提交可再生的重型产物。
+
+# Python
+__pycache__/
+*.pyc
+
+# ---- 模型/ 子树
+# 上游 XGBoost 源码仓库（4 万+ 文件，只读参照，不入库）
+模型/XGboost/xgboost/
+# wheel 解包（202 MB，可由 requirements.lock.txt 重装；离线包另存 U 盘）
+模型/XGboost/libs/
+# pip/下载临时目录
+模型/XGboost/_tmp/
+
+# 训练产物：模型本体 4.7 MB/次，可再生；manifest / predictions / importance 仍然提交
+模型/XGboost/output_XGb/*/artifacts/model.json
+
+# 管理器运行期产物（catalog 可重建、图可重画）
+模型/管理器/catalog.sqlite
+模型/管理器/figures/

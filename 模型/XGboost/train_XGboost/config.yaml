@@ -1,0 +1,25 @@
+# C2DB 带隙回归 · 训练配置
+# 改这里 = 改一次实验；脚本本身不动，manifest 会原样记录全部参数。
+# 命令行可临时覆盖：--features / --n-estimators / --max-depth / --learning-rate / --seed / --nthread
+
+project: c2db-gap
+features: G2            # G0 仅组成 / G1 +结构 / G2 主模型 / G3 同源泄漏对照 / G3p 答案泄漏对照
+target: gap_pbe         # eV（PBE）
+note: ""                # 本次实验的一句话说明，会写进 manifest
+tags: []                # 例如 [baseline, phys-only]
+
+# ---- 超参（3,354 行 × ~80 列，小样本，稳妥起点）
+params:
+  objective: reg:squarederror
+  eval_metric: rmse
+  n_estimators: 2000          # 上限；早停会提前结束
+  early_stopping_rounds: 50   # 监控 valid 的 RMSE
+  learning_rate: 0.05
+  max_depth: 6
+  min_child_weight: 3
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_lambda: 1.0
+  tree_method: hist
+  nthread: 1                  # =1 才能逐位复现（容差 1e-6）；换多线程请把容差改成 1e-3
+  seed: 42
