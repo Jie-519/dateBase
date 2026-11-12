@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""record.py：把 output_XGb 下的训练产物收进台账（catalog.sqlite）。
+"""record.py：把 训练数据/<模型名>/ 下的训练产物收进台账（catalog.sqlite）。
 
 职责边界
 --------

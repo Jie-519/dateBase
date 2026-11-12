@@ -9,9 +9,9 @@
 它会做的事（每一步都会打印耗时）：
     1. 校验条数（下限、上限、三者之和）
     2. 生成划分          -> snapshots/<dataset_id>.{csv,split.json,features.json}
-    3. 逐组训练          -> output_XGb/<run_id>/（调用原版 train.py，不改它一行）
+    3. 逐组训练          -> 训练数据/XGboost/<run_id>/（调用原版 train.py，不改它一行）
     4. 收录台账          -> catalog.sqlite
-    5. 出图 + 出报告     -> figure_XGb/exhibit/<dataset_id>/index.html
+    5. 出图 + 出报告     -> 图与报告/exhibit/<dataset_id>/index.html
     6. 复核              -> 三集条数与零交叠
 
 设计约束：本脚本只做编排，不实现算法。划分在 splitgen，训练在 train.py，
@@ -177,7 +177,7 @@ def train_one(env: dict, group: str, seed: int, note: str) -> tuple[Path, dict]:
         raise SystemExit(2)
     new = [p for p in OUTPUT_ROOT.iterdir() if p.is_dir() and p.name not in before]
     if not new:
-        raise SystemExit("训练成功但找不到新的 run 目录，请检查 output_XGb")
+        raise SystemExit("训练成功但找不到新的 run 目录，请检查 训练数据/XGboost")
     run_dir = max(new, key=lambda p: p.stat().st_mtime)
     return run_dir, final_metrics(run_dir) | {"_sec": dt}
 

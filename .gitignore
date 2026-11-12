@@ -13,18 +13,21 @@ __pycache__/
 # pip/下载临时目录
 模型/XGboost/_tmp/
 
-# 训练产物：模型本体 4.7 MB/次，可再生；manifest / predictions / importance 仍然提交
-模型/XGboost/output_XGb/*/artifacts/model.json
+# 训练产物（按模型名分目录：训练数据/<模型名>/<run_id>/）
+# 模型本体 4.7 MB/次，可再生；manifest / predictions / importance 仍然提交
+训练数据/XGboost/*/artifacts/model.json
 
 # ---- 管理器运行期产物（都可重建，不入库）
 # 台账：python cli.py all 能从 manifest 原样重建
 模型/管理器/catalog.sqlite
 模型/管理器/catalog.sqlite-wal
 模型/管理器/catalog.sqlite-shm
-# 旧目录（已废弃，位置改到 figure_XGb）
+# 手工备份（搬家/迁移前留的副本）
+模型/管理器/catalog.sqlite.bak*
+# 旧目录（已废弃，位置改到 图与报告/）
 模型/管理器/figures/
 # 图与 HTML 报告：150 dpi 重画只要几秒，且 base64 内嵌后单个 HTML 就 500+ KB
-模型/XGboost/figure_XGb/
+图与报告/
 
 # 按条数生成的快照（可由 管理器/splitgen.py 按 (条数, seed) 原样重生成）
 # 母快照 c2db-kept-20261031.* 仍然提交，不在此列

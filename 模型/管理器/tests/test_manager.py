@@ -28,7 +28,7 @@ import record      # noqa: E402
 import report      # noqa: E402
 import splitguard  # noqa: E402
 import verify      # noqa: E402
-from paths import OUTPUT_ROOT, PROJECT_ROOT  # noqa: E402
+from paths import BASE_DATASET_ID, OUTPUT_ROOT, PROJECT_ROOT  # noqa: E402
 
 SCRATCH = PROJECT_ROOT / "模型" / "XGboost" / "_tmp"
 MAIN_RUN = "20261111-223846_c2db-gap-c07a0c"
@@ -335,7 +335,12 @@ class RegressionCase(unittest.TestCase):
         self.assertTrue(res["ok"], [c for c in res["checks"] if not c["ok"]])
 
     def test_main_model_numbers(self):
-        r = db.one(self.conn, "SELECT * FROM v_leaderboard LIMIT 1")
+        # 必须限定在母集：台账里还有按条数生成的划分，那些数字不可与母集混比
+        # （不同划分的 R² 本来就不是一个尺度，拿来比会得到毫无意义的"第一名"）。
+        r = db.one(self.conn,
+                   "SELECT s.* FROM v_run_score s JOIN run r ON r.run_id = s.run_id"
+                   " WHERE r.dataset_id = ? AND s.is_smoke = 0 AND s.is_leak = 0"
+                   " ORDER BY s.valid_r2 DESC LIMIT 1", (BASE_DATASET_ID,))
         self.assertIsNotNone(r)
         self.assertAlmostEqual(r["valid_r2"], 0.8198823070497583, places=9)
         self.assertAlmostEqual(r["test_r2"], 0.8148494729885833, places=9)
@@ -354,10 +359,16 @@ class RegressionCase(unittest.TestCase):
         self.assertTrue(a["snapshot_sha256_match"])
 
     def test_leak_gap_is_big(self):
-        """答案泄漏必须显著抬高 R²，否则这套对照白跑了。"""
-        r = db.one(self.conn, "SELECT test_r2 FROM v_run_score WHERE feature_group = 'G3p'")
-        base = db.one(self.conn, "SELECT test_r2 FROM v_leaderboard LIMIT 1")
-        self.assertGreater(r["test_r2"] - base["test_r2"], 0.15)
+        """答案泄漏必须显著抬高 R²，否则这套对照白跑了（同一份划分内比才有意义）。"""
+        rows = {x["feature_group"]: x["test_r2"] for x in db.rows(
+            self.conn,
+            "SELECT s.feature_group, s.test_r2 FROM v_run_score s"
+            " JOIN run r ON r.run_id = s.run_id"
+            " WHERE r.dataset_id = ? AND s.is_smoke = 0"
+            "   AND s.feature_group IN ('G2', 'G3p')", (BASE_DATASET_ID,))}
+        self.assertIn("G2", rows)
+        self.assertIn("G3p", rows)
+        self.assertGreater(rows["G3p"] - rows["G2"], 0.15)
 
 
 if __name__ == "__main__":

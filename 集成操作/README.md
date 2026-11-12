@@ -43,7 +43,7 @@
 ### 3. 结果在哪
 
 ```
-模型\XGboost\figure_XGb\exhibit\<dataset_id>\index.html
+图与报告\exhibit\<dataset_id>\index.html
 ```
 
 `dataset_id` 长这样：`c2db-T1500-V200-S200-s42`（T=训练、V=验证、S=测试、s=seed），
@@ -79,10 +79,10 @@ python run.py --train 2349 --valid 505 --test 500 --open   :: 完成后自动打
 | 步骤 | 做什么 | 产物 |
 |---|---|---|
 | ① 生成划分 | 按化学式整组 + 分层 + 精确修补 | `管理器/snapshots/<dataset_id>.{csv,split.json,features.json}` |
-| ② 训练 | 逐组调用原版 `train.py`（**不改它一行**，用环境变量切数据集） | `output_XGb/<run_id>/` |
+| ② 训练 | 逐组调用原版 `train.py`（**不改它一行**，用环境变量切数据集） | `训练数据/XGboost/<run_id>/` |
 | ③ 收录 | 校验产物哈希、打标（冒烟/泄漏） | `管理器/catalog.sqlite` |
-| ④ 出图 | 每组的预测/残差/学习曲线/重要性 + 跨组对比 | `exhibit/<id>/fig_*.png` |
-| ⑤ 出报告 | 单次报告 + 总看板（图 base64 内嵌） | `exhibit/<id>/*.html` |
+| ④ 出图 | 每组的预测/残差/学习曲线/重要性 + 跨组对比 | `图与报告/exhibit/<id>/fig_*.png` |
+| ⑤ 出报告 | 单次报告 + 总看板（图 base64 内嵌） | `图与报告/exhibit/<id>/*.html` |
 | ⑥ 复核 | 重读快照，核对三集条数与零交叠 | 控制台打印 |
 
 **测试集隔离**在这一整条链路上有四处独立保证：划分算法（四桶互斥）、落盘前自检（交叠即中止）、
@@ -99,7 +99,7 @@ python run.py --train 2349 --valid 505 --test 500 --open   :: 完成后自动打
 不要。台账是单机 SQLite，并发写会冲突；一个跑完再开下一个。
 
 **Q：展品太多了怎么办**
-超过 20 套时程序会提示（**不自动删除**）。手动删掉 `figure_XGb\exhibit\` 下不要的目录即可；
+超过 20 套时程序会提示（**不自动删除**）。手动删掉 `图与报告\exhibit\` 下不要的目录即可；
 台账里的记录会保留，重新生成同名 `dataset_id` 会覆盖对应展品。
 
 **Q：同样的条数跑两次，结果一样吗**
@@ -121,10 +121,11 @@ D:\数据库\
 │   └── README.md        ← 本文件
 ├── 模型\
 │   ├── 管理器\          ← 划分/台账/出图/报告（算法都在这里）
-│   └── XGboost\
-│       ├── train_XGboost\   ← 原版训练脚本
-│       ├── output_XGb\      ← 每次训练一个目录
-│       └── figure_XGb\
-│           ├── index.html   ← 母集展品看板
-│           └── exhibit\<dataset_id>\  ← 每次生成的展品
+│   └── XGboost\         ← 只放脚本与依赖
+│       └── train_XGboost\   ← 原版训练脚本
+├── 训练数据\            ← 按模型名分目录，一个模型一个文件夹
+│   └── XGboost\<run_id>\    ← 每次训练一个目录
+└── 图与报告\            ← 跨模型、按数据集组织，可重画
+    ├── index.html           ← 母集展品看板
+    └── exhibit\<dataset_id>\ ← 每次生成的展品
 ```

@@ -44,11 +44,27 @@ C = {"train": "#9ecae1", "valid": "#4292c6", "test": "#08519c",
      "ok": "#2f7f4f", "leak": "#b4462f", "smoke": "#9aa0a6",
      "accent": "#c9a227", "grid": "#e3e6ea"}
 
-#: 本次出图写到哪个目录。默认 figure_XGb 根；跑"一套展品"时由 build_all 改到展品目录，
+#: 本次出图写到哪个目录。默认 图与报告 根；跑"一套展品"时由 build_all 改到展品目录，
 #: 这样多套展品互不覆盖。
 _OUTDIR: Path = FIGURE_ROOT
 #: 本次服务的对象数据集；图脚注里的条数按它来取，不会拿母快照的数字标别人家的图。
 _DATASET: str | None = None
+#: 模型家族名（默认 xgboost）。由 build_all 从台账里取，取不到就用默认值。
+_MODEL: str = "xgboost"
+
+#: 图名 = fig_<模型>_<特征组>_<两位序号>_<中文图表名>_<run 短码>.png
+#: 一道菜四个信息：谁画的（模型）、用哪套特征、第几张、画的是什么；跨 run 的用 CMP 占位。
+#: 中文图名是为了在资源管理器里直接可读；唯一性由末尾 run 短码保证。
+#: 文件名不含空格与 R² 这类上标字符 —— 避免个别工具处理 Unicode 上标时出问题。
+CHART_CN = {
+    "pred_true": "预测vs真实",
+    "residual": "残差分布",
+    "learning": "学习曲线",
+    "importance": "特征重要性",
+    "compare_r2": "各次训练R2",
+    "leak_gap": "泄漏对照",
+    "err_by_gap": "误差随带隙",
+}
 
 
 # ---------------------------------------------------------------- 小工具
@@ -128,6 +144,22 @@ def _short(run_id: str) -> str:
     return run_id.split("-")[-1]
 
 
+def _fid(chart: str, order: int, run: dict | None = None) -> str:
+    """拼图片 ID（= 文件名去扩展名）。
+
+    run 给定时：fig_<模型>_<组>_<序号>_<中文名>_<run短码>
+    跨 run 时 ：fig_<模型>_CMP_<序号>_<中文名>_<数据集标签>
+
+    跨 run 的图必须带数据集标签：不同展品各有一份"泄漏对照"，若同名会互相覆盖台账记录，
+    导致 A 展品的页面引用到 B 展品目录里的文件。
+    """
+    cn = CHART_CN[chart]
+    if run is None:
+        tag = (_DATASET or "base").removeprefix("c2db-")
+        return f"fig_{_MODEL}_CMP_{order:02d}_{cn}_{tag}"
+    return f"fig_{_MODEL}_{run['feature_group']}_{order:02d}_{cn}_{_short(run['run_id'])}"
+
+
 # ---------------------------------------------------------------- 取数
 def _pred(conn, run_id: str) -> dict[str, tuple[np.ndarray, np.ndarray]]:
     out: dict[str, tuple] = {}
@@ -177,7 +209,7 @@ def fig_pred_true(conn, run: dict) -> dict:
         ax.legend(loc="lower right", fontsize=8, frameon=False)
     fig.suptitle(f"预测 vs 真实 · {run['feature_group']} · {_short(rid)}", fontsize=12)
     fig.tight_layout()
-    return _save(fig, f"fig_{_short(rid)}_01_pred_true",
+    return _save(fig, _fid("pred_true", 1, run),
                  "预测值 vs 真实值（验证集 / 测试集）", "pred_true", rid,
                  {"table": "prediction", "split": ["valid", "test"], "run_id": rid},
                  note=f"本图只画验证集 {c['valid']} 条与测试集 {c['test']} 条；"
@@ -225,7 +257,7 @@ def fig_residual(conn, run: dict) -> dict:
     fig.suptitle(f"残差体检 · {run['feature_group']} · {_short(rid)}", fontsize=12)
     fig.tight_layout()
     c = splitguard.audit()["counts"]
-    return _save(fig, f"fig_{_short(rid)}_02_residual",
+    return _save(fig, _fid("residual", 2, run),
                  "残差分布与系统性偏差", "residual", rid,
                  {"table": "prediction", "split": "test", "run_id": rid},
                  note=f"只画测试集 {c['test']} 条 —— 这一集训练时一次都没参与调参，"
@@ -257,7 +289,7 @@ def fig_learning(conn, run: dict) -> dict:
     ax.set_yscale("log")
     _style(ax)
     fig.tight_layout()
-    return _save(fig, f"fig_{_short(rid)}_03_learning",
+    return _save(fig, _fid("learning", 3, run),
                  "训练/验证 RMSE 随迭代变化（对数轴）", "learning", rid,
                  {"table": "metric", "name": "rmse", "step": ">=0", "run_id": rid},
                  note="训练集一路下降、验证集走平 → 之后继续加树只会更过拟合；最终只保留 best_iteration 那一棵。\n"
@@ -282,7 +314,7 @@ def fig_importance(conn, run: dict, top: int = 15) -> dict:
     ax.margins(x=0.14)
     _style(ax)
     fig.tight_layout()
-    return _save(fig, f"fig_{_short(rid)}_04_importance",
+    return _save(fig, _fid("importance", 4, run),
                  "特征重要性 Top15（gain）", "importance", rid,
                  {"table": "feature_importance", "order": "gain desc", "top": top, "run_id": rid},
                  note=f"本 run 共 {run['n_features']} 个特征，其中 {used} 个被树用到；"
@@ -337,7 +369,7 @@ def fig_compare_r2(conn, dataset_id: str | None = None) -> dict:
     ax.legend(fontsize=8, frameon=False, ncol=3, loc="upper left")
     _style(ax)
     fig.tight_layout()
-    return _save(fig, "fig_cmp_01_r2", "各 run 训练/验证/测试 R² 对照", "compare", None,
+    return _save(fig, _fid("compare_r2", 1), "各 run 训练/验证/测试 R² 对照", "compare", None,
                  {"view": "v_run_score", "metric": "r2", "order": "created_at"},
                  note="冒烟测试（20 棵树）与两组泄漏对照都留在图上：低分不是模型不行、高分不是模型厉害；\n"
                       "选型只看 v_leaderboard 的行。四次训练用的是同一份划分，三集条数与材料完全一致。")
@@ -386,7 +418,7 @@ def fig_leak_gap(conn, dataset_id: str | None = None) -> dict:
     ax.legend(fontsize=8, frameon=False, loc="upper left")
     _style(ax)
     fig.tight_layout()
-    return _save(fig, "fig_cmp_02_leak", "泄漏对照：同源列与答案列把 R² 抬了多少", "leak", None,
+    return _save(fig, _fid("leak_gap", 2), "泄漏对照：同源列与答案列把 R² 抬了多少", "leak", None,
                  {"view": "v_run_score", "filter": "is_smoke=0", "baseline": base["run_id"]},
                  note="G3 = 主特征 + 有效质量/极化率（与带隙同一套 DFT 派生，涨得少是因为这些列本身缺 17%~41%）；\n"
                       "G3p = 主特征 + gap_dir_pbe（带隙的分量，等于给了半个答案，所以直接冲到 0.987）。\n"
@@ -432,7 +464,7 @@ def fig_err_by_gap(conn, run_ids: list[str] | None = None, nbins: int = 8,
     ax.legend(fontsize=8, frameon=False, loc="upper left")
     _style(ax)
     fig.tight_layout()
-    return _save(fig, "fig_cmp_03_err_by_gap", "测试集 RMSE 随真实带隙的分布", "compare", None,
+    return _save(fig, _fid("err_by_gap", 3), "测试集 RMSE 随真实带隙的分布", "compare", None,
                  {"table": "prediction", "split": "test", "bins": edges.tolist(),
                   "run_ids": run_ids},
                  note="大带隙段样本少、误差大：这批材料的预测只能当趋势看，不能当精确值用。"
@@ -479,7 +511,7 @@ def register(db_path, metas: list[dict]) -> None:
 def build_all(only: str | None = None, out_dir: Path | None = None,
               dataset_id: str | None = None) -> list[dict]:
     """出图。out_dir 给展品目录时图写进那套展品，互不覆盖；dataset_id 默认母集。"""
-    global _OUTDIR, _DATASET
+    global _OUTDIR, _DATASET, _MODEL
     from paths import BASE_DATASET_ID
     dataset_id = dataset_id or BASE_DATASET_ID
     _OUTDIR = Path(out_dir) if out_dir else FIGURE_ROOT
@@ -495,6 +527,10 @@ def build_all(only: str | None = None, out_dir: Path | None = None,
         runs = db.rows(conn, sql + " ORDER BY created_at", params)
         if not runs:
             raise SystemExit(f"台账里没有 dataset_id={dataset_id} 的训练记录")
+        # 模型名进文件名：从台账取 model_family（当前只有 xgboost；将来加新家族自动跟随）
+        fams = {x[0] for x in conn.execute(
+            "SELECT DISTINCT model_family FROM run WHERE dataset_id = ?", (dataset_id,)) if x[0]}
+        _MODEL = fams.pop() if len(fams) == 1 else "multi"
         metas: list[dict] = []
         if only in (None, "run"):
             for r in runs:
@@ -513,6 +549,16 @@ def build_all(only: str | None = None, out_dir: Path | None = None,
                 p.unlink(missing_ok=True)
             if stale:
                 print(f"  清理旧图 {len(stale)} 张")
+            # 台账里指向"已不存在的文件"的图记录也一并删掉 —— 否则紧接着出报告时，
+            # report 会从 figure 表读到旧记录，页面里引用一串打不开的图名。
+            dead = [r["fig_id"] for r in
+                    conn.execute("SELECT fig_id, path FROM figure").fetchall()
+                    if not (PROJECT_ROOT / r["path"]).exists()]
+            if dead:
+                with conn:
+                    for fid in dead:
+                        conn.execute("DELETE FROM figure WHERE fig_id = ?", (fid,))
+                print(f"  清理失效图记录 {len(dead)} 条")
         return metas
     finally:
         conn.close()

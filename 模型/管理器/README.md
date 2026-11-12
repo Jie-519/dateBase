@@ -1,6 +1,6 @@
-﻿# 管理器 · 训练台账与出图
+# 管理器 · 训练台账与出图
 
-一句话：**训练脚本只管训练**，练完把产物丢进 `output_XGb/<run_id>/`；
+一句话：**训练脚本只管训练**，练完把产物丢进 `训练数据/<模型名>/<run_id>/`；
 本目录负责剩下的三件事——**记账、出图、出报告**，并保证任何一张图、任何一个数字都能查回来。
 
 ```
@@ -19,7 +19,7 @@
 |---|---|---|---|
 | 材料事实 | `C2DB_materials.sqlite`（母库） | 这些材料本身是什么 | 不能，是唯一真相 |
 | 喂给模型的东西 | `snapshots/*.csv` + `.split.json` + `.features.json` | 到底是哪些行列进了模型、怎么切的 | 能，`snapshot.py` 重跑即得 |
-| 实验记录 | `output_XGb/<run_id>/` 里的 `manifest.json` | 这次训练用了什么、得了多少分、凭什么 | **不能**，一次训练一份，写死不动 |
+| 实验记录 | `训练数据/XGboost/<run_id>/` 里的 `manifest.json` | 这次训练用了什么、得了多少分、凭什么 | **不能**，一次训练一份，写死不动 |
 | 索引 | `catalog.sqlite` | 哪次最好、差在哪、图在哪 | 能，`python cli.py all` 从 manifest 重建 |
 
 规则：**真相在文件，台账只是索引**。删掉 `catalog.sqlite` 不会丢任何信息。
@@ -78,11 +78,11 @@ python cli.py record && python cli.py chart && python cli.py report && python cl
 ## 四、一次训练到底发生了什么
 
 1. `train.py` 读快照、按 `split.json` 切数据；
-2. 调 `runlog.start(...)`：**校验特征**（黑名单 + 组内成员 + 快照哈希）→ 建 `output_XGb/<run_id>/` → 写 `manifest.partial.json`；
+2. 调 `runlog.start(...)`：**校验特征**（黑名单 + 组内成员 + 快照哈希）→ 建 `训练数据/XGboost/<run_id>/` → 写 `manifest.partial.json`；
 3. 训练、早停；`test` 只在最后评一次，**不参与调参**；
 4. 写 `artifacts/{model.json, predictions.csv, feature_importance.csv}`；
 5. `runlog.finish()`：逐个算 sha256 → 原子替换成 `manifest.json`（此后只读）；
-6. `record.py` 扫一遍 `output_XGb/`：`runlog.verify` + 6 项补充校验 → 写进 `catalog.sqlite`；
+6. `record.py` 扫一遍 `训练数据/XGboost/`：`runlog.verify` + 6 项补充校验 → 写进 `catalog.sqlite`；
 7. `charts.py` 从台账取数画图，把"图 + 配方 + sha256"登记进 `figure` 表；
 8. `report.py` 把台账和图片拼成 HTML。
 
@@ -115,19 +115,31 @@ python cli.py record && python cli.py chart && python cli.py report && python cl
 
 ## 六、图（19 张，全部可重画）
 
-命名：`fig_<run 短码>_<序号>_<含义>.png` 与 `fig_cmp_<序号>_<含义>.png`，纯 ASCII 防跨机器乱码，中文只在图内标题。
+命名规则（2026-11 起改版，旧名 `fig_<run短码>_<序号>_<含义>` 已废弃）：
 
-| 图 | 回答什么 |
+```
+单 run ：fig_<模型>_<特征组>_<两位序号>_<中文图表名>_<run短码>.png
+跨 run ：fig_<模型>_CMP_<两位序号>_<中文图表名>_<数据集标签>.png
+
+例：fig_xgboost_G2_01_预测vs真实_c07a0c.png
+    fig_xgboost_CMP_02_泄漏对照_T1500-V200-S200-s42.png
+```
+
+四段信息一眼可读：**谁画的（模型）· 用哪套特征 · 第几张 · 画的是什么**；
+唯一性由末尾的 run 短码 / 数据集标签保证。跨 run 图必须带数据集标签——
+否则不同展品里的"泄漏对照"会同名，在台账里按 `fig_id` 主键互相覆盖。
+
+| 图（序号 · 中文名） | 回答什么 |
 |---|---|
-| `_01_pred_true` | 预测贴不贴理想线；哪几个点最离谱 |
-| `_02_residual` | 残差分布 + 有没有"带隙越大越低估"的系统偏差 |
-| `_03_learning` | 训练/验证 RMSE 曲线 + 早停点（看有没有过拟合） |
-| `_04_importance` | 模型到底在依赖哪些特征（Top15 gain） |
-| `fig_cmp_01_r2` | 4 次训练的训练/验证/测试 R² 并排 |
-| `fig_cmp_02_leak` | **主叙事**：加同源列、加答案列各能把 R² 抬多少 |
-| `fig_cmp_03_err_by_gap` | 误差随带隙怎么变 —— 在哪不可信 |
+| `01 预测vs真实` | 预测贴不贴理想线；哪几个点最离谱 |
+| `02 残差分布` | 残差分布 + 有没有"带隙越大越低估"的系统偏差 |
+| `03 学习曲线` | 训练/验证 RMSE 曲线 + 早停点（看有没有过拟合） |
+| `04 特征重要性` | 模型到底在依赖哪些特征（Top15 gain） |
+| `CMP 01 各次训练R2` | 各组训练的训练/验证/测试 R² 并排 |
+| `CMP 02 泄漏对照` | **主叙事**：加同源列、加答案列各能把 R² 抬多少 |
+| `CMP 03 误差随带隙` | 误差随带隙怎么变 —— 在哪不可信 |
 
-图不入 git（`.gitignore` 已忽略 `figure_XGb/`），删了跑 `python cli.py chart` 原样重画：
+图不入 git（`.gitignore` 已忽略 `图与报告/`），删了跑 `python cli.py chart` 原样重画：
 每张图的输入都记在 `figure.recipe_json` 里。
 
 **每张图底部都有一行固定声明**：

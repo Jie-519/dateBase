@@ -24,7 +24,7 @@ if not "%RC%"=="0" (
   echo [FAILED] exit code %RC% - see messages above.
   echo Artifacts remain on disk; fix and rerun.
 ) else (
-  echo [DONE] see the exhibit folder under figure_XGb.
+  echo [DONE] finished - the exhibit path was printed above.
 )
 echo.
 pause

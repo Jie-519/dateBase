@@ -3,8 +3,8 @@
 
 产物
 ----
-1. figure_XGb/report/<run_id>.html   一次训练一份（PNG 以 base64 内嵌，单文件可发人）
-2. figure_XGb/index.html             跨 run 首页（引用同目录 PNG，体积小）
+1. 图与报告/report/<run_id>.html      一次训练一份（PNG 以 base64 内嵌，单文件可发人）
+2. 图与报告/index.html                跨 run 首页（引用同目录 PNG，体积小）
 
 为什么两种做法
 --------------
@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import db
 import splitguard
+from urllib.parse import quote
 from paths import FIGURE_ROOT, INDEX_HTML, PROJECT_ROOT, REPORT_DIR
 
 #: 特征组人话说明（与 train_XGboost/README.md §4 一致）
@@ -142,7 +143,12 @@ def _figs_of(conn, run_id: str) -> list[dict]:
     return db.rows(conn, "SELECT * FROM figure WHERE run_id = ? ORDER BY fig_id", (run_id,))
 
 
-def _figs_cmp(conn) -> list[dict]:
+def _figs_cmp(conn, dataset_id: str | None = None) -> list[dict]:
+    """跨 run 对比图。按数据集标签过滤 —— 每套展品各有各的对比图，不能互相串。"""
+    if dataset_id:
+        tag = dataset_id.removeprefix("c2db-")
+        return db.rows(conn, "SELECT * FROM figure WHERE run_id IS NULL AND fig_id LIKE ? "
+                             "ORDER BY fig_id", (f"%_{tag}",))
     return db.rows(conn, "SELECT * FROM figure WHERE run_id IS NULL ORDER BY fig_id")
 
 
@@ -361,7 +367,7 @@ def index_html(conn, dataset_id: str | None = None) -> str:
     board = [r for r in runs if not r["is_smoke"] and not r["is_leak"]]
     board.sort(key=lambda r: -(r["valid_r2"] or 0))
     main = board[0] if board else None
-    cmp_figs = _figs_cmp(conn)
+    cmp_figs = _figs_cmp(conn, dataset_id)
 
     brows = []
     for i, r in enumerate(runs):
@@ -391,7 +397,7 @@ def index_html(conn, dataset_id: str | None = None) -> str:
 
     thumbs = ""
     for f in cmp_figs:
-        thumbs += (f'<div class="thumb"><img src="{_e(Path(f["path"]).name)}" alt="{_e(f["title"])}">'
+        thumbs += (f'<div class="thumb"><img src="{quote(Path(f["path"]).name)}" alt="{_e(f["title"])}">'
                    f'<div>{_e(f["title"])}</div></div>')
 
     perrun = ""
@@ -401,7 +407,7 @@ def index_html(conn, dataset_id: str | None = None) -> str:
         if not f:
             continue
         perrun += (f'<div class="thumb"><a href="report/{_e(r["run_id"])}.html">'
-                   f'<img src="{_e(Path(f["path"]).name)}" alt="{_e(r["run_id"])}"></a>'
+                   f'<img src="{quote(Path(f["path"]).name)}" alt="{_e(r["run_id"])}"></a>'
                    f'<div><b>{_e(r["feature_group"])}</b> {_tags(r)}<br>'
                    f'<span class="mono">{_e(r["run_id"].split("-")[-1])}</span> · '
                    f'test R² {_fmt(r["test_r2"])}</div></div>')
@@ -467,7 +473,7 @@ def index_html(conn, dataset_id: str | None = None) -> str:
 
 <h2>五、怎么读这套东西</h2>
 <ul>
-<li><b>真相在文件，不在这张网页。</b>每次训练的目录 <span class="mono">output_XGb/&lt;run_id&gt;/</span>
+<li><b>真相在文件，不在这张网页。</b>每次训练的目录 <span class="mono">训练数据/XGboost/&lt;run_id&gt;/</span>
 是不可变的，里面的 <span class="mono">manifest.json</span> 记着参数、数据指纹、环境、产物 sha256；
 本页面的数字全部从 <span class="mono">catalog.sqlite</span> 读出，而这个库可以整库重建。</li>
 <li><b>三层各管一件事。</b>母库管“材料是什么”；快照 + 划分管“喂给模型的到底是什么”；

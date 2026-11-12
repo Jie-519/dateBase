@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS meta (
 -- ---------------------------------------------------------------- 1. 一次训练
 CREATE TABLE IF NOT EXISTS run (
     run_id            TEXT PRIMARY KEY,
-    run_dir           TEXT NOT NULL UNIQUE,     -- 相对 PROJECT_ROOT，如 模型/XGboost/output_XGb/xxx
+    run_dir           TEXT NOT NULL UNIQUE,     -- 相对 PROJECT_ROOT，如 训练数据/XGboost/xxx
     schema_version    TEXT NOT NULL,            -- manifest.schema，如 run/1
 
     project           TEXT NOT NULL,

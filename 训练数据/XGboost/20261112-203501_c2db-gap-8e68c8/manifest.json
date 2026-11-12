@@ -1,0 +1,1326 @@
+{
+  "schema": "run/1",
+  "run_id": "20261112-203501_c2db-gap-8e68c8",
+  "created_at": "2026-11-12T20:35:01+08:00",
+  "project": "c2db-gap",
+  "task": "regression",
+  "target": "gap_pbe",
+  "model": {
+    "family": "xgboost",
+    "version": "3.0.2",
+    "objective": "reg:squarederror"
+  },
+  "dataset": {
+    "dataset_id": "c2db-T1800-V700-S500-s42",
+    "name": "c2db-T1800-V700-S500-s42.csv",
+    "sha256": "81a7cf9b9e4b0258bb1b77c7a74c7e18a7f94dd55f1bf166018e26006ffb85d5",
+    "rows": 3000,
+    "target": "gap_pbe",
+    "split": {
+      "file": "c2db-T1800-V700-S500-s42.split.json",
+      "seed": 42,
+      "strategy": "grouped_by_formula + stratified(gap_bin,has_metal) + greedy_largest_deficit + exact_count_repair + optional_unused_pool",
+      "counts": {
+        "train": 1800,
+        "valid": 700,
+        "test": 500
+      },
+      "ratios": {
+        "train": 0.6,
+        "valid": 0.233333,
+        "test": 0.166667
+      },
+      "max_dev_pp": 0.0,
+      "indices_sha256": {
+        "train": "114f39dab4f30ce187e6f978db71b98bc845784785ee1c32b8d82816e8c14667",
+        "valid": "b1072668704768803bfa9d56b3dcac3a66ddc4b32448a9be53c83f948da8859b",
+        "test": "8a11653217b492cd037b690e0cca9a34cdb75975a59cb3678a79cb288647ecdb"
+      }
+    }
+  },
+  "features": {
+    "group": "G0",
+    "n": 66,
+    "sha256": "311793a97150d4e62e47f5ef8658974b616d11a0f7cc8b7d445fdf326f7748b4",
+    "names": [
+      "n_elements",
+      "has_metal",
+      "frac_max",
+      "n_atoms",
+      "elem_01_H",
+      "elem_03_Li",
+      "elem_04_Be",
+      "elem_05_B",
+      "elem_06_C",
+      "elem_07_N",
+      "elem_08_O",
+      "elem_09_F",
+      "elem_11_Na",
+      "elem_12_Mg",
+      "elem_13_Al",
+      "elem_14_Si",
+      "elem_15_P",
+      "elem_16_S",
+      "elem_17_Cl",
+      "elem_19_K",
+      "elem_20_Ca",
+      "elem_21_Sc",
+      "elem_22_Ti",
+      "elem_23_V",
+      "elem_24_Cr",
+      "elem_25_Mn",
+      "elem_26_Fe",
+      "elem_27_Co",
+      "elem_28_Ni",
+      "elem_29_Cu",
+      "elem_30_Zn",
+      "elem_31_Ga",
+      "elem_32_Ge",
+      "elem_33_As",
+      "elem_34_Se",
+      "elem_35_Br",
+      "elem_37_Rb",
+      "elem_38_Sr",
+      "elem_39_Y",
+      "elem_40_Zr",
+      "elem_41_Nb",
+      "elem_42_Mo",
+      "elem_44_Ru",
+      "elem_45_Rh",
+      "elem_46_Pd",
+      "elem_47_Ag",
+      "elem_48_Cd",
+      "elem_49_In",
+      "elem_50_Sn",
+      "elem_51_Sb",
+      "elem_52_Te",
+      "elem_53_I",
+      "elem_55_Cs",
+      "elem_56_Ba",
+      "elem_72_Hf",
+      "elem_73_Ta",
+      "elem_74_W",
+      "elem_75_Re",
+      "elem_76_Os",
+      "elem_77_Ir",
+      "elem_78_Pt",
+      "elem_79_Au",
+      "elem_80_Hg",
+      "elem_81_Tl",
+      "elem_82_Pb",
+      "elem_83_Bi"
+    ],
+    "catalog": "c2db-T1800-V700-S500-s42.features.json"
+  },
+  "params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "n_estimators": 2000,
+    "early_stopping_rounds": 50,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "min_child_weight": 3,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "tree_method": "hist",
+    "nthread": 1,
+    "seed": 42
+  },
+  "env": {
+    "python": "3.13.9",
+    "impl": "CPython",
+    "os": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_count": 32,
+    "git": {
+      "repo": "D:\\数据库",
+      "commit": "287b80b18fc4174c42f5a6858701531e582c27ee",
+      "dirty": true,
+      "describe": "287b80b"
+    },
+    "packages": {
+      "xgboost": "3.0.2",
+      "numpy": "2.3.4",
+      "scipy": "1.18.1",
+      "PyYAML": "6.0.3"
+    },
+    "reference_repo": {
+      "path": "模型/XGboost/xgboost",
+      "compiled": false,
+      "note": "官方源码仓库仅作参照实现，运行使用 wheel 版 xgboost"
+    }
+  },
+  "reproducibility": {
+    "deterministic": true,
+    "tolerance": {
+      "rmse": 1e-06
+    },
+    "notes": "nthread=1 + tree_method=hist + 固定 seed；换机复现按 tolerance 判定"
+  },
+  "tags": [],
+  "training": {
+    "best_iteration": 840,
+    "n_rounds": 891,
+    "duration_s": 0.5,
+    "n_rows": 3000,
+    "n_features": 66,
+    "missing_cells": 0,
+    "split_counts": {
+      "train": 1800,
+      "valid": 700,
+      "test": 500
+    }
+  },
+  "status": "ok",
+  "finished_at": "2026-11-12T20:35:02+08:00",
+  "metrics": [
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 1.3320454551171164,
+      "step": 0
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 1.164546784368538,
+      "step": 10
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 1.058018709389206,
+      "step": 20
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.9845219260504484,
+      "step": 30
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.9217306630338337,
+      "step": 40
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.8800645666549559,
+      "step": 50
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.8409039734204079,
+      "step": 60
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.8100800957953052,
+      "step": 70
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.7865439891337599,
+      "step": 80
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.761783248629926,
+      "step": 90
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.738900714362082,
+      "step": 100
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.7176273694268372,
+      "step": 110
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.6947518201688219,
+      "step": 120
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.6795872810425168,
+      "step": 130
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.664275112172771,
+      "step": 140
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.6474854968076733,
+      "step": 150
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.6354238442257703,
+      "step": 160
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.6245647155789239,
+      "step": 170
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.611063342929786,
+      "step": 180
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5986453855650179,
+      "step": 190
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5898395730385841,
+      "step": 200
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5798667347030229,
+      "step": 210
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5717542627090441,
+      "step": 220
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5627498638496145,
+      "step": 230
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5535064297614799,
+      "step": 240
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5444650578891496,
+      "step": 250
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5372276757848147,
+      "step": 260
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.527636002127958,
+      "step": 270
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5204380158113449,
+      "step": 280
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5151331263467289,
+      "step": 290
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5082480824443157,
+      "step": 300
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.5014927904866134,
+      "step": 310
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.49483470473671454,
+      "step": 320
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.48956240282804137,
+      "step": 330
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4844172459661451,
+      "step": 340
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.47796181046517755,
+      "step": 350
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.47227359295612625,
+      "step": 360
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4668362492720605,
+      "step": 370
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4597601613019786,
+      "step": 380
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.45568796249933974,
+      "step": 390
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4521724596668131,
+      "step": 400
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4492129418075829,
+      "step": 410
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4456380778419608,
+      "step": 420
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4415050693831081,
+      "step": 430
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.43738223162236267,
+      "step": 440
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.433333452836996,
+      "step": 450
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4296409176644333,
+      "step": 460
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4262078997990995,
+      "step": 470
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4227993853587328,
+      "step": 480
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.41912162285258187,
+      "step": 490
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4143328446588445,
+      "step": 500
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.41122955099957764,
+      "step": 510
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4079313006989965,
+      "step": 520
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4051755688248519,
+      "step": 530
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.4020420144346392,
+      "step": 540
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.39896331970622023,
+      "step": 550
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3974678152339812,
+      "step": 560
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.39455332216843014,
+      "step": 570
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3921282975477004,
+      "step": 580
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3889831713237939,
+      "step": 590
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3866351551752127,
+      "step": 600
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3843425675588117,
+      "step": 610
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.38237340896176125,
+      "step": 620
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3799005614384504,
+      "step": 630
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.37743504683209006,
+      "step": 640
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.37533710134105025,
+      "step": 650
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.37317200749193874,
+      "step": 660
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3707846679957814,
+      "step": 670
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3691249423385135,
+      "step": 680
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3673275606301009,
+      "step": 690
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3653343565753776,
+      "step": 700
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3636065937436041,
+      "step": 710
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.36178985163368627,
+      "step": 720
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.36002520785783715,
+      "step": 730
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.35799714961496526,
+      "step": 740
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3560056253241649,
+      "step": 750
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3542744232623867,
+      "step": 760
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.35211498220322085,
+      "step": 770
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.35041674745291373,
+      "step": 780
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3488505908984813,
+      "step": 790
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.34690477881992077,
+      "step": 800
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3451794903484719,
+      "step": 810
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.34347841765534964,
+      "step": 820
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3417362721150843,
+      "step": 830
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3397733228606474,
+      "step": 840
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.33821643080830877,
+      "step": 850
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3368759604216016,
+      "step": 860
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.33575338350019646,
+      "step": 870
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.33442504120045846,
+      "step": 880
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.333050021998714,
+      "step": 890
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.3694372107038164,
+      "step": 0
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.222251021245519,
+      "step": 10
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.1339283593354406,
+      "step": 20
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.0745388576860588,
+      "step": 30
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.031985978942675,
+      "step": 40
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 1.0028049759803914,
+      "step": 50
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.9752296888747635,
+      "step": 60
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.9545131446273383,
+      "step": 70
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.9365298258953522,
+      "step": 80
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.923823158067393,
+      "step": 90
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.90940086707183,
+      "step": 100
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8993581885867028,
+      "step": 110
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8875796887683801,
+      "step": 120
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8804537718277162,
+      "step": 130
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8733737296008361,
+      "step": 140
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8663810850823719,
+      "step": 150
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8599124428984728,
+      "step": 160
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8552415404638889,
+      "step": 170
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8506058822262836,
+      "step": 180
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8467702064175086,
+      "step": 190
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8433795584964867,
+      "step": 200
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8395788018772613,
+      "step": 210
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8366965107661022,
+      "step": 220
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8348948170215016,
+      "step": 230
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8313913645005033,
+      "step": 240
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8293498588498114,
+      "step": 250
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8279192428856157,
+      "step": 260
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8264735224040805,
+      "step": 270
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8250532245350718,
+      "step": 280
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8226831127851746,
+      "step": 290
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8220801811871306,
+      "step": 300
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8204517296291396,
+      "step": 310
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8173535792090373,
+      "step": 320
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8152931070365054,
+      "step": 330
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8133973781398556,
+      "step": 340
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8135147461155776,
+      "step": 350
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8118328425891556,
+      "step": 360
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8118708652997454,
+      "step": 370
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8112073708815322,
+      "step": 380
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.809790028319585,
+      "step": 390
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8087651263601259,
+      "step": 400
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8082119736014678,
+      "step": 410
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8087345074238474,
+      "step": 420
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8077758906129615,
+      "step": 430
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8074559761097524,
+      "step": 440
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8071699358458458,
+      "step": 450
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8072527756217779,
+      "step": 460
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8071082556289809,
+      "step": 470
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8065790447157245,
+      "step": 480
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8065381162758735,
+      "step": 490
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8081994426468556,
+      "step": 500
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8085957016523571,
+      "step": 510
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8076377019949883,
+      "step": 520
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8071915165364899,
+      "step": 530
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8060240071946638,
+      "step": 540
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8055576135053666,
+      "step": 550
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8056989540340748,
+      "step": 560
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8047291180328114,
+      "step": 570
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8048321839730651,
+      "step": 580
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8047272496997242,
+      "step": 590
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.804620537743973,
+      "step": 600
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8049921752853911,
+      "step": 610
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8048168594694174,
+      "step": 620
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8038304614377484,
+      "step": 630
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8039215680494705,
+      "step": 640
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8041168850265593,
+      "step": 650
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.803669297619635,
+      "step": 660
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.803006053499807,
+      "step": 670
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8026370607735122,
+      "step": 680
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8033754679230442,
+      "step": 690
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8033426562759324,
+      "step": 700
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8018766682336103,
+      "step": 710
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.801027650206771,
+      "step": 720
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8021624118884172,
+      "step": 730
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8028451374154331,
+      "step": 740
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8019963185262673,
+      "step": 750
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8012903656821442,
+      "step": 760
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8014715894825882,
+      "step": 770
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8003141015683506,
+      "step": 780
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.80093345135569,
+      "step": 790
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.800694662156272,
+      "step": 800
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8005507574545699,
+      "step": 810
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.8004706600173368,
+      "step": 820
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7996218913067576,
+      "step": 830
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7990173559119508,
+      "step": 840
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7997483173058422,
+      "step": 850
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.799644655291627,
+      "step": 860
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7997778977786857,
+      "step": 870
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7996221001778667,
+      "step": 880
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7994621011330538,
+      "step": 890
+    },
+    {
+      "split": "train",
+      "name": "rmse",
+      "value": 0.3397733201008157
+    },
+    {
+      "split": "train",
+      "name": "mae",
+      "value": 0.2463027394016364
+    },
+    {
+      "split": "train",
+      "name": "r2",
+      "value": 0.9364727230640261
+    },
+    {
+      "split": "valid",
+      "name": "rmse",
+      "value": 0.7990173571089848
+    },
+    {
+      "split": "valid",
+      "name": "mae",
+      "value": 0.5347689111268057
+    },
+    {
+      "split": "valid",
+      "name": "r2",
+      "value": 0.6679019391296722
+    },
+    {
+      "split": "test",
+      "name": "rmse",
+      "value": 0.7286774413961402
+    },
+    {
+      "split": "test",
+      "name": "mae",
+      "value": 0.5094821592609584
+    },
+    {
+      "split": "test",
+      "name": "r2",
+      "value": 0.7077443886963881
+    }
+  ],
+  "artifacts": [
+    {
+      "kind": "model",
+      "path": "artifacts/model.json",
+      "bytes": 2493268,
+      "sha256": "f71412b060d911a3094d8f7a3ee2d8744c8d491dfbc640a4673e1f9783d38c4e"
+    },
+    {
+      "kind": "predictions",
+      "path": "artifacts/predictions.csv",
+      "bytes": 101135,
+      "sha256": "588d82cd624c26736523dbaab335b2a150418497f1c2ea685d68bd65518b1e66"
+    },
+    {
+      "kind": "feature_importance",
+      "path": "artifacts/feature_importance.csv",
+      "bytes": 2777,
+      "sha256": "da2b8aee7b51936993adad9a874773f679a777edd821abe9e2816315c2373ba5"
+    }
+  ],
+  "note": "集成操作 c2db-T1800-V700-S500-s42"
+}
