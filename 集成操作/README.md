@@ -10,6 +10,68 @@
 
 ---
 
+## 〇、clone 下来之后（只做一次）
+
+从 GitHub 拉下来的仓库**还不能直接训练**——有些文件按设计不入库，需要就地补齐。
+
+### 1. 双击 `恢复环境.bat`
+
+它按顺序尝试，任一步成功就停：
+
+```
+① libs/ 里已有 xgboost        → 什么都不做
+② 全局已装 xgboost            → 什么都不做
+③ _tmp/ 里已有 wheel          → 校验 sha256 后解包到 libs/
+④ 从 GitHub Release 下载      → 校验 sha256 后解包到 libs/
+⑤ 联网 pip 安装 xgboost       → 装到 site-packages
+⑥ 都失败                       → 打印手工处理办法
+```
+
+看到「完成，可以直接运行 开始训练.bat」即可。整个过程不需要联网也能成功（只要 `_tmp/` 里已有 wheel）。
+
+### 2. 仓库里没有的文件
+
+| 路径 | 为什么不在 | 怎么得到 |
+|---|---|---|
+| `模型/XGboost/libs/` | 202 MB，其中 `xgboost.dll` 单文件 201 MB，**超 GitHub 单文件 100 MB 硬限制** | `恢复环境.bat` 自动下载并校验 |
+| `模型/XGboost/_tmp/` | 离线 wheel 备份、临时文件 | 上一步会把 wheel 存在这里，下次可离线复用 |
+| `模型/XGboost/xgboost/` | 上游源码克隆，自带 `.git`，会被误记成子模块 | 需要参考时自行 `git clone` 到该位置 |
+| `训练数据/<模型>/<run_id>/` | 每次训练约 66 MB，可由「划分 + 训练」重生成 | 跑一次训练即自动生成 |
+| `图与报告/` | 可重画，150 dpi 只要几秒 | 训练流水线会自动出；也可 `python cli.py chart` |
+| `模型/管理器/catalog.sqlite` | 纯索引，可从 manifest 原样重建 | `python cli.py record` |
+| `模型/管理器/snapshots/c2db-T*` | 按 (条数, seed) 确定性重生成，同输入必同输出 | 跑一次同条数同种子的划分 |
+
+### 3. 关于换行符（重要）
+
+本仓库用 sha256 判定「文件没被篡改」：`split.json` 里记着快照的哈希，`manifest.json` 里记着每个产物的哈希。
+Windows 上 git 默认会把 LF 转成 CRLF，一 clone 哈希就全对不上（表现为 `[中止] 快照哈希与 split.json 不符`）。
+所以仓库根有一个 `.gitattributes`，内容 `* -text`，禁止 git 碰换行符。
+
+> **注意**：`git status` 说「干净」并不代表数据完好——autocrlf 会让 git 认为 CRLF 文件没变，所以它发现不了这种损坏。可信的判据是 `python cli.py verify`。
+
+如果你在**旧的副本**里 pull 到这次改动，先执行一次：
+
+```bat
+git config core.autocrlf false
+git reset --hard
+```
+
+否则工作区会显示满屏「已修改」——那是旧副本的 CRLF 与新规则不一致，不是数据损坏。
+
+### 4. 验证复现性（可选，但建议做一次）
+
+```bat
+cd 模型\管理器
+python cli.py split                 :: 三集条数 + 两两零交叠
+python cli.py verify                :: 12 项自检
+python compare.py c07a0c            :: 用历史参数重跑一次并比对指标
+```
+
+`compare.py` 会用历史 manifest 里的参数重跑，逐项比对 train/valid/test 的 r2/rmse/mae，
+在容差内输出 PASS——这是「能复现」的判据，而不只是「能跑」。
+
+---
+
 ## 一、怎么用
 
 ### 1. 双击 `开始训练.bat`
