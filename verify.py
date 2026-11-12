@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 import random
 import sqlite3
 import sys
@@ -246,6 +247,37 @@ def run(db_path: Path | None = None, sample: int = 30, write_report: bool = True
               f"与 data/cif 抽检 {len(cif_pick)} 条，"
               + ("全部逐字节一致" if not bad_disk else f"不一致 {bad_disk[:3]}")
               + (f"；哈希异常 {bad_hash[:3]}" if bad_hash else "")))
+
+    # 14 ----------------------------------------------------------- v5 新增三列
+    # (a) 三列都必须全量覆盖；(b) unit_cell_area 与 a·b·sinγ 一致（容差 2%）；
+    # (c) thickness=0 是单原子层的有效值，只统计不判错；(d) evac 必须是有限数
+    n_th = q1("SELECT COUNT(*) FROM structure WHERE thickness IS NOT NULL")
+    n_ar = q1("SELECT COUNT(*) FROM structure WHERE unit_cell_area IS NOT NULL")
+    n_ev = q1("SELECT COUNT(*) FROM electrical WHERE evac IS NOT NULL")
+    n_th_zero = q1("SELECT COUNT(*) FROM structure WHERE thickness = 0")
+    n_bad_ev = q1("SELECT COUNT(*) FROM electrical WHERE evac IS NOT NULL "
+                  "AND (evac <> evac OR ABS(evac) > 1e6)")
+    area_bad, area_worst = [], 0.0
+    for r in con.execute("SELECT material_id, a, b, gamma, unit_cell_area FROM structure "
+                         "WHERE unit_cell_area IS NOT NULL AND a IS NOT NULL "
+                         "AND b IS NOT NULL AND gamma IS NOT NULL"):
+        calc = r["a"] * r["b"] * math.sin(math.radians(r["gamma"]))
+        if calc <= 0:
+            area_bad.append(f"{r['material_id']}: 计算面积 {calc:.4f} <= 0")
+            continue
+        rel = abs(calc - r["unit_cell_area"]) / calc
+        area_worst = max(area_worst, rel)
+        if rel > 0.02:
+            area_bad.append(f"{r['material_id']}: 官网 {r['unit_cell_area']} vs 计算 {calc:.4f}")
+    checks.append(
+        Check("14 v5 补入列（thickness / unit_cell_area / evac）覆盖与自洽",
+              n_th == n_src and n_ar == n_src and n_ev == n_src
+              and not area_bad and n_bad_ev == 0,
+              f"thickness {n_th}/{n_src}（其中 0.000 共 {n_th_zero} 条，单原子层有效值）；"
+              f"unit_cell_area {n_ar}/{n_src}；evac {n_ev}/{n_src}；"
+              f"area 与 a·b·sinγ 最大相对偏差 {area_worst:.4%}（容差 2%），"
+              + ("全部一致" if not area_bad else f"超差 {area_bad[:3]}")
+              + (f"；evac 非有限 {n_bad_ev} 条" if n_bad_ev else "")))
 
     # ---- 附加统计（写进报告，不作为断言）
     stats = {

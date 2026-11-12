@@ -1,5 +1,5 @@
 -- =====================================================================
--- C2DB 材料数据库 · 单机 SQLite · 三子库结构（schema v4）
+-- C2DB 材料数据库 · 单机 SQLite · 三子库结构（schema v5）
 -- ---------------------------------------------------------------------
 -- 设计原则（与 C++ 类封装一一对应）：
 --   1) 一张表 = 一个类；一行 = 一个对象；主键 = 句柄；外键 = 组合关系
@@ -18,13 +18,18 @@
 --      data/cif 只是 ETL 的输入缓存（不是运行期依赖）。
 --   8) 不存"审核/自检结论"列（v4）：例如源表的极化率一致性自检（一致/无法校验/不一致）
 --      已删除，需要时用 SQL 现算；库内只留数据本身与可校验的摘要（哈希）。
+--   9) v5：补回三个此前漏入库的官方字段 ----
+--      structure.thickness      厚度 [Å]（官网 thickness）——二维材料的关键描述符
+--      structure.unit_cell_area 晶胞面积 [Å²]（官网 area）——与 a·b·sinγ 可交叉校验
+--      electrical.evac          真空能级 [eV]（官网 evac）——电子结构量，故归电学子库
+--      三者源表覆盖 3,354/3,354，无缺失；thickness 有 23 条 0.000 是单原子层的**有效值**。
 --
 -- ⚠ 外键开关是"每连接"的：PRAGMA foreign_keys 默认关闭，必须在**每个**连接上执行
 --    PRAGMA foreign_keys = ON，否则外键约束静默失效（db.py:connect 已做；临时用
 --    sqlite3 命令行 / 别的客户端时务必自己开）。
 -- =====================================================================
 PRAGMA foreign_keys = ON;
-PRAGMA user_version = 4;
+PRAGMA user_version = 5;
 
 -- ---------------------------------------------------------------- 0 导入批次（溯源）
 CREATE TABLE IF NOT EXISTS import_batch (
@@ -103,6 +108,9 @@ CREATE TABLE IF NOT EXISTS structure (
     -- 校验：sha256(cif_content) = cif_sha256（体检第 13 项全量重算）
     cif_content     BLOB,
     cell_volume     REAL    CHECK (cell_volume IS NULL OR cell_volume > 0),  -- 由 a,b,c,α,β,γ 推导
+    -- v5 补入：官网 thickness / area 两列（源表 3,354 行全覆盖）
+    thickness       REAL    CHECK (thickness IS NULL OR thickness >= 0),   -- 厚度 [Å]，0 是有效值
+    unit_cell_area  REAL    CHECK (unit_cell_area IS NULL OR unit_cell_area > 0), -- 晶胞面积 [Å²]
     origin_note     TEXT                       -- 数值出处/派生说明
 ) STRICT;
 CREATE INDEX IF NOT EXISTS ix_structure_sg ON structure(space_group);
@@ -125,6 +133,8 @@ CREATE TABLE IF NOT EXISTS electrical (
     polarizability_el    REAL CHECK (polarizability_el    IS NULL OR polarizability_el    >= 0),
     polarizability_lat   REAL CHECK (polarizability_lat   IS NULL OR polarizability_lat   >= 0),
     polarizability_total REAL CHECK (polarizability_total IS NULL OR polarizability_total >= 0),
+    -- v5 补入：官网 evac = Vacuum level [eV]，属电子结构量，故落在电学子库
+    evac                 REAL,                                            -- 真空能级 [eV]
     -- 不存"一致性自检"结果列（v4 删除）：源表的 el+lat vs total 对账结论属于审核信息，
     -- 需要时现算：abs(el+lat-total) 与源表精度比较即可，不必占一列。
     -- 极化率不是介电常数：本表用列名 + 下面的 CHECK 双重防混淆
@@ -207,6 +217,7 @@ SELECT m.material_id                AS id,
        s.crystal_phase,
        s.a, s.b, s.c, s.alpha, s.beta, s.gamma,
        s.cell_volume,
+       s.thickness, s.unit_cell_area,
        s.cif_url, s.cif_sha256, s.cif_bytes, s.cif_cache,
        e.gap_pbe,
        e.gap_dir_pbe,
@@ -217,6 +228,7 @@ SELECT m.material_id                AS id,
        e.eff_mass_cbm, e.eff_mass_vbm,
        e.dielectric_static,
        e.polarizability_el, e.polarizability_lat, e.polarizability_total,
+       e.evac,
        st.dyn_stab, st.ehull, st.hform, st.energy,
        m.score, m.verdict, m.verdict_reason, m.source_url
 FROM material m

@@ -1,0 +1,18 @@
+# 运行环境锁定（2026-11-11，本机 Python 3.13.9 / CPython / Windows 11）
+#
+# 安装（联网）：
+#   python -m pip install -r requirements.lock.txt
+# 离线（推荐，本目录已随附 libs/）：
+#   把 libs\ 加到 PYTHONPATH 即可，无需安装：
+#     $env:PYTHONPATH = "D:\数据库\模型\XGboost\libs"
+#
+# 只要这四项版本一致，manifest 里的 env.packages 就能对上，指标可复现。
+
+xgboost==3.0.2
+numpy==2.3.4
+scipy==1.18.1
+PyYAML==6.0.3
+
+# ---- wheel 指纹（win_amd64，用于校验离线包没被换过）
+# xgboost-3.0.2-py3-none-win_amd64.whl
+# sha256 b4c89b71d134da9fa6318e3c9f5459317d1013b4d57059d10ed2840750e2f7e1

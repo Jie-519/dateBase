@@ -144,6 +144,8 @@ class Structure:
     cif_bytes: int | None = None
     cif_cache: str | None = None
     cell_volume: float | None = None           # 派生
+    thickness: float | None = None             # 官网 thickness [Å]，0 是单原子层有效值
+    unit_cell_area: float | None = None        # 官网 area [Å²]
 
     @property
     def has_cell(self) -> bool:
@@ -167,6 +169,7 @@ class Electrical:
     polarizability_el: float | None = None
     polarizability_lat: float | None = None
     polarizability_total: float | None = None
+    evac: float | None = None               # 真空能级 [eV]（官网 evac）
 
     def gap(self, method: str) -> float | None:
         """按方法取带隙：'pbe' / 'dir' / 'hse06' / 'gw'（未计算返回 None，不是 0）。"""
@@ -249,6 +252,7 @@ class MaterialRecord:
             f"晶相 {fmt(s.crystal_phase)}",
             f"晶格参数  : a={fmt(s.a,' Å')} b={fmt(s.b,' Å')} c={fmt(s.c,' Å')} "
             f"α={fmt(s.alpha,'°')} β={fmt(s.beta,'°')} γ={fmt(s.gamma,'°')}",
+            f"厚度/面积 : thickness={fmt(s.thickness,' Å')} area={fmt(s.unit_cell_area,' Å²')}",
             f"CIF       : {fmt(s.cif_url)}"
             + (f"  [{s.cif_bytes} 字节，原文已内嵌库内]" if s.cif_bytes else "  [库内无原文]"),
             f"带隙      : PBE={fmt(e.gap_pbe,' eV')} dir={fmt(e.gap_dir_pbe,' eV')} "
@@ -293,6 +297,7 @@ def structure_from_row(row: Any) -> Structure:
         crystal_phase=row["crystal_phase"], cif_url=row["cif_url"],
         cif_sha256=row["cif_sha256"], cif_bytes=row["cif_bytes"],
         cif_cache=row["cif_cache"], cell_volume=row["cell_volume"],
+        thickness=row["thickness"], unit_cell_area=row["unit_cell_area"],
     )
 
 
@@ -307,6 +312,7 @@ def electrical_from_row(row: Any) -> Electrical:
         polarizability_el=row["polarizability_el"],
         polarizability_lat=row["polarizability_lat"],
         polarizability_total=row["polarizability_total"],
+        evac=row["evac"],
     )
 
 
@@ -345,6 +351,7 @@ def record_from_join_row(row: Any) -> MaterialRecord:
             crystal_phase=row["crystal_phase"], cif_url=row["cif_url"],
             cif_sha256=row["cif_sha256"], cif_bytes=row["cif_bytes"],
             cif_cache=row["cif_cache"], cell_volume=row["cell_volume"],
+            thickness=row["thickness"], unit_cell_area=row["unit_cell_area"],
         ),
         electrical=Electrical(
             material_id=row["id"], gap_pbe=row["gap_pbe"],
@@ -356,6 +363,7 @@ def record_from_join_row(row: Any) -> MaterialRecord:
             polarizability_el=row["polarizability_el"],
             polarizability_lat=row["polarizability_lat"],
             polarizability_total=row["polarizability_total"],
+            evac=row["evac"],
         ),
         stability=Stability(
             material_id=row["id"], dyn_stab=row["dyn_stab"],
