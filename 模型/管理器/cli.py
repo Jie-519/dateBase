@@ -35,7 +35,7 @@ import record
 import report
 import splitguard
 import verify
-from paths import CATALOG_DB, FIGURE_ROOT, INDEX_HTML, REPORT_DIR
+from paths import CATALOG_DB, FIGURE_ROOT, INDEX_HTML, REPORT_DIR, ensure_dirs
 
 USAGE = __doc__.split("设计约束")[0].strip()
 
@@ -256,6 +256,7 @@ def main(argv: list[str]) -> int:
     if not argv or argv[0] in ("-h", "--help", "help"):
         print(USAGE)
         return 0
+    ensure_dirs()          # 目录骨架：任何命令都先把该有的目录补齐（clone 后为空也不崩）
     cmd, rest = argv[0], argv[1:]
     if cmd not in COMMANDS:
         print(f"未知命令 {cmd!r}\n")

@@ -5,17 +5,23 @@
 __pycache__/
 *.pyc
 
-# ---- 模型/ 子树
-# 上游 XGBoost 源码仓库（4 万+ 文件，只读参照，不入库）
+# ---- 模型/ 子树：只保留目录骨架（占位文件 .gitkeep 入库）
+# 上游源码仓库自带 .git——若按"目录内容"忽略，目录本身被放行后 git 会把整目录
+# 记成 gitlink（子模块引用），等于往仓库里写一个别人拿不到的提交 SHA。
+# 所以这里整目录忽略；需要时自行 git clone xgboost 到这个位置。
 模型/XGboost/xgboost/
-# wheel 解包（202 MB，可由 requirements.lock.txt 重装；离线包另存 U 盘）
-模型/XGboost/libs/
+# wheel 解包（202 MB，可由 requirements.lock.txt 重装，或从 GitHub Release 取）
+模型/XGboost/libs/*
+!模型/XGboost/libs/.gitkeep
 # pip/下载临时目录
-模型/XGboost/_tmp/
+模型/XGboost/_tmp/*
+!模型/XGboost/_tmp/.gitkeep
 
-# 训练产物（按模型名分目录：训练数据/<模型名>/<run_id>/）
-# 模型本体 4.7 MB/次，可再生；manifest / predictions / importance 仍然提交
-训练数据/XGboost/*/artifacts/model.json
+# 训练产物（训练数据/<模型名>/<run_id>/）：整目录不入库，只留目录骨架
+# 注意忽略的是"模型目录下的内容"（训练数据/*/*），不是模型目录本身——
+# 目录一旦被忽略，git 就不再进入它，里面的 !.gitkeep 永远无法生效。
+训练数据/*/*
+!训练数据/*/.gitkeep
 
 # ---- 管理器运行期产物（都可重建，不入库）
 # 台账：python cli.py all 能从 manifest 原样重建
@@ -27,7 +33,8 @@ __pycache__/
 # 旧目录（已废弃，位置改到 图与报告/）
 模型/管理器/figures/
 # 图与 HTML 报告：150 dpi 重画只要几秒，且 base64 内嵌后单个 HTML 就 500+ KB
-图与报告/
+图与报告/*
+!图与报告/.gitkeep
 
 # 按条数生成的快照（可由 管理器/splitgen.py 按 (条数, seed) 原样重生成）
 # 母快照 c2db-kept-20261031.* 仍然提交，不在此列

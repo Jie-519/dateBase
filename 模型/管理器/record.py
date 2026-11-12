@@ -29,7 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))   # 允许被别处 imp
 
 import db
 import runlog
-from paths import DATASET_ID, OUTPUT_ROOT, PROJECT_ROOT, SNAPSHOT_DIR
+from paths import DATASET_ID, OUTPUT_ROOT, PROJECT_ROOT, SNAPSHOT_DIR, ensure_dirs
 
 #: 同源泄漏列（与目标由同一套 DFT 计算派生的量）
 SAME_SOURCE_FEATURES = {"eff_mass_cbm", "eff_mass_vbm",
@@ -292,6 +292,7 @@ def record_run(conn, run_dir: Path, dry_run: bool = False) -> dict:
 
 
 def record_all(root: Path = OUTPUT_ROOT, db_path=None, dry_run: bool = False) -> list[dict]:
+    ensure_dirs()                       # 目录骨架可能被手工删过：先补回来再扫
     db.init(db_path) if db_path else db.init()
     conn = db.connect(db_path) if db_path else db.connect()
     try:
@@ -327,6 +328,7 @@ def purge_orphan_figures(conn) -> int:
 
 def main(argv: list[str]) -> int:
     check = "--check" in argv
+    ensure_dirs()                       # OUTPUT_ROOT 不存在时 iterdir 会抛 FileNotFoundError
     db.init()
     conn = db.connect()
     try:

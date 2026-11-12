@@ -1,0 +1,5 @@
+# 占位文件：让 git 保留本目录。
+# 这里放 xgboost 3.0.2 wheel 解包后的内容（xgboost/ + dist-info/），202 MB，不入库。
+# 两种补法：
+#   联网   python -m pip install -r ../train_XGboost/requirements.lock.txt
+#   离线   从 GitHub Release 下载 whl，解包到本目录

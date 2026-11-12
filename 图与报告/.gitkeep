@@ -1,0 +1,2 @@
+# 占位文件：让 git 保留本目录。
+# 图与 HTML 报告由 python cli.py chart / report 生成，不入库（几秒可重画）。
