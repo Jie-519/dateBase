@@ -44,6 +44,12 @@ C = {"train": "#9ecae1", "valid": "#4292c6", "test": "#08519c",
      "ok": "#2f7f4f", "leak": "#b4462f", "smoke": "#9aa0a6",
      "accent": "#c9a227", "grid": "#e3e6ea"}
 
+#: 本次出图写到哪个目录。默认 figure_XGb 根；跑"一套展品"时由 build_all 改到展品目录，
+#: 这样多套展品互不覆盖。
+_OUTDIR: Path = FIGURE_ROOT
+#: 本次服务的对象数据集；图脚注里的条数按它来取，不会拿母快照的数字标别人家的图。
+_DATASET: str | None = None
+
 
 # ---------------------------------------------------------------- 小工具
 def _sha256(p: Path) -> str:
@@ -98,7 +104,7 @@ def _footnote(fig, note: str = "") -> None:
             pass
     low = min(lows) if lows else fig.bbox.y0
     y = fig.transFigure.inverted().transform((0, low))[1] - 0.035
-    fig.text(0.01, y, splitguard.fig_footer_text(),
+    fig.text(0.01, y, splitguard.fig_footer_text(dataset_id=_DATASET),
              fontsize=8.2, color="#333", fontweight="bold", va="top")
     if note:
         fig.text(0.01, y - 0.045, note, fontsize=7.5, color="#666", va="top")
@@ -106,8 +112,8 @@ def _footnote(fig, note: str = "") -> None:
 
 def _save(fig, fig_id: str, title: str, kind: str, run_id: str | None,
           recipe: dict, note: str = "") -> dict:
-    FIGURE_ROOT.mkdir(parents=True, exist_ok=True)
-    path = FIGURE_ROOT / f"{fig_id}.png"
+    _OUTDIR.mkdir(parents=True, exist_ok=True)
+    path = _OUTDIR / f"{fig_id}.png"
     _footnote(fig, note)
     fig.savefig(path, dpi=DPI)
     w, h = fig.get_size_inches() * DPI
@@ -283,11 +289,21 @@ def fig_importance(conn, run: dict, top: int = 15) -> dict:
                       f"gain=0 的特征 xgboost 不输出，故条形不足 {run['n_features']} 条属正常")
 
 
+def _scope(dataset_id: str | None) -> tuple[str, tuple]:
+    """给跨 run 的查询加"只保留某个数据集"的过滤条件（v_run_score 本身不含 dataset_id）。"""
+    if dataset_id:
+        return (" WHERE run_id IN (SELECT run_id FROM run WHERE dataset_id = ?)",
+                (dataset_id,))
+    return "", ()
+
+
 # ---------------------------------------------------------------- 跨 run 图
-def fig_compare_r2(conn) -> dict:
+def fig_compare_r2(conn, dataset_id: str | None = None) -> dict:
+    where, params = _scope(dataset_id)
     rs = db.rows(conn, "SELECT run_id, feature_group, n_features, is_smoke, is_leak, "
                        "train_r2, valid_r2, test_r2, best_iteration FROM v_run_score "
-                       "ORDER BY created_at")
+                       + ("WHERE " + where.removeprefix(" WHERE ") if where else "") +
+                       " ORDER BY created_at", params)
     if not rs:
         raise RuntimeError("台账为空，先跑 record.py")
     labels = [f"{r['feature_group']}\n{_short(r['run_id'])}" for r in rs]
@@ -327,12 +343,14 @@ def fig_compare_r2(conn) -> dict:
                       "选型只看 v_leaderboard 的行。四次训练用的是同一份划分，三集条数与材料完全一致。")
 
 
-def fig_leak_gap(conn) -> dict:
+def fig_leak_gap(conn, dataset_id: str | None = None) -> dict:
     """主叙事：同一份数据，只把"同源列"和"答案列"放进去，R² 会跳到多少。"""
+    where, params = _scope(dataset_id)
     rs = db.rows(conn, "SELECT run_id, feature_group, n_features, is_leak, valid_r2, test_r2, "
-                       "test_rmse, note FROM v_run_score WHERE is_smoke = 0 "
-                       "ORDER BY CASE feature_group WHEN 'G2' THEN 0 WHEN 'G3' THEN 1 "
-                       "WHEN 'G3p' THEN 2 ELSE 3 END, n_features")
+                       "test_rmse, note FROM v_run_score WHERE is_smoke = 0"
+                       + (" AND " + where.removeprefix(" WHERE ") if where else "") +
+                       " ORDER BY CASE feature_group WHEN 'G2' THEN 0 WHEN 'G3' THEN 1 "
+                       "WHEN 'G3p' THEN 2 ELSE 3 END, n_features", params)
     if len(rs) < 2:
         raise RuntimeError("至少需要 2 个非冒烟 run")
     labels = [f"{r['feature_group']}\n{r['n_features']} 列" for r in rs]
@@ -375,11 +393,15 @@ def fig_leak_gap(conn) -> dict:
                       "三个 run 的测试集是同一批 500 条材料 —— 差异只可能来自特征，不可能来自数据。")
 
 
-def fig_err_by_gap(conn, run_ids: list[str] | None = None, nbins: int = 8) -> dict:
+def fig_err_by_gap(conn, run_ids: list[str] | None = None, nbins: int = 8,
+                   dataset_id: str | None = None) -> dict:
     """误差随带隙大小怎么变——回答"这模型在哪不可信"。"""
     if run_ids is None:
+        where, params = _scope(dataset_id)
         run_ids = [r["run_id"] for r in db.rows(
-            conn, "SELECT run_id FROM v_run_score WHERE is_smoke = 0 ORDER BY n_features")]
+            conn, "SELECT run_id FROM v_run_score WHERE is_smoke = 0"
+                  + (" AND " + where.removeprefix(" WHERE ") if where else "") +
+                  " ORDER BY n_features", params)]
     fig, ax = plt.subplots(figsize=(8.6, 5.0))
     edges = np.array([0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 6.0, 9.5])
     palette = [C["ok"], C["leak"], C["accent"], "#6a4c93"]
@@ -428,11 +450,11 @@ def build_run_figures(conn, run: dict) -> list[dict]:
     return out
 
 
-def build_compare_figures(conn) -> list[dict]:
+def build_compare_figures(conn, dataset_id: str | None = None) -> list[dict]:
     out = []
     for fn in (fig_compare_r2, fig_leak_gap, fig_err_by_gap):
         try:
-            out.append(fn(conn))
+            out.append(fn(conn, dataset_id=dataset_id))
         except Exception as e:
             print(f"  [跳过] {fn.__name__}: {e}")
     return out
@@ -454,11 +476,25 @@ def register(db_path, metas: list[dict]) -> None:
         conn.close()
 
 
-def build_all(only: str | None = None) -> list[dict]:
+def build_all(only: str | None = None, out_dir: Path | None = None,
+              dataset_id: str | None = None) -> list[dict]:
+    """出图。out_dir 给展品目录时图写进那套展品，互不覆盖；dataset_id 默认母集。"""
+    global _OUTDIR, _DATASET
+    from paths import BASE_DATASET_ID
+    dataset_id = dataset_id or BASE_DATASET_ID
+    _OUTDIR = Path(out_dir) if out_dir else FIGURE_ROOT
+    _DATASET = dataset_id
     db.init()
     conn = db.connect()
     try:
-        runs = db.rows(conn, "SELECT * FROM v_run_score ORDER BY created_at")
+        sql = "SELECT * FROM v_run_score"
+        params: tuple = ()
+        if dataset_id:
+            sql += " WHERE run_id IN (SELECT run_id FROM run WHERE dataset_id = ?)"
+            params = (dataset_id,)
+        runs = db.rows(conn, sql + " ORDER BY created_at", params)
+        if not runs:
+            raise SystemExit(f"台账里没有 dataset_id={dataset_id} 的训练记录")
         metas: list[dict] = []
         if only in (None, "run"):
             for r in runs:
@@ -466,8 +502,17 @@ def build_all(only: str | None = None) -> list[dict]:
                 metas += build_run_figures(conn, r)
         if only in (None, "cmp"):
             print("  画跨 run 对比 ...")
-            metas += build_compare_figures(conn)
+            metas += build_compare_figures(conn, dataset_id=dataset_id)
         register(CATALOG_DB, metas)
+        # 清掉本次没画到的旧图（run 被删、展品重建时留下的孤儿 PNG）。
+        # 只在全量出图时做：--only run / --only cmp 只画一半，不能当清理依据。
+        if only is None and _OUTDIR.exists():
+            keep = {f"{m['fig_id']}.png" for m in metas}
+            stale = [p for p in _OUTDIR.glob("fig_*.png") if p.name not in keep]
+            for p in stale:
+                p.unlink(missing_ok=True)
+            if stale:
+                print(f"  清理旧图 {len(stale)} 张")
         return metas
     finally:
         conn.close()

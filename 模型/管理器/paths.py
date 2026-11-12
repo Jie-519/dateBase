@@ -12,6 +12,7 @@
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 # ---- 根目录
@@ -41,8 +42,18 @@ REPORT_DIR = FIGURE_ROOT / "report"          # 每次训练一份 HTML：report/
 INDEX_HTML = FIGURE_ROOT / "index.html"      # 跨 run 演示首页
 FIGURES_DIR = FIGURE_ROOT                    # 兼容旧名
 
+# ---- 展品侧（一套"按你输入的条数生成"的完整展品 = 一个目录）
+# 目录名用 dataset_id，例如 exhibit/c2db-T2349-V505-S500-s42/
+EXHIBIT_ROOT = FIGURE_ROOT / "exhibit"
+#: 最多保留多少套展品；超出只提示，不自动删（用户选择）
+MAX_EXHIBITS = 20
+
 #: 复现用的数据快照命名（不含扩展名）
-DATASET_ID = "c2db-kept-20261031"
+#: BASE_DATASET_ID = 母库抽出来的那份"母快照"；DATASET_ID = 当前进程实际要用的那份。
+#: 训练脚本 import 的是 DATASET_ID，所以 build.py 用环境变量切换数据集，
+#: 不需要改 train.py 一行代码。
+BASE_DATASET_ID = "c2db-kept-20261031"
+DATASET_ID = os.environ.get("C2DB_DATASET_ID", BASE_DATASET_ID)
 
 #: 目标列
 TARGET = "gap_pbe"
@@ -53,7 +64,10 @@ RATIOS = {"train": 0.70, "valid": 0.15, "test": 0.15}
 #: 分组/分层的比例容差（百分点），超过则换种子重抽
 RATIO_TOLERANCE_PP = 0.5
 
+#: 按条数生成划分时的规模下限（低于此值直接拒绝：样本太少的 R² 没有统计意义）
+MIN_SIZES = {"train": 1000, "valid": 100, "test": 100}
+
 
 def ensure_dirs() -> None:
-    for d in (SNAPSHOT_DIR, FIGURE_ROOT, REPORT_DIR, OUTPUT_ROOT, TRAIN_DIR):
+    for d in (SNAPSHOT_DIR, FIGURE_ROOT, REPORT_DIR, EXHIBIT_ROOT, OUTPUT_ROOT, TRAIN_DIR):
         d.mkdir(parents=True, exist_ok=True)

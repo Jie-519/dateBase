@@ -300,9 +300,29 @@ def record_all(root: Path = OUTPUT_ROOT, db_path=None, dry_run: bool = False) ->
             if not (d / "manifest.json").exists():
                 continue
             out.append(record_run(conn, d, dry_run=dry_run))
+        if not dry_run:
+            purge_orphan_figures(conn)
         return out
     finally:
         conn.close()
+
+
+def purge_orphan_figures(conn) -> int:
+    """删掉 figure 表里"文件已经不在了"的记录。
+
+    为什么需要：`figure.run_id` 的外键是 ON DELETE SET NULL，删一个 run 时它的图记录
+    不会跟着消失，而是变成悬空指针 —— 展品目录被手工删掉时也一样。这些孤儿会让
+    `cli.py verify` 的「图片可访问」报红，所以在每次收录后顺手清一次。
+    """
+    dead = [(r["fig_id"], r["path"]) for r in
+            conn.execute("SELECT fig_id, path FROM figure").fetchall()
+            if not (PROJECT_ROOT / r["path"]).exists()]
+    if dead:
+        with conn:
+            for fid, _ in dead:
+                conn.execute("DELETE FROM figure WHERE fig_id = ?", (fid,))
+        print(f"    清理孤儿图记录 {len(dead)} 条（对应文件已不存在）")
+    return len(dead)
 
 
 def main(argv: list[str]) -> int:
@@ -328,6 +348,8 @@ def main(argv: list[str]) -> int:
                   f"metrics={n_m}{flag}")
             for s in r.get("soft", []):
                 print(f"      - {s}")
+        if not check:
+            purge_orphan_figures(conn)
         print(f"\n{'体检' if check else '收录'}完成：{n_ok}/{len(dirs)}")
         return 0 if n_ok == len(dirs) else 1
     finally:

@@ -25,3 +25,9 @@ __pycache__/
 模型/管理器/figures/
 # 图与 HTML 报告：150 dpi 重画只要几秒，且 base64 内嵌后单个 HTML 就 500+ KB
 模型/XGboost/figure_XGb/
+
+# 按条数生成的快照（可由 管理器/splitgen.py 按 (条数, seed) 原样重生成）
+# 母快照 c2db-kept-20261031.* 仍然提交，不在此列
+模型/管理器/snapshots/c2db-T*-V*-S*-s*.csv
+模型/管理器/snapshots/c2db-T*-V*-S*-s*.split.json
+模型/管理器/snapshots/c2db-T*-V*-S*-s*.features.json

@@ -212,6 +212,73 @@ class ManagerCase(unittest.TestCase):
         self.assertIn("catalog.sqlite", html)
 
 
+class SplitGenCase(unittest.TestCase):
+    """按条数划分：条数精确、三集互斥、可用 subset、拒绝非法输入。"""
+
+    @classmethod
+    def setUpClass(cls):
+        import splitgen
+        cls.sg = splitgen
+        cls.header, cls.rows = splitgen.load_base()
+
+    def test_exact_counts_full_dataset(self):
+        p = self.sg.plan(self.rows, {"train": 2600, "valid": 354, "test": 400}, 42)
+        self.assertTrue(p["exact"], p["counts"])
+        self.assertEqual(p["counts"], {"train": 2600, "valid": 354, "test": 400})
+        self.assertEqual(p["n_unused"], 0)
+        self.assertEqual(p["n_kept"], 3354)
+
+    def test_subset_with_unused_pool(self):
+        """三集之和小于总数：其余进 unused，且与三集互斥。"""
+        p = self.sg.plan(self.rows, {"train": 1500, "valid": 200, "test": 200}, 42)
+        self.assertTrue(p["exact"])
+        self.assertEqual(p["counts"], {"train": 1500, "valid": 200, "test": 200})
+        self.assertEqual(p["n_kept"], 1900)
+        self.assertEqual(p["n_unused"], 1454)
+        buckets = {}
+        for mid, s in p["assign"].items():
+            buckets.setdefault(s, set()).add(mid)
+        self.assertEqual(len(buckets["unused"]), 1454)
+        for a in ("train", "valid", "test"):
+            self.assertEqual(buckets[a] & buckets["unused"], set(), f"{a} 与 unused 交叠")
+
+    def test_hard_rule_test_never_in_train(self):
+        """硬规则：无论条数怎么给，测试集材料都不得出现在训练集/验证集。"""
+        for counts in ({"train": 2349, "valid": 505, "test": 500},
+                       {"train": 1000, "valid": 100, "test": 100},
+                       {"train": 2900, "valid": 200, "test": 254}):
+            p = self.sg.plan(self.rows, counts, 7)
+            buckets = {}
+            for mid, s in p["assign"].items():
+                buckets.setdefault(s, set()).add(mid)
+            self.assertEqual(buckets["train"] & buckets["test"], set(), counts)
+            self.assertEqual(buckets["valid"] & buckets["test"], set(), counts)
+            self.assertEqual(buckets["train"] & buckets["valid"], set(), counts)
+
+    def test_same_formula_not_split(self):
+        p = self.sg.plan(self.rows, {"train": 1500, "valid": 200, "test": 200}, 42)
+        by_formula = {}
+        for r in self.rows:
+            by_formula.setdefault(r["formula"], set()).add(p["assign"][r["material_id"]])
+        bad = [f for f, ss in by_formula.items() if len(ss) > 1]
+        self.assertEqual(bad, [])
+
+    def test_deterministic(self):
+        a = self.sg.plan(self.rows, {"train": 1500, "valid": 200, "test": 200}, 42)
+        b = self.sg.plan(self.rows, {"train": 1500, "valid": 200, "test": 200}, 42)
+        self.assertEqual(a["assign"], b["assign"])
+        c = self.sg.plan(self.rows, {"train": 1500, "valid": 200, "test": 200}, 7)
+        self.assertNotEqual(a["assign"], c["assign"])
+
+    def test_reject_over_total(self):
+        with self.assertRaises(SystemExit):
+            self.sg.plan(self.rows, {"train": 3000, "valid": 300, "test": 300}, 42)
+
+    def test_reject_below_min(self):
+        with self.assertRaises(SystemExit):
+            self.sg.plan(self.rows, {"train": 800, "valid": 200, "test": 200}, 42)
+
+
 class GuardCase(unittest.TestCase):
     """防止"检查器本身是瞎的"：喂一份故意污染的划分，必须报警。"""
 

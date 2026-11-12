@@ -138,34 +138,49 @@ def check(db_path=CATALOG_DB) -> dict:
 
         # 8. 测试集干净性 —— 硬规则，不可豁免
         #    "测试集材料严禁出现在训练集"这条，靠这里每次自检重算，不靠人记。
-        sg = splitguard.audit()
-        c = sg["counts"]
-        if sg["ok"]:
+        #    台账里可能有多份划分（母集 + 按条数生成的），逐份都查，漏一份都不行。
+        dsids = [x[0] for x in conn.execute(
+            "SELECT DISTINCT dataset_id FROM run ORDER BY dataset_id")]
+        if DATASET_ID not in dsids:
+            dsids.insert(0, DATASET_ID)
+        bad_clean, clean_detail = [], []
+        for ds in dsids:
+            sg = splitguard.audit(dataset_id=ds)
+            c = sg["counts"]
+            if not sg["ok"]:
+                bad_clean.append(f"{ds}: " + "；".join(sg["problems"]))
+                continue
             ov = sg["overlaps"]
-            det = (f"训练 {c['train']} / 验证 {c['valid']} / 测试 {c['test']} 条；"
-                   f"材料交叠 train∩test={ov['train-test']['ids']}、"
-                   f"valid∩test={ov['valid-test']['ids']}、"
-                   f"train∩valid={ov['train-valid']['ids']}；"
-                   f"化学式交叠 0")
-        else:
-            det = "；".join(sg["problems"])
-        add("测试集干净", sg["ok"], det,
-            "测试集与训练/验证集有交叠：立即停用这份划分，重跑 snapshot.py")
+            clean_detail.append(f"{ds} 训练{c['train']}/验证{c['valid']}/测试{c['test']}，"
+                                f"交叠 0")
+        add("测试集干净", not bad_clean,
+            "；".join(bad_clean[:2]) if bad_clean else
+            f"{len(dsids)} 份划分全部零交叠：" + "；".join(clean_detail[:2]) +
+            ("…" if len(clean_detail) > 2 else ""),
+            "测试集与训练/验证集有交叠：立即停用这份划分，重跑 splitgen/snapshot")
 
-        # 9. 每个 run 实际使用的 split 是否就是快照里那份
-        snap = {}
-        with (SNAPSHOT_DIR / f"{DATASET_ID}.csv").open("r", encoding="utf-8-sig",
-                                                       newline="") as fh:
-            for r in csv.DictReader(fh):
-                snap[r["material_id"]] = r["split"]
+        # 9. 每个 run 实际使用的 split 是否就是它自己那份划分
         bad_split = []
-        for r in conn.execute("SELECT run_id FROM run"):
+        maps: dict[str, dict] = {}
+        for r in conn.execute("SELECT run_id, dataset_id FROM run"):
+            ds = r["dataset_id"]
+            if ds not in maps:
+                p = SNAPSHOT_DIR / f"{ds}.csv"
+                maps[ds] = {}
+                if p.exists():
+                    with p.open("r", encoding="utf-8-sig", newline="") as fh:
+                        for row in csv.DictReader(fh):
+                            maps[ds][row["material_id"]] = row["split"]
+            snap = maps[ds]
+            if not snap:
+                bad_split.append(f"{r['run_id']}: 找不到划分文件 {ds}.csv")
+                continue
             rows = conn.execute("SELECT material_id, split FROM prediction WHERE run_id = ?",
                                 (r["run_id"],)).fetchall()
             diff = sum(1 for m, s in ((x[0], x[1]) for x in rows) if snap.get(m) != s)
             if diff:
-                bad_split.append(f"{r['run_id']}: {diff} 条 split 与快照不一致")
-        add("各 run 同一划分", not bad_split, "；".join(bad_split[:3]),
+                bad_split.append(f"{r['run_id']}: {diff} 条 split 与 {ds} 不一致")
+        add("各 run 用对划分", not bad_split, "；".join(bad_split[:3]),
             "训练时喂的 split 列被改过？重新 record")
     finally:
         conn.close()

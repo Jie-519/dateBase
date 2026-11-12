@@ -31,7 +31,7 @@ from paths import DATASET_ID, SNAPSHOT_DIR
 SPLITS = ("train", "valid", "test")
 SPLIT_CN = {"train": "训练集", "valid": "验证集", "test": "测试集"}
 
-_CACHE: dict | None = None
+_CACHE: dict[tuple, dict] = {}      # (快照, 划分) -> 审计结果，可同时缓存多套数据集
 
 
 def _sha256(p: Path) -> str:
@@ -43,8 +43,12 @@ def _sha256(p: Path) -> str:
 
 
 def audit(snapshot_csv: Path | None = None,
-          split_json: Path | None = None, refresh: bool = False) -> dict:
+          split_json: Path | None = None, refresh: bool = False,
+          dataset_id: str | None = None) -> dict:
     """读快照（一列 split 就够），算出三集条数与两两交叠。
+
+    dataset_id 给定时，直接读该数据集自己的快照与划分文件 —— 一套展品一套口径，
+    不会拿母快照的数字去标别人家的图。
 
     返回
     ----
@@ -54,8 +58,12 @@ def audit(snapshot_csv: Path | None = None,
     }
     """
     global _CACHE
-    if _CACHE is not None and not refresh:
-        return _CACHE
+    if dataset_id:
+        snapshot_csv = SNAPSHOT_DIR / f"{dataset_id}.csv"
+        split_json = SNAPSHOT_DIR / f"{dataset_id}.split.json"
+    key = (str(snapshot_csv or ""), str(split_json or ""))
+    if not refresh and key in _CACHE:
+        return _CACHE[key]
 
     snap = Path(snapshot_csv) if snapshot_csv else SNAPSHOT_DIR / f"{DATASET_ID}.csv"
     # 指定了别的快照却没指定划分文件时，不去和真实 split.json 对账
@@ -108,6 +116,8 @@ def audit(snapshot_csv: Path | None = None,
 
     # 与 split.json 对账
     counts_match = sha_match = None
+    n_source = total          # 母快照总条数（含未使用）
+    n_unused = 0
     if spf is not None and spf.exists():
         sp = json.loads(spf.read_text(encoding="utf-8"))
         counts_match = sp.get("counts") == counts and sp.get("n_materials") == total
@@ -116,8 +126,12 @@ def audit(snapshot_csv: Path | None = None,
         sha_match = _sha256(snap) == sp.get("snapshot_sha256")
         if not sha_match:
             problems.append("快照 sha256 与 split.json 不一致（快照被换过）")
+        # 自定义划分会把"没用上的材料"记在 split.json 里 —— 快照 CSV 里没有它们，
+        # 所以总条数与弃用条数只能从这里取，不能拿 CSV 行数糊弄。
+        n_source = int(sp.get("n_source", total))
+        n_unused = int(sp.get("n_unused", max(0, n_source - total)))
 
-    _CACHE = {
+    _CACHE[key] = {
         "ok": not problems,
         "counts": counts,
         "total": total,
@@ -130,21 +144,26 @@ def audit(snapshot_csv: Path | None = None,
         "problems": problems,
         "snapshot": snap.name,
         "split_json": spf.name if spf else None,
+        "n_source": n_source,
+        "n_unused": n_unused,
     }
-    return _CACHE
+    return _CACHE[key]
 
 
-def counts_line(fmt: str = "{train}/{valid}/{test}") -> str:
-    a = audit()
+def counts_line(fmt: str = "{train}/{valid}/{test}", dataset_id: str | None = None) -> str:
+    a = audit(dataset_id=dataset_id)
     return fmt.format(**a["counts"])
 
 
-def fig_footer_text() -> str:
+def fig_footer_text(dataset_id: str | None = None) -> str:
     """图下方那行固定声明（每张图都有，避免"这张图用了多少数据"靠猜）。"""
-    a = audit()
+    a = audit(dataset_id=dataset_id)
     c = a["counts"]
     tag = "已核：零交叠" if a["ok"] else "警告：分集有交叠"
-    return (f"训练集 {c['train']} 条 · 验证集 {c['valid']} 条 · 测试集 {c['test']} 条"
+    extra = ""
+    if a.get("n_unused"):
+        extra = f"（另有 {a['n_unused']} 条未使用，不参与训练/评估）"
+    return (f"训练集 {c['train']} 条 · 验证集 {c['valid']} 条 · 测试集 {c['test']} 条{extra}"
             f"  ｜  测试集材料严禁进入训练集（{tag}）")
 
 

@@ -207,7 +207,8 @@ def run_report_html(conn, r: dict) -> str:
     split_txt = " / ".join(f"{k} {v}" for k, v in split.items())
 
     # ---- 分集干净性（硬规则，与 verify 用同一份计算）
-    sg = splitguard.audit()
+    # 按本 run 自己的数据集取数：不同划分的展品各有各的条数，不能拿母快照顶替。
+    sg = splitguard.audit(dataset_id=row["dataset_id"])
     sc = sg["counts"]
     tot = sg["total"] or 1
     ov = sg["overlaps"]
@@ -347,9 +348,18 @@ nthread=1 时 RMSE 允许差 1e-6；多线程时 1e-3。</p>
 
 
 # ---------------------------------------------------------------- 首页
-def index_html(conn) -> str:
-    runs = db.rows(conn, "SELECT * FROM v_run_score ORDER BY created_at")
-    board = db.rows(conn, "SELECT * FROM v_leaderboard")
+def _run_where(dataset_id: str | None) -> tuple[str, tuple]:
+    if dataset_id:
+        return (" WHERE run_id IN (SELECT run_id FROM run WHERE dataset_id = ?)",
+                (dataset_id,))
+    return "", ()
+
+
+def index_html(conn, dataset_id: str | None = None) -> str:
+    w, params = _run_where(dataset_id)
+    runs = db.rows(conn, "SELECT * FROM v_run_score" + w + " ORDER BY created_at", params)
+    board = [r for r in runs if not r["is_smoke"] and not r["is_leak"]]
+    board.sort(key=lambda r: -(r["valid_r2"] or 0))
     main = board[0] if board else None
     cmp_figs = _figs_cmp(conn)
 
@@ -398,8 +408,19 @@ def index_html(conn) -> str:
 
     n_leak = sum(1 for r in runs if r["is_leak"])
     n_smoke = sum(1 for r in runs if r["is_smoke"])
-    sg = splitguard.audit()
+    sg = splitguard.audit(dataset_id=dataset_id)
     sc = sg["counts"]
+    dsid = dataset_id or "全部数据集（含多份划分，分数不可直接比较）"
+    n_total = sg.get("n_source", sg["total"])
+    n_used = sum(sc.values())
+    n_unused = sg.get("n_unused", 0)
+    if dataset_id is None:
+        used_txt = f"混合了 {len({r['run_id'].split('-')[0] for r in runs})} 批实验"
+    elif n_unused:
+        used_txt = (f"{n_used:,} 个材料参与训练/评估"
+                    f"（母集 {n_total:,}，弃用 {n_unused:,}）")
+    else:
+        used_txt = f"{n_total:,} 个材料、同一份划分（seed 42）"
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
@@ -407,7 +428,7 @@ def index_html(conn) -> str:
 <title>C2DB 带隙预测 · 实验看板</title><style>{CSS}</style></head><body><div class="wrap">
 <h1>C2DB 带隙预测 · 实验看板</h1>
 <p class="sub">目标 <span class="mono">gap_pbe</span>（PBE 带隙，eV）·
-数据 <span class="mono">c2db-kept-20261031</span>，3,354 个材料、同一份划分（seed 42）·
+数据 <span class="mono">{_e(dsid)}</span>，{used_txt}·
 模型 xgboost · 共 {len(runs)} 次训练（{n_smoke} 次冒烟、{n_leak} 次泄漏对照）</p>
 
 <div class="cards">
@@ -470,23 +491,31 @@ G3 只加同源列（有效质量、极化率），R² 几乎不动；G3p 加进
 
 
 # ---------------------------------------------------------------- 落盘
-def build_all(index_only: bool = False) -> list[Path]:
+def build_all(index_only: bool = False, out_dir: Path | None = None,
+              dataset_id: str | None = None) -> list[Path]:
+    """出报告。out_dir 给展品目录时，报告与首页都写进那套展品；dataset_id 默认母集。"""
+    from paths import BASE_DATASET_ID
+    dataset_id = dataset_id or BASE_DATASET_ID
+    out_root = Path(out_dir) if out_dir else FIGURE_ROOT
+    rep_dir = out_root / "report"
+    index_path = out_root / "index.html"
     db.init()
     conn = db.connect()
     out: list[Path] = []
     try:
-        REPORT_DIR.mkdir(parents=True, exist_ok=True)
-        runs = db.rows(conn, "SELECT * FROM v_run_score ORDER BY created_at")
+        rep_dir.mkdir(parents=True, exist_ok=True)
+        w, params = _run_where(dataset_id)
+        runs = db.rows(conn, "SELECT * FROM v_run_score" + w + " ORDER BY created_at", params)
         if not runs:
-            raise SystemExit("台账为空：先跑 python record.py")
+            raise SystemExit(f"台账里没有 dataset_id={dataset_id} 的训练记录")
         if not index_only:
             for r in runs:
-                p = REPORT_DIR / f"{r['run_id']}.html"
+                p = rep_dir / f"{r['run_id']}.html"
                 p.write_text(run_report_html(conn, r), encoding="utf-8")
                 out.append(p)
                 print(f"  报告 {p.name}  {p.stat().st_size:,} B")
-        p = INDEX_HTML
-        p.write_text(index_html(conn), encoding="utf-8")
+        p = index_path
+        p.write_text(index_html(conn, dataset_id=dataset_id), encoding="utf-8")
         out.append(p)
         print(f"  首页 {p.name}  {p.stat().st_size:,} B")
         return out
