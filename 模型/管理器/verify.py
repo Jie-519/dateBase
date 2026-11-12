@@ -131,10 +131,15 @@ def check(db_path=CATALOG_DB) -> dict:
         add("图片配方合法", not bad_recipe, "；".join(bad_recipe[:3]))
 
         # 7. 榜单
+        #    空台账（刚 clone 下来还没训练）不是故障：跳过并注明即可，否则新副本
+        #    的自检永远不可能全绿，容易被误判成"仓库坏了"。
         n_board = conn.execute("SELECT count(*) FROM v_leaderboard").fetchone()[0]
         n_run = conn.execute("SELECT count(*) FROM run").fetchone()[0]
-        add("排行榜非空", n_board >= 1, f"{n_board} 行可选型 / 共 {n_run} 次训练",
-            "全是冒烟或泄漏对照？补一次正常训练")
+        if n_run == 0:
+            add("排行榜非空", True, "台账为空（尚未训练），本项跳过")
+        else:
+            add("排行榜非空", n_board >= 1, f"{n_board} 行可选型 / 共 {n_run} 次训练",
+                "全是冒烟或泄漏对照？补一次正常训练")
 
         # 8. 测试集干净性 —— 硬规则，不可豁免
         #    "测试集材料严禁出现在训练集"这条，靠这里每次自检重算，不靠人记。

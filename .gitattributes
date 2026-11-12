@@ -1,0 +1,10 @@
+# 本仓库用 sha256 判定"文件未被篡改"：
+#   snapshots/*.split.json 里记 snapshot_sha256，train.py 开跑前比对；
+#   run 目录的 manifest.json 里记每个产物的 sha256，record/verify 反复复核。
+# 任何换行符转换都会让这些哈希失效——Windows 上 core.autocrlf 默认是 true，
+# 一 clone 就把 LF 改成 CRLF，快照哈希立刻对不上。
+#
+# -text = 不转换、不归一：磁盘字节与 blob 字节永远一致。
+# 副作用为零：现有 blob 本来就是 LF，工作区也是 LF，加这条不会产生任何修改；
+# 而 .bat 需要的 CRLF 也原样保存（它们的内容本来就是 CRLF）。
+* -text
